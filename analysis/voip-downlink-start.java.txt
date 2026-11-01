@@ -1,0 +1,33 @@
+    @Override // defpackage.hzk
+    public final void a() {
+        ((aimw) ((aimw) a.b()).l("com/android/dialer/audio/impl/audiocontroller/voip/VoipDownlinkAudioRecordWrapper", "startRecording", 67, "VoipDownlinkAudioRecordWrapper.java")).v("enter");
+        try {
+            icx icxVar = this.e;
+            ahvr.bZ(icxVar.a(), "reflection failed, unable to create AudioMixingRule.Builder");
+            ahzi ahziVar = icxVar.c;
+            Object objNewInstance = ((icw) ahziVar.eZ()).f.getDeclaredConstructor(null).newInstance(null);
+            ((icw) ahziVar.eZ()).g.invoke(objNewInstance, 1, new AudioAttributes.Builder().setUsage(2).build());
+            ((icw) ahziVar.eZ()).h.invoke(objNewInstance, 4, Integer.valueOf(Process.myUid()));
+            ((icw) ahziVar.eZ()).j.invoke(objNewInstance, Boolean.TRUE);
+            Object objInvoke = ((icw) ahziVar.eZ()).i.invoke(objNewInstance, null);
+            ahvr.bZ(icxVar.a(), "reflection failed, unable to create AudioMix.Builder");
+            Object objNewInstance2 = ((icw) ahziVar.eZ()).b.newInstance(objInvoke);
+            ((icw) ahziVar.eZ()).c.invoke(objNewInstance2, b);
+            ((icw) ahziVar.eZ()).d.invoke(objNewInstance2, 3);
+            Object objInvoke2 = ((icw) ahziVar.eZ()).e.invoke(objNewInstance2, null);
+            ahvr.bZ(icxVar.a(), "reflection failed, unable to create AudioPolicy.Builder");
+            Context context = icxVar.b;
+            Object objNewInstance3 = ((icw) ahziVar.eZ()).l.newInstance(context);
+            ((icw) ahziVar.eZ()).m.invoke(objNewInstance3, objInvoke2);
+            kvt kvtVar = new kvt(((icw) ahziVar.eZ()).n.invoke(objNewInstance3, null), icxVar, (char[]) null);
+            this.g = kvtVar;
+            ahvr.bZ(icxVar.a(), "reflection failed");
+            ((Integer) ((icw) ahziVar.eZ()).o.invoke(context.getSystemService(AudioManager.class), kvtVar.b)).intValue();
+            kvt kvtVar2 = this.g;
+            AudioRecord audioRecord = (AudioRecord) ((icw) ((icx) kvtVar2.a).c.eZ()).k.invoke(kvtVar2.b, objInvoke2);
+            this.f = audioRecord;
+            audioRecord.startRecording();
+        } catch (ReflectiveOperationException e) {
+            throw new ahzr(e);
+        }
+    }

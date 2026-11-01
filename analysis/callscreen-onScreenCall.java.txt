@@ -1,0 +1,30 @@
+// JADX/REA decompilation of the exact APK; obfuscated names retained.
+    public final void onScreenCall(Call.Details details) throws IOException {
+        ajcq ajcqVarC;
+        aooh.f(details, "callDetails");
+        okc okcVarAB = pez.aB(this);
+        ahok ahokVarF = okcVarAB.fi().f(405, "DialerCallScreeningService.onScreenCall");
+        try {
+            okcVarAB.bv().j(ruc.aL);
+            oke okeVar = this.b;
+            if (okeVar != null) {
+                okd okdVar = new okd(this);
+                aooh.f(details, "callDetails");
+                zjv.i(((lnh) okeVar).e, mgv.CALL_SCREENING_SERVICE_SCREEN_CALL, null, null, 0, 30);
+                aosy aosyVarAm = aoov.am(((lnh) okeVar).b, 0, new hyq((lnh) okeVar, okdVar, details, (aoln) null, 15), 3);
+                ((lnh) okeVar).j = aooc.V(aosyVarAm);
+                ajcqVarC = aosv.C(aosyVarAm);
+            } else {
+                ajcqVarC = null;
+            }
+            agsm.i(1315, ajcqVarC, "failed to screen call", new Object[0]);
+            ajsz.ak(ahokVarF, null);
+        } catch (Throwable th) {
+            try {
+                throw th;
+            } catch (Throwable th2) {
+                ajsz.ak(ahokVarF, th);
+                throw th2;
+            }
+        }
+    }
