@@ -1,0 +1,749 @@
+# Lkdr;->b(Ljava/lang/Object;)Ljava/lang/Object;
+# APK sha256=0ae5ba4f0f68ac200d1cf6e37b9685e57149b27ba9901d1879b133ddc4af53a0
+# classes2.dex sha256=d03f8c27d5638dd594007b49a19c8bbf2487287e03ebafd71149e1b7e762f179
+# code_item file offset=0x537d7c byte length=3173
+# registers=14 incoming_words=2 outgoing_words=5 insns_size=1510 code_units
+# Every instruction/payload is listed; label suffixes use code units. Resolved labels are annotations, original bytes are included.
+:cu_0000  52c0bf84                 iget v0, v12, Lkdr;->$cid I
+:cu_0002  1a01e226                 const-string v1, "DobbyAudioDonationScottyUploader.kt"
+:cu_0004  1a0235a1                 const-string v2, "com/android/dialer/dobby/impl/feedback/upload/DobbyAudioDonationScottyUploader"
+:cu_0006  1a03517f                 const-string v3, "NO_DATA"
+:cu_0008  1214                     const/4 v4, 1
+:cu_0009  1205                     const/4 v5, 0
+:cu_000a  1206                     const/4 v6, 0
+:cu_000b  2b00af050000             packed-switch v0, +00005afh # target=:cu_05ba # 0->:cu_0461, 1->:cu_0448, 2->:cu_0421, 3->:cu_03a7, 4->:cu_0390, 5->:cu_0380, 6->:cu_0370, 7->:cu_035f, 8->:cu_0348, 9->:cu_033a, 10->:cu_0302, 11->:cu_02ca, 12->:cu_0276, 13->:cu_025e, 14->:cu_0220, 15->:cu_01e2, 16->:cu_01a4, 17->:cu_0097, 18->:cu_0051, 19->:cu_002e
+:cu_000e  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_0011  54cdc084                 iget-object v13, v12, Lkdr;->a Ljava/lang/Object;
+:cu_0013  54ccc184                 iget-object v12, v12, Lkdr;->b Ljava/lang/Object;
+:cu_0015  1f0c660d                 check-cast v12, Landroid/content/pm/PackageManager;
+:cu_0017  1f0d590d                 check-cast v13, Landroid/content/Intent;
+:cu_0019  15000100                 const/high16 v0, 65536
+:cu_001b  6e305922dc00             invoke-virtual v12, v13, v0, Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent; I)Ljava/util/List;
+:cu_001e  0c0c                     move-result-object v12
+:cu_001f  1a0d7ed7                 const-string v13, "queryIntentActivities(...)"
+:cu_0021  7120693cdc00             invoke-static v12, v13, Laooh;->e(Ljava/lang/Object; Ljava/lang/String;)V
+:cu_0024  721033a50c00             invoke-interface v12, Ljava/util/Collection;->isEmpty()Z
+:cu_0027  0a0c                     move-result v12
+:cu_0028  b74c                     xor-int/2addr v12, v4
+:cu_0029  71104aa20c00             invoke-static v12, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+:cu_002c  0c05                     move-result-object v5
+:cu_002d  1105                     return-object v5
+:cu_002e  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_0031  54cdc184                 iget-object v13, v12, Lkdr;->b Ljava/lang/Object;
+:cu_0033  7210c03b0d00             invoke-interface v13, Laoin;->a()Ljava/lang/Object;
+:cu_0036  0c0d                     move-result-object v13
+:cu_0037  1f0de026                 check-cast v13, Ljava/lang/Boolean;
+:cu_0039  6e1045a20d00             invoke-virtual v13, Ljava/lang/Boolean;->booleanValue()Z
+:cu_003c  0a0d                     move-result v13
+:cu_003d  380d0c00                 if-eqz v13, +00ch # target=:cu_0049
+:cu_003f  54ccc084                 iget-object v12, v12, Lkdr;->a Ljava/lang/Object;
+:cu_0041  1f0c3641                 check-cast v12, Lwae;
+:cu_0043  6e10e4fa0c00             invoke-virtual v12, Lwae;->a()Z
+:cu_0046  0a0c                     move-result v12
+:cu_0047  390c0300                 if-nez v12, +003h # target=:cu_004a
+:cu_0049  0164                     move v4, v6
+:cu_004a  1a0c1588                 const-string v12, "STATE_BAM_ENABLED_ON_PHONE"
+:cu_004c  712020044c00             invoke-static v12, v4, Labxl;->L(Ljava/lang/String; I)Lafpl;
+:cu_004f  0c05                     move-result-object v5
+:cu_0050  1105                     return-object v5
+:cu_0051  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_0054  620d72ab                 sget-object v13, Lnrv;->a Laimz;
+:cu_0056  6e1090140d00             invoke-virtual v13, Laimp;->b()Lainm;
+:cu_0059  0c0d                     move-result-object v13
+:cu_005a  13003d01                 const/16 v0, 317
+:cu_005c  1a012127                 const-string v1, "DobbySessionWriter.kt"
+:cu_005e  1a026aa1                 const-string v2, "com/android/dialer/dobby/impl/storage/DobbySessionWriter"
+:cu_0060  1a03b3e3                 const-string v3, "writeSpamReportLogs$<anonymous>"
+:cu_0062  7251be142d03             invoke-interface v13, v2, v3, v0, v1, Lainm;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_0065  0c0d                     move-result-object v13
+:cu_0066  1f0db907                 check-cast v13, Laimw;
+:cu_0068  1a0089d5                 const-string v0, "persisting dobby spam session logs"
+:cu_006a  7220ac140d00             invoke-interface v13, v0, Laimw;->v(Ljava/lang/String;)V
+:cu_006d  54cdc084                 iget-object v13, v12, Lkdr;->a Ljava/lang/Object;
+:cu_006f  1f0dec33                 check-cast v13, Lnrv;
+:cu_0071  53d074ab                 iget-wide v0, v13, Lnrv;->c J
+:cu_0073  71205ba31000             invoke-static v0, v1, Ljava/lang/String;->valueOf(J)Ljava/lang/String;
+:cu_0076  0c02                     move-result-object v2
+:cu_0077  6203f6c1                 sget-object v3, Lucu;->a Lucu;
+:cu_0079  6e10591e0300             invoke-virtual v3, Lalad;->m()Lakzx;
+:cu_007c  0c03                     move-result-object v3
+:cu_007d  7110f9fb0300             invoke-static v3, Lwsc;->ce(Lakzx;)Lvaa;
+:cu_0080  0c03                     move-result-object v3
+:cu_0081  6e30e4f80301             invoke-virtual v3, v0, v1, Lvaa;->u(J)V
+:cu_0084  54ccc184                 iget-object v12, v12, Lkdr;->b Ljava/lang/Object;
+:cu_0086  1f0c4508                 check-cast v12, Laivr;
+:cu_0088  6e20e5f8c300             invoke-virtual v3, v12, Lvaa;->v(Laivr;)V
+:cu_008b  6e10e3f80300             invoke-virtual v3, Lvaa;->t()Lucu;
+:cu_008e  0c0c                     move-result-object v12
+:cu_008f  54dd77ab                 iget-object v13, v13, Lnrv;->f Ltvn;
+:cu_0091  6e30a9f62d0c             invoke-virtual v13, v2, v12, Ltvn;->b(Ljava/lang/String; Lucu;)V
+:cu_0094  6205561f                 sget-object v5, Laojh;->a Laojh;
+:cu_0096  1105                     return-object v5
+:cu_0097  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_009a  54cdc184                 iget-object v13, v12, Lkdr;->b Ljava/lang/Object;
+:cu_009c  1f0dce33                 check-cast v13, Lnqs;
+:cu_009e  54d00cab                 iget-object v0, v13, Lnqs;->g Lnqj;
+:cu_00a0  1a0168a1                 const-string v1, "com/android/dialer/dobby/impl/storage/DobbyAudioWaveFileWriter"
+:cu_00a2  1a02e326                 const-string v2, "DobbyAudioWaveFileWriter.kt"
+:cu_00a4  3800e000                 if-eqz v0, +0e0h # target=:cu_0184
+:cu_00a6  54ccc084                 iget-object v12, v12, Lkdr;->a Ljava/lang/Object;
+:cu_00a8  5503e1aa                 iget-boolean v3, v0, Lnqj;->e Z
+:cu_00aa  1a04a1e3                 const-string v4, "writeAudioChunk$<anonymous>$<anonymous>$<anonymous>"
+:cu_00ac  38032200                 if-eqz v3, +022h # target=:cu_00ce
+:cu_00ae  620c06ab                 sget-object v12, Lnqs;->a Laimz;
+:cu_00b0  6e1091140c00             invoke-virtual v12, Laimp;->c()Lainm;
+:cu_00b3  0c0c                     move-result-object v12
+:cu_00b4  1f0cb907                 check-cast v12, Laimw;
+:cu_00b6  6200850b                 sget-object v0, Laioa;->b Laioa;
+:cu_00b8  7220aa140c00             invoke-interface v12, v0, Laimw;->m(Laioa;)Lainm;
+:cu_00bb  0c0c                     move-result-object v12
+:cu_00bc  13007200                 const/16 v0, 114
+:cu_00be  7252be141c04             invoke-interface v12, v1, v4, v0, v2, Lainm;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_00c1  0c0c                     move-result-object v12
+:cu_00c2  1f0cb907                 check-cast v12, Laimw;
+:cu_00c4  53d008ab                 iget-wide v0, v13, Lnqs;->c J
+:cu_00c6  1a0d5294                 const-string v13, "Write audio chunk on a closed session, callCreationTime:%d"
+:cu_00c8  7240ae14dc10             invoke-interface v12, v13, v0, v1, Laimw;->x(Ljava/lang/String; J)V
+:cu_00cb  6205dc79                 sget-object v5, Ljava/lang/Boolean;->FALSE Ljava/lang/Boolean;
+:cu_00cd  1105                     return-object v5
+:cu_00ce  5305dfaa                 iget-wide v5, v0, Lnqj;->c J
+:cu_00d0  16070000                 const-wide/16 v7, 0
+:cu_00d2  310d0507                 cmp-long v13, v5, v7
+:cu_00d4  390d3400                 if-nez v13, +034h # target=:cu_0108
+:cu_00d6  620dc0ab                 sget-object v13, Lnsk;->a Lnsk;
+:cu_00d8  6e10591e0d00             invoke-virtual v13, Lalad;->m()Lakzx;
+:cu_00db  0c0d                     move-result-object v13
+:cu_00dc  1a03179c                 const-string v3, "builder"
+:cu_00de  71206a3c3d00             invoke-static v13, v3, Laooh;->f(Ljava/lang/Object; Ljava/lang/String;)V
+:cu_00e1  07c3                     move-object v3, v12
+:cu_00e2  1f034824                 check-cast v3, Ligb;
+:cu_00e4  52356071                 iget v5, v3, Ligb;->d I
+:cu_00e6  6e101e1e0d00             invoke-virtual v13, Lakzx;->u()V
+:cu_00e9  54d6a713                 iget-object v6, v13, Lakzx;->b Lalad;
+:cu_00eb  1f06fb33                 check-cast v6, Lnsk;
+:cu_00ed  5965c1ab                 iput v5, v6, Lnsk;->b I
+:cu_00ef  52336171                 iget v3, v3, Ligb;->e I
+:cu_00f1  6e101e1e0d00             invoke-virtual v13, Lakzx;->u()V
+:cu_00f4  54d5a713                 iget-object v5, v13, Lakzx;->b Lalad;
+:cu_00f6  1f05fb33                 check-cast v5, Lnsk;
+:cu_00f8  5953c2ab                 iput v3, v5, Lnsk;->c I
+:cu_00fa  6e101d1e0d00             invoke-virtual v13, Lakzx;->p()Lalad;
+:cu_00fd  0c0d                     move-result-object v13
+:cu_00fe  1a03119c                 const-string v3, "build(...)"
+:cu_0100  7120693c3d00             invoke-static v13, v3, Laooh;->e(Ljava/lang/Object; Ljava/lang/String;)V
+:cu_0103  1f0dfb33                 check-cast v13, Lnsk;
+:cu_0105  5b0de0aa                 iput-object v13, v0, Lnqj;->d Lnsk;
+:cu_0107  2814                     goto +14h # target=:cu_011b
+:cu_0108  540de0aa                 iget-object v13, v0, Lnqj;->d Lnsk;
+:cu_010a  380d5400                 if-eqz v13, +054h # target=:cu_015e
+:cu_010c  52d3c1ab                 iget v3, v13, Lnsk;->b I
+:cu_010e  07c5                     move-object v5, v12
+:cu_010f  1f054824                 check-cast v5, Ligb;
+:cu_0111  52566071                 iget v6, v5, Ligb;->d I
+:cu_0113  33634b00                 if-ne v3, v6, +04bh # target=:cu_015e
+:cu_0115  52ddc2ab                 iget v13, v13, Lnsk;->c I
+:cu_0117  52536171                 iget v3, v5, Ligb;->e I
+:cu_0119  333d4500                 if-ne v13, v3, +045h # target=:cu_015e
+:cu_011b  07cd                     move-object v13, v12
+:cu_011c  1f0d4824                 check-cast v13, Ligb;
+:cu_011e  54dd5f71                 iget-object v13, v13, Ligb;->c Lakzc;
+:cu_0120  5403ddaa                 iget-object v3, v0, Lnqj;->a Lakzb;
+:cu_0122  6e20001e3d00             invoke-virtual v13, v3, Lakzc;->m(Ljava/io/OutputStream;)V
+:cu_0125  5301dfaa                 iget-wide v1, v0, Lnqj;->c J
+:cu_0127  1f0c4824                 check-cast v12, Ligb;
+:cu_0129  54cd5f71                 iget-object v13, v12, Ligb;->c Lakzc;
+:cu_012b  6e10fd1d0d00             invoke-virtual v13, Lakzc;->c()I
+:cu_012e  0a0d                     move-result v13
+:cu_012f  52cc6171                 iget v12, v12, Ligb;->e I
+:cu_0131  b3cd                     div-int/2addr v13, v12
+:cu_0132  81dc                     int-to-long v12, v13
+:cu_0133  bbc1                     add-long/2addr v1, v12
+:cu_0134  5a01dfaa                 iput-wide v1, v0, Lnqj;->c J
+:cu_0136  6205dd79                 sget-object v5, Ljava/lang/Boolean;->TRUE Ljava/lang/Boolean;
+:cu_0138  1105                     return-object v5
+:cu_0139  0d0c                     move-exception v12
+:cu_013a  620d06ab                 sget-object v13, Lnqs;->a Laimz;
+:cu_013c  6e1091140d00             invoke-virtual v13, Laimp;->c()Lainm;
+:cu_013f  0c0d                     move-result-object v13
+:cu_0140  1f0db907                 check-cast v13, Laimw;
+:cu_0142  620098c6                 sget-object v0, Lzct;->b Lainp;
+:cu_0144  7220a6140d00             invoke-interface v13, v0, Laimw;->i(Lainp;)Lainm;
+:cu_0147  0c0d                     move-result-object v13
+:cu_0148  1f0db907                 check-cast v13, Laimw;
+:cu_014a  7220a814cd00             invoke-interface v13, v12, Laimw;->k(Ljava/lang/Throwable;)Lainm;
+:cu_014d  0c0c                     move-result-object v12
+:cu_014e  130d8b00                 const/16 v13, 139
+:cu_0150  7252be141cd4             invoke-interface v12, v1, v4, v13, v2, Lainm;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_0153  0c0c                     move-result-object v12
+:cu_0154  1f0cb907                 check-cast v12, Laimw;
+:cu_0156  1a0d5394                 const-string v13, "Write audio truck file failed"
+:cu_0158  7220ac14dc00             invoke-interface v12, v13, Laimw;->v(Ljava/lang/String;)V
+:cu_015b  6205dc79                 sget-object v5, Ljava/lang/Boolean;->FALSE Ljava/lang/Boolean;
+:cu_015d  1105                     return-object v5
+:cu_015e  620c06ab                 sget-object v12, Lnqs;->a Laimz;
+:cu_0160  6e1091140c00             invoke-virtual v12, Laimp;->c()Lainm;
+:cu_0163  0c0c                     move-result-object v12
+:cu_0164  1f0cb907                 check-cast v12, Laimw;
+:cu_0166  620d850b                 sget-object v13, Laioa;->b Laioa;
+:cu_0168  7220aa14dc00             invoke-interface v12, v13, Laimw;->m(Laioa;)Lainm;
+:cu_016b  0c0c                     move-result-object v12
+:cu_016c  1f0cb907                 check-cast v12, Laimw;
+:cu_016e  620d98c6                 sget-object v13, Lzct;->b Lainp;
+:cu_0170  7220a614dc00             invoke-interface v12, v13, Laimw;->i(Lainp;)Lainm;
+:cu_0173  0c0c                     move-result-object v12
+:cu_0174  130d8300                 const/16 v13, 131
+:cu_0176  7252be141cd4             invoke-interface v12, v1, v4, v13, v2, Lainm;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_0179  0c0c                     move-result-object v12
+:cu_017a  1f0cb907                 check-cast v12, Laimw;
+:cu_017c  1a0d5f7e                 const-string v13, "Mismatched chunk format"
+:cu_017e  7220ac14dc00             invoke-interface v12, v13, Laimw;->v(Ljava/lang/String;)V
+:cu_0181  6205dc79                 sget-object v5, Ljava/lang/Boolean;->FALSE Ljava/lang/Boolean;
+:cu_0183  1105                     return-object v5
+:cu_0184  620c06ab                 sget-object v12, Lnqs;->a Laimz;
+:cu_0186  6e1091140c00             invoke-virtual v12, Laimp;->c()Lainm;
+:cu_0189  0c0c                     move-result-object v12
+:cu_018a  1f0cb907                 check-cast v12, Laimw;
+:cu_018c  620d850b                 sget-object v13, Laioa;->b Laioa;
+:cu_018e  7220aa14dc00             invoke-interface v12, v13, Laimw;->m(Laioa;)Lainm;
+:cu_0191  0c0c                     move-result-object v12
+:cu_0192  1a0da0e3                 const-string v13, "writeAudioChunk$<anonymous>$<anonymous>"
+:cu_0194  13009500                 const/16 v0, 149
+:cu_0196  7252be141c0d             invoke-interface v12, v1, v13, v0, v2, Lainm;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_0199  0c0c                     move-result-object v12
+:cu_019a  1f0cb907                 check-cast v12, Laimw;
+:cu_019c  1a0df87f                 const-string v13, "No output stream or file opened for writing, please call createAudioFile() first"
+:cu_019e  7220ac14dc00             invoke-interface v12, v13, Laimw;->v(Ljava/lang/String;)V
+:cu_01a1  6205dc79                 sget-object v5, Ljava/lang/Boolean;->FALSE Ljava/lang/Boolean;
+:cu_01a3  1105                     return-object v5
+:cu_01a4  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_01a7  54cdc184                 iget-object v13, v12, Lkdr;->b Ljava/lang/Object;
+:cu_01a9  1f0d8105                 check-cast v13, Lahau;
+:cu_01ab  54dde008                 iget-object v13, v13, Lahau;->a Laify;
+:cu_01ad  6200dc08                 sget-object v0, Lahap;->a Lahap;
+:cu_01af  6e208e110d00             invoke-virtual v13, v0, Laify;->contains(Ljava/lang/Object;)Z
+:cu_01b2  0a0d                     move-result v13
+:cu_01b3  390d0800                 if-nez v13, +008h # target=:cu_01bb
+:cu_01b5  6205df08                 sget-object v5, Lahas;->d Lahar;
+:cu_01b7  7120693c3500             invoke-static v5, v3, Laooh;->e(Ljava/lang/Object; Ljava/lang/String;)V
+:cu_01ba  1105                     return-object v5
+:cu_01bb  71005f0c0000             invoke-static Lahar;->a()Lahaq;
+:cu_01be  0c0d                     move-result-object v13
+:cu_01bf  6e205d0c6d00             invoke-virtual v13, v6, Lahaq;->b(Z)V
+:cu_01c2  5bd0de08                 iput-object v0, v13, Lahaq;->a Lahap;
+:cu_01c4  54ccc084                 iget-object v12, v12, Lkdr;->a Ljava/lang/Object;
+:cu_01c6  1f0c0132                 check-cast v12, Lmzi;
+:cu_01c8  54ccbfa2                 iget-object v12, v12, Lmzi;->a Ljava/lang/Object;
+:cu_01ca  1f0cc230                 check-cast v12, Lmnl;
+:cu_01cc  6e1048d20c00             invoke-virtual v12, Lmnl;->a()Lmnm;
+:cu_01cf  0c0c                     move-result-object v12
+:cu_01d0  6e104ad20c00             invoke-virtual v12, Lmnm;->name()Ljava/lang/String;
+:cu_01d3  0c0c                     move-result-object v12
+:cu_01d4  6200047a                 sget-object v0, Ljava/nio/charset/StandardCharsets;->UTF_8 Ljava/nio/charset/Charset;
+:cu_01d6  7120031e0c00             invoke-static v12, v0, Lakzc;->v(Ljava/lang/String; Ljava/nio/charset/Charset;)Lakzc;
+:cu_01d9  0c0c                     move-result-object v12
+:cu_01da  6e205e0ccd00             invoke-virtual v13, v12, Lahaq;->c(Lakzc;)V
+:cu_01dd  6e105c0c0d00             invoke-virtual v13, Lahaq;->a()Lahar;
+:cu_01e0  0c05                     move-result-object v5
+:cu_01e1  1105                     return-object v5
+:cu_01e2  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_01e5  54cdc184                 iget-object v13, v12, Lkdr;->b Ljava/lang/Object;
+:cu_01e7  1f0d8105                 check-cast v13, Lahau;
+:cu_01e9  54dde008                 iget-object v13, v13, Lahau;->a Laify;
+:cu_01eb  6200dc08                 sget-object v0, Lahap;->a Lahap;
+:cu_01ed  6e208e110d00             invoke-virtual v13, v0, Laify;->contains(Ljava/lang/Object;)Z
+:cu_01f0  0a0d                     move-result v13
+:cu_01f1  390d0800                 if-nez v13, +008h # target=:cu_01f9
+:cu_01f3  6205df08                 sget-object v5, Lahas;->d Lahar;
+:cu_01f5  7120693c3500             invoke-static v5, v3, Laooh;->e(Ljava/lang/Object; Ljava/lang/String;)V
+:cu_01f8  1105                     return-object v5
+:cu_01f9  71005f0c0000             invoke-static Lahar;->a()Lahaq;
+:cu_01fc  0c0d                     move-result-object v13
+:cu_01fd  6e205d0c6d00             invoke-virtual v13, v6, Lahaq;->b(Z)V
+:cu_0200  5bd0de08                 iput-object v0, v13, Lahaq;->a Lahap;
+:cu_0202  54ccc084                 iget-object v12, v12, Lkdr;->a Ljava/lang/Object;
+:cu_0204  1f0c0132                 check-cast v12, Lmzi;
+:cu_0206  54ccbfa2                 iget-object v12, v12, Lmzi;->a Ljava/lang/Object;
+:cu_0208  7210d0d50c00             invoke-interface v12, Lmvz;->a()Lacux;
+:cu_020b  0c0c                     move-result-object v12
+:cu_020c  52cc7105                 iget v12, v12, Lacux;->e I
+:cu_020e  71105aa30c00             invoke-static v12, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+:cu_0211  0c0c                     move-result-object v12
+:cu_0212  6200047a                 sget-object v0, Ljava/nio/charset/StandardCharsets;->UTF_8 Ljava/nio/charset/Charset;
+:cu_0214  7120031e0c00             invoke-static v12, v0, Lakzc;->v(Ljava/lang/String; Ljava/nio/charset/Charset;)Lakzc;
+:cu_0217  0c0c                     move-result-object v12
+:cu_0218  6e205e0ccd00             invoke-virtual v13, v12, Lahaq;->c(Lakzc;)V
+:cu_021b  6e105c0c0d00             invoke-virtual v13, Lahaq;->a()Lahar;
+:cu_021e  0c05                     move-result-object v5
+:cu_021f  1105                     return-object v5
+:cu_0220  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_0223  54cdc184                 iget-object v13, v12, Lkdr;->b Ljava/lang/Object;
+:cu_0225  1f0d8105                 check-cast v13, Lahau;
+:cu_0227  54dde008                 iget-object v13, v13, Lahau;->a Laify;
+:cu_0229  6200dc08                 sget-object v0, Lahap;->a Lahap;
+:cu_022b  6e208e110d00             invoke-virtual v13, v0, Laify;->contains(Ljava/lang/Object;)Z
+:cu_022e  0a0d                     move-result v13
+:cu_022f  390d0800                 if-nez v13, +008h # target=:cu_0237
+:cu_0231  6205df08                 sget-object v5, Lahas;->d Lahar;
+:cu_0233  7120693c3500             invoke-static v5, v3, Laooh;->e(Ljava/lang/Object; Ljava/lang/String;)V
+:cu_0236  1105                     return-object v5
+:cu_0237  71005f0c0000             invoke-static Lahar;->a()Lahaq;
+:cu_023a  0c0d                     move-result-object v13
+:cu_023b  6e205d0c6d00             invoke-virtual v13, v6, Lahaq;->b(Z)V
+:cu_023e  5bd0de08                 iput-object v0, v13, Lahaq;->a Lahap;
+:cu_0240  54ccc084                 iget-object v12, v12, Lkdr;->a Ljava/lang/Object;
+:cu_0242  1f0c0132                 check-cast v12, Lmzi;
+:cu_0244  54ccbfa2                 iget-object v12, v12, Lmzi;->a Ljava/lang/Object;
+:cu_0246  1f0cc130                 check-cast v12, Lmnk;
+:cu_0248  6e1046d20c00             invoke-virtual v12, Lmnk;->a()Z
+:cu_024b  0a0c                     move-result v12
+:cu_024c  71105da30c00             invoke-static v12, Ljava/lang/String;->valueOf(Z)Ljava/lang/String;
+:cu_024f  0c0c                     move-result-object v12
+:cu_0250  6200047a                 sget-object v0, Ljava/nio/charset/StandardCharsets;->UTF_8 Ljava/nio/charset/Charset;
+:cu_0252  7120031e0c00             invoke-static v12, v0, Lakzc;->v(Ljava/lang/String; Ljava/nio/charset/Charset;)Lakzc;
+:cu_0255  0c0c                     move-result-object v12
+:cu_0256  6e205e0ccd00             invoke-virtual v13, v12, Lahaq;->c(Lakzc;)V
+:cu_0259  6e105c0c0d00             invoke-virtual v13, Lahaq;->a()Lahar;
+:cu_025c  0c05                     move-result-object v5
+:cu_025d  1105                     return-object v5
+:cu_025e  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_0261  54cdc084                 iget-object v13, v12, Lkdr;->a Ljava/lang/Object;
+:cu_0263  1f0df131                 check-cast v13, Lmys;
+:cu_0265  54d067a2                 iget-object v0, v13, Lmys;->a Landroid/content/Context;
+:cu_0267  54ccc184                 iget-object v12, v12, Lkdr;->b Ljava/lang/Object;
+:cu_0269  712098f15000             invoke-static v0, v5, Lrlt;->a(Landroid/content/Context; Landroid/telecom/PhoneAccountHandle;)Ljava/lang/String;
+:cu_026c  0c00                     move-result-object v0
+:cu_026d  54dd68a2                 iget-object v13, v13, Lmys;->b Lssq;
+:cu_026f  1f0c1127                 check-cast v12, Ljava/lang/String;
+:cu_0271  6e30a3f4cd00             invoke-virtual v13, v12, v0, Lssq;->g(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+:cu_0274  0c05                     move-result-object v5
+:cu_0275  1105                     return-object v5
+:cu_0276  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_0279  54cdc184                 iget-object v13, v12, Lkdr;->b Ljava/lang/Object;
+:cu_027b  2200b826                 new-instance v0, Ljava/io/BufferedInputStream;
+:cu_027d  2201c526                 new-instance v1, Ljava/io/FileInputStream;
+:cu_027f  07d2                     move-object v2, v13
+:cu_0280  1f021127                 check-cast v2, Ljava/lang/String;
+:cu_0282  7020f4a12100             invoke-direct v1, v2, Ljava/io/FileInputStream;-><init>(Ljava/lang/String;)V
+:cu_0285  7020a5a11000             invoke-direct v0, v1, Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;)V
+:cu_0288  54ccc084                 iget-object v12, v12, Lkdr;->a Ljava/lang/Object;
+:cu_028a  2201c326                 new-instance v1, Ljava/io/File;
+:cu_028c  1f0d1127                 check-cast v13, Ljava/lang/String;
+:cu_028e  7020d5a1d100             invoke-direct v1, v13, Ljava/io/File;-><init>(Ljava/lang/String;)V
+:cu_0291  7110c1820100             invoke-static v1, Lhgu;->d(Ljava/io/File;)Lidn;
+:cu_0294  0c0d                     move-result-object v13
+:cu_0295  1a012bd5                 const-string v1, "parse(...)"
+:cu_0297  7120693c1d00             invoke-static v13, v1, Laooh;->e(Ljava/lang/Object; Ljava/lang/String;)V
+:cu_029a  54d19470                 iget-object v1, v13, Lidn;->c Lidm;
+:cu_029c  39010400                 if-nez v1, +004h # target=:cu_02a0
+:cu_029e  62018c70                 sget-object v1, Lidm;->a Lidm;
+:cu_02a0  52118e70                 iget v1, v1, Lidm;->c I
+:cu_02a2  d801011c                 add-int/lit8 v1, v1, 28
+:cu_02a4  1f0c7a31                 check-cast v12, Lmuf;
+:cu_02a6  54cc69a0                 iget-object v12, v12, Lmuf;->b Linv;
+:cu_02a8  7110fb1d0000             invoke-static v0, Lakzc;->F(Ljava/io/InputStream;)Lakzc;
+:cu_02ab  0c02                     move-result-object v2
+:cu_02ac  6e20051e1200             invoke-virtual v2, v1, Lakzc;->x(I)Lakzc;
+:cu_02af  0c01                     move-result-object v1
+:cu_02b0  54dd9470                 iget-object v13, v13, Lidn;->c Lidm;
+:cu_02b2  390d0400                 if-nez v13, +004h # target=:cu_02b6
+:cu_02b4  620d8c70                 sget-object v13, Lidm;->a Lidm;
+:cu_02b6  52dd9070                 iget v13, v13, Lidm;->e I
+:cu_02b8  1302803e                 const/16 v2, 16000
+:cu_02ba  72400a9b1c2d             invoke-interface v12, v1, v13, v2, Linv;->a(Lakzc; I I)Lakzc;
+:cu_02bd  0c0c                     move-result-object v12
+:cu_02be  7120f41b5000             invoke-static v0, v5, Lajsz;->ak(Ljava/io/Closeable; Ljava/lang/Throwable;)V
+:cu_02c1  07c5                     move-object v5, v12
+:cu_02c2  1105                     return-object v5
+:cu_02c3  0d0c                     move-exception v12
+:cu_02c4  270c                     throw v12
+:cu_02c5  0d0d                     move-exception v13
+:cu_02c6  7120f41bc000             invoke-static v0, v12, Lajsz;->ak(Ljava/io/Closeable; Ljava/lang/Throwable;)V
+:cu_02c9  270d                     throw v13
+:cu_02ca  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_02cd  54ccc184                 iget-object v12, v12, Lkdr;->b Ljava/lang/Object;
+:cu_02cf  220dc326                 new-instance v13, Ljava/io/File;
+:cu_02d1  1f0c0334                 check-cast v12, Lnss;
+:cu_02d3  54cceeab                 iget-object v12, v12, Lnss;->c Ljava/lang/String;
+:cu_02d5  7020d5a1cd00             invoke-direct v13, v12, Ljava/io/File;-><init>(Ljava/lang/String;)V
+:cu_02d8  6e10dea10d00             invoke-virtual v13, Ljava/io/File;->exists()Z
+:cu_02db  0a0c                     move-result v12
+:cu_02dc  390c1800                 if-nez v12, +018h # target=:cu_02f4
+:cu_02de  620c68a0                 sget-object v12, Lmuf;->a Laimz;
+:cu_02e0  6e1092140c00             invoke-virtual v12, Laimp;->d()Lainm;
+:cu_02e3  0c0c                     move-result-object v12
+:cu_02e4  1a0d8bd6                 const-string v13, "prepareTranscriptsForUpload$<anonymous>"
+:cu_02e6  13008000                 const/16 v0, 128
+:cu_02e8  7251be142c0d             invoke-interface v12, v2, v13, v0, v1, Lainm;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_02eb  0c0c                     move-result-object v12
+:cu_02ec  1f0cb907                 check-cast v12, Laimw;
+:cu_02ee  1a0dead0                 const-string v13, "no transcript file exists, cannot upload"
+:cu_02f0  7220ac14dc00             invoke-interface v12, v13, Laimw;->v(Ljava/lang/String;)V
+:cu_02f3  1105                     return-object v5
+:cu_02f4  711011d50d00             invoke-static v13, Lmuf;->c(Ljava/io/File;)Lakzc;
+:cu_02f7  0c0c                     move-result-object v12
+:cu_02f8  620df2ab                 sget-object v13, Lnst;->a Lnst;
+:cu_02fa  71205d1ecd00             invoke-static v13, v12, Lalad;->v(Lalad; Lakzc;)Lalad;
+:cu_02fd  0c0c                     move-result-object v12
+:cu_02fe  07c5                     move-object v5, v12
+:cu_02ff  1f050434                 check-cast v5, Lnst;
+:cu_0301  1105                     return-object v5
+:cu_0302  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_0305  54ccc184                 iget-object v12, v12, Lkdr;->b Ljava/lang/Object;
+:cu_0307  220dc326                 new-instance v13, Ljava/io/File;
+:cu_0309  1f0cff33                 check-cast v12, Lnso;
+:cu_030b  54cce0ab                 iget-object v12, v12, Lnso;->b Ljava/lang/String;
+:cu_030d  7020d5a1cd00             invoke-direct v13, v12, Ljava/io/File;-><init>(Ljava/lang/String;)V
+:cu_0310  6e10dea10d00             invoke-virtual v13, Ljava/io/File;->exists()Z
+:cu_0313  0a0c                     move-result v12
+:cu_0314  390c1800                 if-nez v12, +018h # target=:cu_032c
+:cu_0316  620c68a0                 sget-object v12, Lmuf;->a Laimz;
+:cu_0318  6e1092140c00             invoke-virtual v12, Laimp;->d()Lainm;
+:cu_031b  0c0c                     move-result-object v12
+:cu_031c  1a0d8ad6                 const-string v13, "prepareLogsToUpload$<anonymous>"
+:cu_031e  13008d00                 const/16 v0, 141
+:cu_0320  7251be142c0d             invoke-interface v12, v2, v13, v0, v1, Lainm;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_0323  0c0c                     move-result-object v12
+:cu_0324  1f0cb907                 check-cast v12, Laimw;
+:cu_0326  1a0ddcd0                 const-string v13, "no logs file exists, cannot upload"
+:cu_0328  7220ac14dc00             invoke-interface v12, v13, Laimw;->v(Ljava/lang/String;)V
+:cu_032b  1105                     return-object v5
+:cu_032c  711011d50d00             invoke-static v13, Lmuf;->c(Ljava/io/File;)Lakzc;
+:cu_032f  0c0c                     move-result-object v12
+:cu_0330  620ddbab                 sget-object v13, Lnsn;->a Lnsn;
+:cu_0332  71205d1ecd00             invoke-static v13, v12, Lalad;->v(Lalad; Lakzc;)Lalad;
+:cu_0335  0c0c                     move-result-object v12
+:cu_0336  07c5                     move-object v5, v12
+:cu_0337  1f05fe33                 check-cast v5, Lnsn;
+:cu_0339  1105                     return-object v5
+:cu_033a  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_033d  54cdc184                 iget-object v13, v12, Lkdr;->b Ljava/lang/Object;
+:cu_033f  54ccc084                 iget-object v12, v12, Lkdr;->a Ljava/lang/Object;
+:cu_0341  1f0ca62f                 check-cast v12, Lmaw;
+:cu_0343  5bcd0697                 iput-object v13, v12, Lmaw;->d Ljava/lang/Object;
+:cu_0345  6205561f                 sget-object v5, Laojh;->a Laojh;
+:cu_0347  1105                     return-object v5
+:cu_0348  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_034b  54cdc184                 iget-object v13, v12, Lkdr;->b Ljava/lang/Object;
+:cu_034d  54ccc084                 iget-object v12, v12, Lkdr;->a Ljava/lang/Object;
+:cu_034f  2200eb2b                 new-instance v0, Lkqd;
+:cu_0351  1f0cf32e                 check-cast v12, Llub;
+:cu_0353  1271                     const/4 v1, 7
+:cu_0354  705115bbd05c             invoke-direct v0, v13, v12, v5, v1, Lkqd;-><init>(Laowu; Llub; Laoln; I)V
+:cu_0357  54cc1894                 iget-object v12, v12, Llub;->c Laoss;
+:cu_0359  123d                     const/4 v13, 3
+:cu_035a  715d953c5c06             invoke-static v12, v5, v6, v0, v13, Laoov;->an(Laoss; Laolr; I Laonn; I)Laoub;
+:cu_035d  0c05                     move-result-object v5
+:cu_035e  1105                     return-object v5
+:cu_035f  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_0362  54cdc084                 iget-object v13, v12, Lkdr;->a Ljava/lang/Object;
+:cu_0364  54ccc184                 iget-object v12, v12, Lkdr;->b Ljava/lang/Object;
+:cu_0366  2205da2e                 new-instance v5, Lltc;
+:cu_0368  1f0c1127                 check-cast v12, Ljava/lang/String;
+:cu_036a  1f0de12e                 check-cast v13, Lltj;
+:cu_036c  7030ebc9c50d             invoke-direct v5, v12, v13, Lltc;-><init>(Ljava/lang/String; Lltj;)V
+:cu_036f  1105                     return-object v5
+:cu_0370  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_0373  54cdc184                 iget-object v13, v12, Lkdr;->b Ljava/lang/Object;
+:cu_0375  54ccc084                 iget-object v12, v12, Lkdr;->a Ljava/lang/Object;
+:cu_0377  1f0ca42e                 check-cast v12, Llrc;
+:cu_0379  1f0d3e0c                 check-cast v13, Lampm;
+:cu_037b  5bcd2493                 iput-object v13, v12, Llrc;->b Lampm;
+:cu_037d  6205561f                 sget-object v5, Laojh;->a Laojh;
+:cu_037f  1105                     return-object v5
+:cu_0380  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_0383  54cdc184                 iget-object v13, v12, Lkdr;->b Ljava/lang/Object;
+:cu_0385  54ccc084                 iget-object v12, v12, Lkdr;->a Ljava/lang/Object;
+:cu_0387  1f0ca42e                 check-cast v12, Llrc;
+:cu_0389  1f0dc90a                 check-cast v13, Lakzm;
+:cu_038b  5bcd2593                 iput-object v13, v12, Llrc;->c Lakzm;
+:cu_038d  6205561f                 sget-object v5, Laojh;->a Laojh;
+:cu_038f  1105                     return-object v5
+:cu_0390  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_0393  54cdc184                 iget-object v13, v12, Lkdr;->b Ljava/lang/Object;
+:cu_0395  1f0d2212                 check-cast v13, Laoop;
+:cu_0397  55d0711f                 iget-boolean v0, v13, Laoop;->a Z
+:cu_0399  39000900                 if-nez v0, +009h # target=:cu_03a2
+:cu_039b  54ccc084                 iget-object v12, v12, Lkdr;->a Ljava/lang/Object;
+:cu_039d  1f0c9e1f                 check-cast v12, Lgcp;
+:cu_039f  6e105f790c00             invoke-virtual v12, Lgcp;->c()V
+:cu_03a2  5cd6711f                 iput-boolean v6, v13, Laoop;->a Z
+:cu_03a4  6205561f                 sget-object v5, Laojh;->a Laojh;
+:cu_03a6  1105                     return-object v5
+:cu_03a7  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_03aa  54cdc184                 iget-object v13, v12, Lkdr;->b Ljava/lang/Object;
+:cu_03ac  1f0d672c                 check-cast v13, Lkuu;
+:cu_03ae  54dd9b8a                 iget-object v13, v13, Lkuu;->b Landroid/content/Context;
+:cu_03b0  2200c326                 new-instance v0, Ljava/io/File;
+:cu_03b2  6e10de210d00             invoke-virtual v13, Landroid/content/Context;->getFilesDir()Ljava/io/File;
+:cu_03b5  0c01                     move-result-object v1
+:cu_03b6  1a02669d                 const-string v2, "callrecordingprompt"
+:cu_03b8  7030d4a11002             invoke-direct v0, v1, v2, Ljava/io/File;-><init>(Ljava/io/File; Ljava/lang/String;)V
+:cu_03bb  54ccc084                 iget-object v12, v12, Lkdr;->a Ljava/lang/Object;
+:cu_03bd  1f0c662c                 check-cast v12, Lkut;
+:cu_03bf  54c1988a                 iget-object v1, v12, Lkut;->h Ljava/lang/String;
+:cu_03c1  2205c326                 new-instance v5, Ljava/io/File;
+:cu_03c3  7030d4a10501             invoke-direct v5, v0, v1, Ljava/io/File;-><init>(Ljava/io/File; Ljava/lang/String;)V
+:cu_03c6  6e10dea10500             invoke-virtual v5, Ljava/io/File;->exists()Z
+:cu_03c9  0a00                     move-result v0
+:cu_03ca  3900ee01                 if-nez v0, +1eeh # target=:cu_05b8
+:cu_03cc  2200c326                 new-instance v0, Ljava/io/File;
+:cu_03ce  6e10de210d00             invoke-virtual v13, Landroid/content/Context;->getFilesDir()Ljava/io/File;
+:cu_03d1  0c03                     move-result-object v3
+:cu_03d2  7030d4a13002             invoke-direct v0, v3, v2, Ljava/io/File;-><init>(Ljava/io/File; Ljava/lang/String;)V
+:cu_03d5  6e10dea10000             invoke-virtual v0, Ljava/io/File;->exists()Z
+:cu_03d8  0a02                     move-result v2
+:cu_03d9  39020500                 if-nez v2, +005h # target=:cu_03de
+:cu_03db  6e10eea10000             invoke-virtual v0, Ljava/io/File;->mkdirs()Z
+:cu_03de  6e10dfa10000             invoke-virtual v0, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+:cu_03e1  0c00                     move-result-object v0
+:cu_03e2  2410e7450100             filled-new-array v1, [Ljava/lang/String;
+:cu_03e5  0c02                     move-result-object v2
+:cu_03e6  712065a02000             invoke-static v0, v2, Lj$/nio/file/Paths;->get(Ljava/lang/String; [Ljava/lang/String;)Lj$/nio/file/Path;
+:cu_03e9  0c00                     move-result-object v0
+:cu_03ea  6e10e2210d00             invoke-virtual v13, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+:cu_03ed  0c0d                     move-result-object v13
+:cu_03ee  52cc978a                 iget v12, v12, Lkut;->g I
+:cu_03f0  6e208f22cd00             invoke-virtual v13, v12, Landroid/content/res/Resources;->openRawResource(I)Ljava/io/InputStream;
+:cu_03f3  0c0c                     move-result-object v12
+:cu_03f4  1a0da5d4                 const-string v13, "openRawResource(...)"
+:cu_03f6  7120693cdc00             invoke-static v12, v13, Laooh;->e(Ljava/lang/Object; Ljava/lang/String;)V
+:cu_03f9  236dd845                 new-array v13, v6, [Lj$/nio/file/CopyOption;
+:cu_03fb  71305da00c0d             invoke-static v12, v0, v13, Lj$/nio/file/Files;->copy(Ljava/io/InputStream; Lj$/nio/file/Path; [Lj$/nio/file/CopyOption;)J
+:cu_03fe  620c9a8a                 sget-object v12, Lkuu;->a Laimz;
+:cu_0400  6e1090140c00             invoke-virtual v12, Laimp;->b()Lainm;
+:cu_0403  0c0c                     move-result-object v12
+:cu_0404  130d2e00                 const/16 v13, 46
+:cu_0406  1a023b21                 const-string v2, "CallRecordingDisclosureAudioFiles.kt"
+:cu_0408  1a035ea0                 const-string v3, "com/android/dialer/callrecording/disclosure/impl/audiofiles/CallRecordingDisclosureAudioFiles"
+:cu_040a  1a0479a3                 const-string v4, "createAudioFile"
+:cu_040c  7252be143cd4             invoke-interface v12, v3, v4, v13, v2, Lainm;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_040f  0c0c                     move-result-object v12
+:cu_0410  1f0cb907                 check-cast v12, Laimw;
+:cu_0412  1a0d5424                 const-string v13, "Created file: %s"
+:cu_0414  7230af14dc01             invoke-interface v12, v13, v1, Laimw;->y(Ljava/lang/String; Ljava/lang/Object;)V
+:cu_0417  721063a00000             invoke-interface v0, Lj$/nio/file/Path;->toFile()Ljava/io/File;
+:cu_041a  0c05                     move-result-object v5
+:cu_041b  1a0c49e0                 const-string v12, "toFile(...)"
+:cu_041d  7120693cc500             invoke-static v5, v12, Laooh;->e(Ljava/lang/Object; Ljava/lang/String;)V
+:cu_0420  1105                     return-object v5
+:cu_0421  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_0424  54cdc084                 iget-object v13, v12, Lkdr;->a Ljava/lang/Object;
+:cu_0426  1f0d233c                 check-cast v13, Lrsr;
+:cu_0428  54dd54be                 iget-object v13, v13, Lrsr;->a Ljava/lang/Object;
+:cu_042a  54c0c184                 iget-object v0, v12, Lkdr;->b Ljava/lang/Object;
+:cu_042c  1f001127                 check-cast v0, Ljava/lang/String;
+:cu_042e  1f0d660d                 check-cast v13, Landroid/content/pm/PackageManager;
+:cu_0430  6e3050220d06             invoke-virtual v13, v0, v6, Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String; I)Landroid/content/pm/ApplicationInfo;
+:cu_0433  0c0d                     move-result-object v13
+:cu_0434  7110673c0d00             invoke-static v13, Laooh;->c(Ljava/lang/Object;)V
+:cu_0437  54ccc084                 iget-object v12, v12, Lkdr;->a Ljava/lang/Object;
+:cu_0439  1f0c233c                 check-cast v12, Lrsr;
+:cu_043b  54cc54be                 iget-object v12, v12, Lrsr;->a Ljava/lang/Object;
+:cu_043d  1f0c660d                 check-cast v12, Landroid/content/pm/PackageManager;
+:cu_043f  6e205122dc00             invoke-virtual v12, v13, Landroid/content/pm/PackageManager;->getApplicationLabel(Landroid/content/pm/ApplicationInfo;)Ljava/lang/CharSequence;
+:cu_0442  0c0c                     move-result-object v12
+:cu_0443  6e1012a30c00             invoke-virtual v12, Ljava/lang/Object;->toString()Ljava/lang/String;
+:cu_0446  0c05                     move-result-object v5
+:cu_0447  1105                     return-object v5
+:cu_0448  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_044b  54cdc084                 iget-object v13, v12, Lkdr;->a Ljava/lang/Object;
+:cu_044d  1f0d500d                 check-cast v13, Landroid/content/Context;
+:cu_044f  7110d2820d00             invoke-static v13, Lhgu;->u(Landroid/content/Context;)Lknn;
+:cu_0452  0c0d                     move-result-object v13
+:cu_0453  7210cbb90d00             invoke-interface v13, Lknn;->sJ()Lipc;
+:cu_0456  0c0d                     move-result-object v13
+:cu_0457  54ccc184                 iget-object v12, v12, Lkdr;->b Ljava/lang/Object;
+:cu_0459  1f0ced3b                 check-cast v12, Lrmu;
+:cu_045b  6e208a9bcd00             invoke-virtual v13, v12, Lipc;->bm(Lrmu;)V
+:cu_045e  6205561f                 sget-object v5, Laojh;->a Laojh;
+:cu_0460  1105                     return-object v5
+:cu_0461  71103a3c0d00             invoke-static v13, Laooc;->af(Ljava/lang/Object;)V
+:cu_0464  54cdc084                 iget-object v13, v12, Lkdr;->a Ljava/lang/Object;
+:cu_0466  1f0dc82a                 check-cast v13, Lkdw;
+:cu_0468  54ddc784                 iget-object v13, v13, Lkdw;->f Lkdx;
+:cu_046a  6e1038b60d00             invoke-virtual v13, Lkdx;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+:cu_046d  0c0d                     move-result-object v13
+:cu_046e  7110673c0d00             invoke-static v13, Laooh;->c(Ljava/lang/Object;)V
+:cu_0471  6e10c3220d00             invoke-virtual v13, Landroid/database/sqlite/SQLiteDatabase;->beginTransaction()V
+:cu_0474  54ccc184                 iget-object v12, v12, Lkdr;->b Ljava/lang/Object;
+:cu_0476  07c0                     move-object v0, v12
+:cu_0477  1f008c05                 check-cast v0, Lahbq;
+:cu_0479  5400e908                 iget-object v0, v0, Lahbq;->b Ljava/lang/Object;
+:cu_047b  7210c7a50000             invoke-interface v0, Ljava/util/Map;->entrySet()Ljava/util/Set;
+:cu_047e  0c00                     move-result-object v0
+:cu_047f  721003a60000             invoke-interface v0, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+:cu_0482  0c00                     move-result-object v0
+:cu_0483  721087a50000             invoke-interface v0, Ljava/util/Iterator;->hasNext()Z
+:cu_0486  0a01                     move-result v1
+:cu_0487  1a023f9a                 const-string v2, "applyChanges$<anonymous>$<anonymous>"
+:cu_0489  1a032aa0                 const-string v3, "com/android/dialer/calllog/database/AnnotatedCallLogDataRepository$keyValueStore$<anonymous>"
+:cu_048b  1a06301b                 const-string v6, "AnnotatedCallLog"
+:cu_048d  1a07341b                 const-string v7, "AnnotatedCallLogDataRepository.kt"
+:cu_048f  38014e00                 if-eqz v1, +04eh # target=:cu_04dd
+:cu_0491  721088a50000             invoke-interface v0, Ljava/util/Iterator;->next()Ljava/lang/Object;
+:cu_0494  0c01                     move-result-object v1
+:cu_0495  1f019527                 check-cast v1, Ljava/util/Map$Entry;
+:cu_0497  7210c1a50100             invoke-interface v1, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+:cu_049a  0c08                     move-result-object v8
+:cu_049b  1f080427                 check-cast v8, Ljava/lang/Number;
+:cu_049d  6e1009a30800             invoke-virtual v8, Ljava/lang/Number;->longValue()J
+:cu_04a0  0b08                     move-result-wide v8
+:cu_04a1  7210c2a50100             invoke-interface v1, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+:cu_04a4  0c01                     move-result-object v1
+:cu_04a5  1f017e01                 check-cast v1, Labwj;
+:cu_04a7  54111704                 iget-object v1, v1, Labwj;->a Ljava/lang/Object;
+:cu_04a9  1f01ca2a                 check-cast v1, Lkdy;
+:cu_04ab  6e104ab60100             invoke-virtual v1, Lkdy;->o()V
+:cu_04ae  6e103ab60100             invoke-virtual v1, Lkdy;->a()Landroid/content/ContentValues;
+:cu_04b1  0c01                     move-result-object v1
+:cu_04b2  6e40c6226d15             invoke-virtual v13, v6, v5, v1, Landroid/database/sqlite/SQLiteDatabase;->insertOrThrow(Ljava/lang/String; Ljava/lang/String; Landroid/content/ContentValues;)J
+:cu_04b5  0b0a                     move-result-wide v10
+:cu_04b6  31010a08                 cmp-long v1, v10, v8
+:cu_04b8  3801cbff                 if-eqz v1, -035h # target=:cu_0483
+:cu_04ba  220cca26                 new-instance v12, Ljava/io/IOException;
+:cu_04bc  1a007530                 const-string v0, "Insert failed"
+:cu_04be  702009a20c00             invoke-direct v12, v0, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+:cu_04c1  270c                     throw v12
+:cu_04c2  0d0c                     move-exception v12
+:cu_04c3  6200c684                 sget-object v0, Lkdw;->a Laimz;
+:cu_04c5  6e1091140000             invoke-virtual v0, Laimp;->c()Lainm;
+:cu_04c8  0c00                     move-result-object v0
+:cu_04c9  1f00b907                 check-cast v0, Laimw;
+:cu_04cb  7220a814c000             invoke-interface v0, v12, Laimw;->k(Ljava/lang/Throwable;)Lainm;
+:cu_04ce  0c00                     move-result-object v0
+:cu_04cf  1301e400                 const/16 v1, 228
+:cu_04d1  7257be143012             invoke-interface v0, v3, v2, v1, v7, Lainm;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_04d4  0c00                     move-result-object v0
+:cu_04d5  1f00b907                 check-cast v0, Laimw;
+:cu_04d7  1a01321b                 const-string v1, "AnnotatedCallLogDataRepository failed to insert"
+:cu_04d9  7220ac141000             invoke-interface v0, v1, Laimw;->v(Ljava/lang/String;)V
+:cu_04dc  270c                     throw v12
+:cu_04dd  07c0                     move-object v0, v12
+:cu_04de  1f008c05                 check-cast v0, Lahbq;
+:cu_04e0  5400e808                 iget-object v0, v0, Lahbq;->a Ljava/lang/Object;
+:cu_04e2  7210c7a50000             invoke-interface v0, Ljava/util/Map;->entrySet()Ljava/util/Set;
+:cu_04e5  0c00                     move-result-object v0
+:cu_04e6  721003a60000             invoke-interface v0, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+:cu_04e9  0c00                     move-result-object v0
+:cu_04ea  721087a50000             invoke-interface v0, Ljava/util/Iterator;->hasNext()Z
+:cu_04ed  0a01                     move-result v1
+:cu_04ee  38016500                 if-eqz v1, +065h # target=:cu_0553
+:cu_04f0  721088a50000             invoke-interface v0, Ljava/util/Iterator;->next()Ljava/lang/Object;
+:cu_04f3  0c01                     move-result-object v1
+:cu_04f4  1f019527                 check-cast v1, Ljava/util/Map$Entry;
+:cu_04f6  7210c1a50100             invoke-interface v1, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+:cu_04f9  0c05                     move-result-object v5
+:cu_04fa  1f050427                 check-cast v5, Ljava/lang/Number;
+:cu_04fc  6e1009a30500             invoke-virtual v5, Ljava/lang/Number;->longValue()J
+:cu_04ff  0b08                     move-result-wide v8
+:cu_0500  7210c2a50100             invoke-interface v1, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+:cu_0503  0c01                     move-result-object v1
+:cu_0504  1f017f01                 check-cast v1, Labwk;
+:cu_0506  54111904                 iget-object v1, v1, Labwk;->b Ljava/lang/Object;
+:cu_0508  1f01ca2a                 check-cast v1, Lkdy;
+:cu_050a  6e104ab60100             invoke-virtual v1, Lkdy;->o()V
+:cu_050d  6e103ab60100             invoke-virtual v1, Lkdy;->a()Landroid/content/ContentValues;
+:cu_0510  0c01                     move-result-object v1
+:cu_0511  1a059d97                 const-string v5, "_id"
+:cu_0513  220a902a                 new-instance v10, Lkaw;
+:cu_0515  702017b55a00             invoke-direct v10, v5, Lkaw;-><init>(Ljava/lang/Object;)V
+:cu_0518  1a05f418                 const-string v5, "= "
+:cu_051a  71308a009805             invoke-static v8, v9, v5, La;->bz(J Ljava/lang/String;)Ljava/lang/String;
+:cu_051d  0c05                     move-result-object v5
+:cu_051e  6e2034b55a00             invoke-virtual v10, v5, Lkaw;->aH(Ljava/lang/String;)Lrsr;
+:cu_0521  0c05                     move-result-object v5
+:cu_0522  545855be                 iget-object v8, v5, Lrsr;->b Ljava/lang/Object;
+:cu_0524  545554be                 iget-object v5, v5, Lrsr;->a Ljava/lang/Object;
+:cu_0526  1f05e745                 check-cast v5, [Ljava/lang/String;
+:cu_0528  1f081127                 check-cast v8, Ljava/lang/String;
+:cu_052a  6e55c8226d81             invoke-virtual v13, v6, v1, v8, v5, Landroid/database/sqlite/SQLiteDatabase;->update(Ljava/lang/String; Landroid/content/ContentValues; Ljava/lang/String; [Ljava/lang/String;)I
+:cu_052d  0a01                     move-result v1
+:cu_052e  3241bcff                 if-eq v1, v4, -044h # target=:cu_04ea
+:cu_0530  220cca26                 new-instance v12, Ljava/io/IOException;
+:cu_0532  1a00238f                 const-string v0, "Update failed"
+:cu_0534  702009a20c00             invoke-direct v12, v0, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+:cu_0537  270c                     throw v12
+:cu_0538  0d0c                     move-exception v12
+:cu_0539  6200c684                 sget-object v0, Lkdw;->a Laimz;
+:cu_053b  6e1091140000             invoke-virtual v0, Laimp;->c()Lainm;
+:cu_053e  0c00                     move-result-object v0
+:cu_053f  1f00b907                 check-cast v0, Laimw;
+:cu_0541  7220a814c000             invoke-interface v0, v12, Laimw;->k(Ljava/lang/Throwable;)Lainm;
+:cu_0544  0c00                     move-result-object v0
+:cu_0545  1301f400                 const/16 v1, 244
+:cu_0547  7257be143012             invoke-interface v0, v3, v2, v1, v7, Lainm;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_054a  0c00                     move-result-object v0
+:cu_054b  1f00b907                 check-cast v0, Laimw;
+:cu_054d  1a01331b                 const-string v1, "AnnotatedCallLogDataRepository failed to update"
+:cu_054f  7220ac141000             invoke-interface v0, v1, Laimw;->v(Ljava/lang/String;)V
+:cu_0552  270c                     throw v12
+:cu_0553  1f0c8c05                 check-cast v12, Lahbq;
+:cu_0555  54cceb08                 iget-object v12, v12, Lahbq;->d Ljava/lang/Object;
+:cu_0557  7210cca50c00             invoke-interface v12, Ljava/util/Map;->keySet()Ljava/util/Set;
+:cu_055a  0c0c                     move-result-object v12
+:cu_055b  1300e703                 const/16 v0, 999
+:cu_055d  7120011c0c00             invoke-static v12, v0, Lajsz;->bP(Ljava/lang/Iterable; I)Ljava/util/List;
+:cu_0560  0c0c                     move-result-object v12
+:cu_0561  7210a4a50c00             invoke-interface v12, Ljava/util/List;->iterator()Ljava/util/Iterator;
+:cu_0564  0c0c                     move-result-object v12
+:cu_0565  721087a50c00             invoke-interface v12, Ljava/util/Iterator;->hasNext()Z
+:cu_0568  0a00                     move-result v0
+:cu_0569  38004100                 if-eqz v0, +041h # target=:cu_05aa
+:cu_056b  721088a50c00             invoke-interface v12, Ljava/util/Iterator;->next()Ljava/lang/Object;
+:cu_056e  0c00                     move-result-object v0
+:cu_056f  1f009127                 check-cast v0, Ljava/util/List;
+:cu_0571  7110d7b50000             invoke-static v0, Lkcq;->R(Ljava/util/List;)Lrsr;
+:cu_0574  0c01                     move-result-object v1
+:cu_0575  541455be                 iget-object v4, v1, Lrsr;->b Ljava/lang/Object;
+:cu_0577  541154be                 iget-object v1, v1, Lrsr;->a Ljava/lang/Object;
+:cu_0579  1f01e745                 check-cast v1, [Ljava/lang/String;
+:cu_057b  1f041127                 check-cast v4, Ljava/lang/String;
+:cu_057d  6e40c4226d14             invoke-virtual v13, v6, v4, v1, Landroid/database/sqlite/SQLiteDatabase;->delete(Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String;)I
+:cu_0580  0a01                     move-result v1
+:cu_0581  7210ada50000             invoke-interface v0, Ljava/util/List;->size()I
+:cu_0584  0a00                     move-result v0
+:cu_0585  3201e0ff                 if-eq v1, v0, -020h # target=:cu_0565
+:cu_0587  220cca26                 new-instance v12, Ljava/io/IOException;
+:cu_0589  1a001026                 const-string v0, "Delete failed"
+:cu_058b  702009a20c00             invoke-direct v12, v0, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+:cu_058e  270c                     throw v12
+:cu_058f  0d0c                     move-exception v12
+:cu_0590  6200c684                 sget-object v0, Lkdw;->a Laimz;
+:cu_0592  6e1091140000             invoke-virtual v0, Laimp;->c()Lainm;
+:cu_0595  0c00                     move-result-object v0
+:cu_0596  1f00b907                 check-cast v0, Laimw;
+:cu_0598  7220a814c000             invoke-interface v0, v12, Laimw;->k(Ljava/lang/Throwable;)Lainm;
+:cu_059b  0c00                     move-result-object v0
+:cu_059c  13010201                 const/16 v1, 258
+:cu_059e  7257be143012             invoke-interface v0, v3, v2, v1, v7, Lainm;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_05a1  0c00                     move-result-object v0
+:cu_05a2  1f00b907                 check-cast v0, Laimw;
+:cu_05a4  1a01311b                 const-string v1, "AnnotatedCallLogDataRepository failed to delete"
+:cu_05a6  7220ac141000             invoke-interface v0, v1, Laimw;->v(Ljava/lang/String;)V
+:cu_05a9  270c                     throw v12
+:cu_05aa  6e10c7220d00             invoke-virtual v13, Landroid/database/sqlite/SQLiteDatabase;->setTransactionSuccessful()V
+:cu_05ad  6e10c5220d00             invoke-virtual v13, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
+:cu_05b0  6205561f                 sget-object v5, Laojh;->a Laojh;
+:cu_05b2  2806                     goto +6h # target=:cu_05b8
+:cu_05b3  0d0c                     move-exception v12
+:cu_05b4  6e10c5220d00             invoke-virtual v13, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
+:cu_05b7  270c                     throw v12
+:cu_05b8  1105                     return-object v5
+:cu_05b9  0000                     nop 
+:cu_05ba  0001140000000000560400003d040000160400009c030000850300007503000065030000540300003d0300002f030000f7020000bf0200006b0200005302000015020000d7010000990100008c0000004600000023000000 packed-switch-payload 0 1 2 3 4 5 6 7 8 9 a b c d e f 10 11 12 13 # payload keys=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19] relative_targets=[1110, 1085, 1046, 924, 901, 885, 869, 852, 829, 815, 759, 703, 619, 595, 533, 471, 409, 140, 70, 35]
+# Exception table: starts inclusive, ends exclusive; handler offsets are bytes from encoded_catch_handler_list.
+# .catch Ljava/io/IOException; {:cu_011b .. :cu_0125} :cu_0139
+# .catch catchall {:cu_028a .. :cu_02be} :cu_02c3
+# .catch catchall {:cu_02c4 .. :cu_02c5} :cu_02c5
+# .catch Landroid/content/pm/PackageManager$NameNotFoundException; {:cu_0424 .. :cu_0434} :cu_05b8
+# .catch catchall {:cu_0476 .. :cu_0487} :cu_05b3
+# .catch catchall {:cu_0491 .. :cu_04a7} :cu_05b3
+# .catch Ljava/lang/Exception; {:cu_04a7 .. :cu_04c2} :cu_04c2
+# .catch catchall {:cu_04a7 .. :cu_04c2} :cu_05b3
+# .catch catchall {:cu_04c3 .. :cu_0522} :cu_05b3
+# .catch Ljava/lang/Exception; {:cu_0522 .. :cu_0538} :cu_0538
+# .catch catchall {:cu_0522 .. :cu_0538} :cu_05b3
+# .catch catchall {:cu_0539 .. :cu_0575} :cu_05b3
+# .catch Ljava/lang/Exception; {:cu_0575 .. :cu_058f} :cu_058f
+# .catch catchall {:cu_0575 .. :cu_058f} :cu_05b3
+# .catch catchall {:cu_0590 .. :cu_05ad} :cu_05b3

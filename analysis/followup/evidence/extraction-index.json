@@ -1,0 +1,523 @@
+[
+  {
+    "evidence_file": "evidence/blv.b.rea.json",
+    "evidence_id": "ev_c2c8e3acc0e55690e5cff9bc4ebc1fff739ef15c9990761147f60fc4123a482d",
+    "class": "defpackage.blv",
+    "method": {
+      "dex_descriptor": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "is_constructor": false,
+      "name": "b",
+      "overload_index": 0,
+      "reported_signature": "b(java.lang.Object): java.lang.Object"
+    },
+    "representation": "smali",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 74618,
+    "fell_back": true,
+    "markers": [
+      "Code decompiled incorrectly, please refer to instructions dump"
+    ]
+  },
+  {
+    "evidence_file": "evidence/gzk.call.rea.json",
+    "evidence_id": "ev_2afe22ffe1fbc68fba6591eac72160664a0c9e909732464fc80a740d70c5498c",
+    "class": "defpackage.gzk",
+    "method": {
+      "dex_descriptor": "()Ljava/lang/Object;",
+      "is_constructor": false,
+      "name": "call",
+      "overload_index": 0,
+      "reported_signature": "call(): java.lang.Object"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 16180,
+    "fell_back": false,
+    "markers": []
+  },
+  {
+    "evidence_file": "evidence/hnt.b.rea.json",
+    "evidence_id": "ev_f8a9406ca511f177ca3ba642ea41aacd25cfb969d7efe191faddbda5062f3a7d",
+    "class": "defpackage.hnt",
+    "method": {
+      "dex_descriptor": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "is_constructor": false,
+      "name": "b",
+      "overload_index": 0,
+      "reported_signature": "b(java.lang.Object): java.lang.Object"
+    },
+    "representation": "smali",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 28007,
+    "fell_back": true,
+    "markers": [
+      "Code decompiled incorrectly, please refer to instructions dump"
+    ]
+  },
+  {
+    "evidence_file": "evidence/hqi.b.rea.json",
+    "evidence_id": "ev_e1832306681fd7695e5236123eaf917ed4fa5c4d3446f08dff4e7854211fc8f3",
+    "class": "defpackage.hqi",
+    "method": {
+      "dex_descriptor": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "is_constructor": false,
+      "name": "b",
+      "overload_index": 0,
+      "reported_signature": "b(java.lang.Object): java.lang.Object"
+    },
+    "representation": "smali",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 107279,
+    "fell_back": true,
+    "markers": [
+      "Code decompiled incorrectly, please refer to instructions dump"
+    ]
+  },
+  {
+    "evidence_file": "evidence/hyo.a.rea.json",
+    "evidence_id": "ev_e5647f3004a05127832e0c02926ae59320fcc807d4d6a5c384f3e03f6794d716",
+    "class": "defpackage.hyo",
+    "method": {
+      "dex_descriptor": "(Ljava/util/Locale;Laoln;)Ljava/lang/Object;",
+      "is_constructor": false,
+      "name": "a",
+      "overload_index": 0,
+      "reported_signature": "a(java.util.Locale, aoln): java.lang.Object"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 2238,
+    "fell_back": false,
+    "markers": []
+  },
+  {
+    "evidence_file": "evidence/hyo.c.rea.json",
+    "evidence_id": "ev_5fd3df36404448108dc49b3f3466408cf4aabcf4e81225949a050dfd6b9b8c2e",
+    "class": "defpackage.hyo",
+    "method": {
+      "dex_descriptor": "(Laoln;)Ljava/lang/Object;",
+      "is_constructor": false,
+      "name": "c",
+      "overload_index": 0,
+      "reported_signature": "c(aoln): java.lang.Object"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 1411,
+    "fell_back": false,
+    "markers": []
+  },
+  {
+    "evidence_file": "evidence/hyr.onDone.rea.json",
+    "evidence_id": "ev_04f5cd5d01f8779f6b9de869318926745c5e302036921b0631c24649ac30ba23",
+    "class": "defpackage.hyr",
+    "method": {
+      "dex_descriptor": "(Ljava/lang/String;)V",
+      "is_constructor": false,
+      "name": "onDone",
+      "overload_index": 0,
+      "reported_signature": "onDone(java.lang.String): void"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 789,
+    "fell_back": false,
+    "markers": []
+  },
+  {
+    "evidence_file": "evidence/hyr.onError.o0.rea.json",
+    "evidence_id": "ev_4315913878f48de15ee681e3bc035218476191fb3abeebe9c8ce6bd23e830597",
+    "class": "defpackage.hyr",
+    "method": {
+      "dex_descriptor": "(Ljava/lang/String;)V",
+      "is_constructor": false,
+      "name": "onError",
+      "overload_index": 0,
+      "reported_signature": "onError(java.lang.String): void"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 677,
+    "fell_back": false,
+    "markers": []
+  },
+  {
+    "evidence_file": "evidence/hyr.onError.o1.rea.json",
+    "evidence_id": "ev_1146a67f4f32c61799da9c6876103238b68d188ef8ec1a90763e1bd46f8b35a1",
+    "class": "defpackage.hyr",
+    "method": {
+      "dex_descriptor": "(Ljava/lang/String;I)V",
+      "is_constructor": false,
+      "name": "onError",
+      "overload_index": 1,
+      "reported_signature": "onError(java.lang.String, int): void"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 367,
+    "fell_back": false,
+    "markers": []
+  },
+  {
+    "evidence_file": "evidence/hys.a.rea.json",
+    "evidence_id": "ev_896ff0658b1de806c221eee5e012aa935f4d45c2627e039317add1c55ed6b04e",
+    "class": "defpackage.hys",
+    "method": {
+      "dex_descriptor": "(Lhxw;)Ljava/io/File;",
+      "is_constructor": false,
+      "name": "a",
+      "overload_index": 0,
+      "reported_signature": "a(hxw): java.io.File"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 512,
+    "fell_back": false,
+    "markers": []
+  },
+  {
+    "evidence_file": "evidence/jyr.call.rea.json",
+    "evidence_id": "ev_247dcbc9c7786a6b04696c8d9b88c2ca13fe61015d13b99e15c0ac6a64f75fcd",
+    "class": "defpackage.jyr",
+    "method": {
+      "dex_descriptor": "()Ljava/lang/Object;",
+      "is_constructor": false,
+      "name": "call",
+      "overload_index": 0,
+      "reported_signature": "call(): java.lang.Object"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 13716,
+    "fell_back": false,
+    "markers": []
+  },
+  {
+    "evidence_file": "evidence/kdr.b.rea.json",
+    "evidence_id": "ev_4a1ac2917f2776feb88751742a0dc658d304509472529935b2c65ff7ee7087e2",
+    "class": "defpackage.kdr",
+    "method": {
+      "dex_descriptor": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "is_constructor": false,
+      "name": "b",
+      "overload_index": 0,
+      "reported_signature": "b(java.lang.Object): java.lang.Object"
+    },
+    "representation": "smali",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 55919,
+    "fell_back": true,
+    "markers": [
+      "Code decompiled incorrectly, please refer to instructions dump"
+    ]
+  },
+  {
+    "evidence_file": "evidence/klt.b.rea.json",
+    "evidence_id": "ev_c824009b750daafb35038ea01785a171bd350ef49be6de69a0d9046a6e141cc9",
+    "class": "defpackage.klt",
+    "method": {
+      "dex_descriptor": "(Laoln;)Ljava/lang/Object;",
+      "is_constructor": false,
+      "name": "b",
+      "overload_index": 0,
+      "reported_signature": "b(aoln): java.lang.Object"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 1855,
+    "fell_back": false,
+    "markers": []
+  },
+  {
+    "evidence_file": "evidence/klt.c.rea.json",
+    "evidence_id": "ev_ed54f211fb31e98664fae9a2630e50566c481f825c8c349967cdb9ebcd683cea",
+    "class": "defpackage.klt",
+    "method": {
+      "dex_descriptor": "(Lhxw;Laoln;)Ljava/lang/Object;",
+      "is_constructor": false,
+      "name": "c",
+      "overload_index": 0,
+      "reported_signature": "c(hxw, aoln): java.lang.Object"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 117,
+    "fell_back": false,
+    "markers": []
+  },
+  {
+    "evidence_file": "evidence/kpr.a.rea.json",
+    "evidence_id": "ev_f917838924407bc972837d417b05093e5829b80f78fe88b88d7b3918e6fd9bb4",
+    "class": "defpackage.kpr",
+    "method": {
+      "dex_descriptor": "()Z",
+      "is_constructor": false,
+      "name": "a",
+      "overload_index": 0,
+      "reported_signature": "a(): boolean"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 2426,
+    "fell_back": false,
+    "markers": []
+  },
+  {
+    "evidence_file": "evidence/kqd.b.rea.json",
+    "evidence_id": "ev_f8f8e3b6288deacba7c2d5aa9338decd93635582ce246e070b3e7617d6e123b2",
+    "class": "defpackage.kqd",
+    "method": {
+      "dex_descriptor": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "is_constructor": false,
+      "name": "b",
+      "overload_index": 0,
+      "reported_signature": "b(java.lang.Object): java.lang.Object"
+    },
+    "representation": "smali",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 79860,
+    "fell_back": true,
+    "markers": [
+      "Method not decompiled",
+      "Method dump skipped, instruction units count"
+    ]
+  },
+  {
+    "evidence_file": "evidence/ksy.b.rea.json",
+    "evidence_id": "ev_a27468f6d81143309507b465f257b7228570a8e4c540ad0a40dc05b23fd3d08f",
+    "class": "defpackage.ksy",
+    "method": {
+      "dex_descriptor": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "is_constructor": false,
+      "name": "b",
+      "overload_index": 0,
+      "reported_signature": "b(java.lang.Object): java.lang.Object"
+    },
+    "representation": "smali",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 40027,
+    "fell_back": true,
+    "markers": [
+      "Code decompiled incorrectly, please refer to instructions dump"
+    ]
+  },
+  {
+    "evidence_file": "evidence/kut.<clinit>.rea.json",
+    "evidence_id": "ev_427e7d18a3d687d5cc5096b4486d713ae3d6f2f1e3b5cb8004a1d61a134121a7",
+    "class": "defpackage.kut",
+    "method": {
+      "dex_descriptor": "()V",
+      "is_constructor": false,
+      "name": "<clinit>",
+      "overload_index": 0,
+      "reported_signature": "<clinit>(): void"
+    },
+    "representation": "smali",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 3637,
+    "fell_back": true,
+    "markers": [
+      "static_initializer_disassembly"
+    ]
+  },
+  {
+    "evidence_file": "evidence/kuw.a.rea.json",
+    "evidence_id": "ev_a381990ec972a345a0702013027976ede091944b119b337bd03b6524e06b2eb8",
+    "class": "defpackage.kuw",
+    "method": {
+      "dex_descriptor": "()Z",
+      "is_constructor": false,
+      "name": "a",
+      "overload_index": 0,
+      "reported_signature": "a(): boolean"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 2125,
+    "fell_back": false,
+    "markers": []
+  },
+  {
+    "evidence_file": "evidence/kxm.a.rea.json",
+    "evidence_id": "ev_fc07acdeef1bb930e85097fef36fa64226f3dbfb3dee35515d67b0d419baab1e",
+    "class": "defpackage.kxm",
+    "method": {
+      "dex_descriptor": "(Ljava/lang/Object;)Lajcq;",
+      "is_constructor": false,
+      "name": "a",
+      "overload_index": 0,
+      "reported_signature": "a(java.lang.Object): ajcq"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 9087,
+    "fell_back": false,
+    "markers": []
+  },
+  {
+    "evidence_file": "evidence/kxt.a.rea.json",
+    "evidence_id": "ev_00650ac7e9e3a38d316941b658e51712e0b4007172c6b1c2dc53f6ffa4cb7041",
+    "class": "defpackage.kxt",
+    "method": {
+      "dex_descriptor": "(Ljava/lang/Throwable;)V",
+      "is_constructor": false,
+      "name": "a",
+      "overload_index": 0,
+      "reported_signature": "a(java.lang.Throwable): void"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 7783,
+    "fell_back": false,
+    "markers": []
+  },
+  {
+    "evidence_file": "evidence/mwq.b.rea.json",
+    "evidence_id": "ev_af5363a4e640726eb9b7c1de3ada55ad4692f5bf8881d6778adce48c33fa84fe",
+    "class": "defpackage.mwq",
+    "method": {
+      "dex_descriptor": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "is_constructor": false,
+      "name": "b",
+      "overload_index": 0,
+      "reported_signature": "b(java.lang.Object): java.lang.Object"
+    },
+    "representation": "smali",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 19969,
+    "fell_back": true,
+    "markers": [
+      "Code decompiled incorrectly, please refer to instructions dump"
+    ]
+  },
+  {
+    "evidence_file": "evidence/prior-rea/rea-kus-c.json",
+    "evidence_id": "ev_2d9dd6743fb142b1da1f73b82cc7bd87ecbcb57224db3a9c56db103315b688d1",
+    "class": "defpackage.kus",
+    "method": {
+      "dex_descriptor": "(Laoln;)Ljava/lang/Object;",
+      "is_constructor": false,
+      "name": "c",
+      "overload_index": 0,
+      "reported_signature": "c(aoln): java.lang.Object"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 3117,
+    "fell_back": false,
+    "markers": []
+  },
+  {
+    "evidence_file": "evidence/prior-rea/rea-kxr-b.json",
+    "evidence_id": "ev_c6375d5ea1babed6d80783df1fdb0f46bc759b9d7bb1432a8843a97451e5750e",
+    "class": "defpackage.kxr",
+    "method": {
+      "dex_descriptor": "()Lajcq;",
+      "is_constructor": false,
+      "name": "b",
+      "overload_index": 0,
+      "reported_signature": "b(): ajcq"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 58,
+    "fell_back": false,
+    "markers": []
+  },
+  {
+    "evidence_file": "evidence/prior-rea/rea-kxr-c.json",
+    "evidence_id": "ev_217a486f069ce7b722d9e14e8586b32d7d7ba91215ea90a228c2e270307b81a7",
+    "class": "defpackage.kxr",
+    "method": {
+      "dex_descriptor": "(J)Lajcq;",
+      "is_constructor": false,
+      "name": "c",
+      "overload_index": 0,
+      "reported_signature": "c(long): ajcq"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 5789,
+    "fell_back": false,
+    "markers": []
+  },
+  {
+    "evidence_file": "evidence/prior-rea/rea-kxr-g.json",
+    "evidence_id": "ev_7377518a0b8e3a229b0f0976f5238be989196843ca8df2e179c1c96967195329",
+    "class": "defpackage.kxr",
+    "method": {
+      "dex_descriptor": "(Lkxq;)Lajcq;",
+      "is_constructor": false,
+      "name": "g",
+      "overload_index": 0,
+      "reported_signature": "g(kxq): ajcq"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 1208,
+    "fell_back": false,
+    "markers": []
+  },
+  {
+    "evidence_file": "evidence/prior-rea/rea-kxt-b.json",
+    "evidence_id": "ev_29a98b99b856007ec532c51732418b3d6e9ef8022b0220b9078d0a0898241252",
+    "class": "defpackage.kxt",
+    "method": {
+      "dex_descriptor": "(Ljava/lang/Object;)V",
+      "is_constructor": false,
+      "name": "b",
+      "overload_index": 0,
+      "reported_signature": "b(java.lang.Object): void"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 6929,
+    "fell_back": false,
+    "markers": []
+  },
+  {
+    "evidence_file": "evidence/prior-rea/rea-kxx-g.json",
+    "evidence_id": "ev_207e1103e2e288ec42e2e28a188a769380a4774c37115f5753d5aec0b48694da",
+    "class": "defpackage.kxx",
+    "method": {
+      "dex_descriptor": "()V",
+      "is_constructor": false,
+      "name": "g",
+      "overload_index": 0,
+      "reported_signature": "g(): void"
+    },
+    "representation": "java",
+    "body_status": "available",
+    "source_status": "complete",
+    "source_utf8_bytes": 1086,
+    "fell_back": false,
+    "markers": []
+  }
+]

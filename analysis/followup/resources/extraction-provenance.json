@@ -1,0 +1,7 @@
+{
+  "tool": "Androguard ARSCParser",
+  "androguard_version": "4.1.4",
+  "input_apk": "/workspace/google-phone-analysis-244/GooglePhone_244.0.1001930441_arm64.apk",
+  "apk_sha256": "0ae5ba4f0f68ac200d1cf6e37b9685e57149b27ba9901d1879b133ddc4af53a0",
+  "method": "ARSC get_public_resources and get_resolved_res_configs; focused XML is a projection of get_string_resources for default and ar. Audio bytes are exact ZIP-entry copies. No APK rebuild or mutation."
+}

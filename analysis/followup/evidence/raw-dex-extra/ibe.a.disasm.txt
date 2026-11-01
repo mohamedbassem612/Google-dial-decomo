@@ -1,0 +1,232 @@
+# Libe;->a(Ljava/lang/Object;)Lajcq;
+# APK sha256=0ae5ba4f0f68ac200d1cf6e37b9685e57149b27ba9901d1879b133ddc4af53a0
+# classes2.dex sha256=d03f8c27d5638dd594007b49a19c8bbf2487287e03ebafd71149e1b7e762f179
+# code_item file offset=0x496b34 byte length=952
+# registers=9 incoming_words=2 outgoing_words=7 insns_size=468 code_units
+# Every instruction/payload is listed; label suffixes use code units. Resolved labels are annotations, original bytes are included.
+:cu_0000  52778d6f                 iget v7, v7, Libe;->$cid I
+:cu_0002  2b07a6010000             packed-switch v7, +00001a6h # target=:cu_01a8 # 0->:cu_01a0, 1->:cu_0199, 2->:cu_0192, 3->:cu_012e, 4->:cu_011f, 5->:cu_00fb, 6->:cu_00ec, 7->:cu_00e5, 8->:cu_00de, 9->:cu_00d7, 10->:cu_00d0, 11->:cu_00b6, 12->:cu_00af, 13->:cu_00a8, 14->:cu_006f, 15->:cu_005e, 16->:cu_0041, 17->:cu_0032, 18->:cu_0023, 19->:cu_0014
+:cu_0005  1f081a22                 check-cast v8, Lhkl;
+:cu_0007  1c076639                 const-class v7, Lqbk;
+:cu_0009  7120413c7800             invoke-static v8, v7, Laooc;->ar(Ljava/lang/Object; Ljava/lang/Class;)Ljava/lang/Object;
+:cu_000c  0c07                     move-result-object v7
+:cu_000d  1f076639                 check-cast v7, Lqbk;
+:cu_000f  72101eee0700             invoke-interface v7, Lqbk;->r()Lajcq;
+:cu_0012  0c07                     move-result-object v7
+:cu_0013  1107                     return-object v7
+:cu_0014  1f081a22                 check-cast v8, Lhkl;
+:cu_0016  1c076639                 const-class v7, Lqbk;
+:cu_0018  7120413c7800             invoke-static v8, v7, Laooc;->ar(Ljava/lang/Object; Ljava/lang/Class;)Ljava/lang/Object;
+:cu_001b  0c07                     move-result-object v7
+:cu_001c  1f076639                 check-cast v7, Lqbk;
+:cu_001e  72101fee0700             invoke-interface v7, Lqbk;->s()Lajcq;
+:cu_0021  0c07                     move-result-object v7
+:cu_0022  1107                     return-object v7
+:cu_0023  1f081a22                 check-cast v8, Lhkl;
+:cu_0025  1c071d37                 const-class v7, Lozy;
+:cu_0027  7120413c7800             invoke-static v8, v7, Laooc;->ar(Ljava/lang/Object; Ljava/lang/Class;)Ljava/lang/Object;
+:cu_002a  0c07                     move-result-object v7
+:cu_002b  1f071d37                 check-cast v7, Lozy;
+:cu_002d  7210a9ea0700             invoke-interface v7, Lozy;->aH()Lajcq;
+:cu_0030  0c07                     move-result-object v7
+:cu_0031  1107                     return-object v7
+:cu_0032  1f081a22                 check-cast v8, Lhkl;
+:cu_0034  1c07d236                 const-class v7, Lova;
+:cu_0036  7120413c7800             invoke-static v8, v7, Laooc;->ar(Ljava/lang/Object; Ljava/lang/Class;)Ljava/lang/Object;
+:cu_0039  0c07                     move-result-object v7
+:cu_003a  1f07d236                 check-cast v7, Lova;
+:cu_003c  721027ea0700             invoke-interface v7, Lova;->S()Lajcq;
+:cu_003f  0c07                     move-result-object v7
+:cu_0040  1107                     return-object v7
+:cu_0041  1f08ca35                 check-cast v8, Loko;
+:cu_0043  38081300                 if-eqz v8, +013h # target=:cu_0056
+:cu_0045  22075935                 new-instance v7, Logf;
+:cu_0047  13000d00                 const/16 v0, 13
+:cu_0049  1201                     const/4 v1, 0
+:cu_004a  705143e48701             invoke-direct v7, v8, v1, v0, v1, Logf;-><init>(Loko; Laoln; I [C)V
+:cu_004d  5488e9b2                 iget-object v8, v8, Loko;->d Laoss;
+:cu_004f  1200                     const/4 v0, 0
+:cu_0050  1231                     const/4 v1, 3
+:cu_0051  7140ed3c0817             invoke-static v8, v0, v7, v1, Laosv;->F(Laoss; I Laonn; I)Lajcq;
+:cu_0054  0c07                     move-result-object v7
+:cu_0055  1107                     return-object v7
+:cu_0056  2207f526                 new-instance v7, Ljava/lang/IllegalStateException;
+:cu_0058  1a080480                 const-string v8, "No telephony instance for SIM"
+:cu_005a  7020b3a28700             invoke-direct v7, v8, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+:cu_005d  2707                     throw v7
+:cu_005e  1f081a22                 check-cast v8, Lhkl;
+:cu_0060  620748b3                 sget-object v7, Lomi;->a Ljava/util/regex/Pattern;
+:cu_0062  1c07f235                 const-class v7, Lomh;
+:cu_0064  7120413c7800             invoke-static v8, v7, Laooc;->ar(Ljava/lang/Object; Ljava/lang/Class;)Ljava/lang/Object;
+:cu_0067  0c07                     move-result-object v7
+:cu_0068  1f07f235                 check-cast v7, Lomh;
+:cu_006a  721006e70700             invoke-interface v7, Lomh;->W()Lajcq;
+:cu_006d  0c07                     move-result-object v7
+:cu_006e  1107                     return-object v7
+:cu_006f  1f086702                 check-cast v8, Lacui;
+:cu_0071  39082800                 if-nez v8, +028h # target=:cu_0099
+:cu_0073  6207e5ae                 sget-object v7, Lnzm;->a Laimz;
+:cu_0075  6e1091140700             invoke-virtual v7, Laimp;->c()Lainm;
+:cu_0078  0c07                     move-result-object v7
+:cu_0079  1f07b907                 check-cast v7, Laimw;
+:cu_007b  6208850b                 sget-object v8, Laioa;->b Laioa;
+:cu_007d  7220aa148700             invoke-interface v7, v8, Laimw;->m(Laioa;)Lainm;
+:cu_0080  0c00                     move-result-object v0
+:cu_0081  1a05cf28                 const-string v5, "EligibilityExpansionRepository.java"
+:cu_0083  620698c6                 sget-object v6, Lzct;->b Lainp;
+:cu_0085  1a01e57f                 const-string v1, "No file group found for Eligibility Expansion."
+:cu_0087  1a0292a1                 const-string v2, "com/android/dialer/eligibilityexpansion/mdd/EligibilityExpansionRepository"
+:cu_0089  1a03dcaf                 const-string v3, "getVersion"
+:cu_008b  13044c00                 const/16 v4, 76
+:cu_008d  770773000000             invoke-static/range v0 ... v6, La;->bI(Lainm; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; C Ljava/lang/String; Lainp;)V
+:cu_0090  7100f1a00000             invoke-static Lj$/util/Optional;->empty()Lj$/util/Optional;
+:cu_0093  0c07                     move-result-object v7
+:cu_0094  71106e150700             invoke-static v7, Laiql;->z(Ljava/lang/Object;)Lajcq;
+:cu_0097  0c07                     move-result-object v7
+:cu_0098  1107                     return-object v7
+:cu_0099  52876a05                 iget v7, v8, Lacui;->f I
+:cu_009b  7110c9a20700             invoke-static v7, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+:cu_009e  0c07                     move-result-object v7
+:cu_009f  7110f8a00700             invoke-static v7, Lj$/util/Optional;->of(Ljava/lang/Object;)Lj$/util/Optional;
+:cu_00a2  0c07                     move-result-object v7
+:cu_00a3  71106e150700             invoke-static v7, Laiql;->z(Ljava/lang/Object;)Lajcq;
+:cu_00a6  0c07                     move-result-object v7
+:cu_00a7  1107                     return-object v7
+:cu_00a8  1f08dc02                 check-cast v8, Ladnj;
+:cu_00aa  7210b1060800             invoke-interface v8, Ladnj;->a()Lajcq;
+:cu_00ad  0c07                     move-result-object v7
+:cu_00ae  1107                     return-object v7
+:cu_00af  1f086d2d                 check-cast v8, Lleu;
+:cu_00b1  7210c9c30800             invoke-interface v8, Lleu;->ap()Lajcq;
+:cu_00b4  0c07                     move-result-object v7
+:cu_00b5  1107                     return-object v7
+:cu_00b6  1f088226                 check-cast v8, Lj$/util/Optional;
+:cu_00b8  2207c823                 new-instance v7, Liaz;
+:cu_00ba  13000c00                 const/16 v0, 12
+:cu_00bc  702064950700             invoke-direct v7, v0, Liaz;-><init>(I)V
+:cu_00bf  6e20fca07800             invoke-virtual v8, v7, Lj$/util/Optional;->orElseThrow(Ljava/util/function/Supplier;)Ljava/lang/Object;
+:cu_00c2  0c07                     move-result-object v7
+:cu_00c3  1f07c623                 check-cast v7, Liax;
+:cu_00c5  16000100                 const-wide/16 v0, 1
+:cu_00c7  712075a01000             invoke-static v0, v1, Lj$/time/Duration;->ofSeconds(J)Lj$/time/Duration;
+:cu_00ca  0c08                     move-result-object v8
+:cu_00cb  6e205d958700             invoke-virtual v7, v8, Liax;->e(Lj$/time/Duration;)Lajcq;
+:cu_00ce  0c07                     move-result-object v7
+:cu_00cf  1107                     return-object v7
+:cu_00d0  1f086223                 check-cast v8, Lhxf;
+:cu_00d2  721090930800             invoke-interface v8, Lhxf;->b()Lajcq;
+:cu_00d5  0c07                     move-result-object v7
+:cu_00d6  1107                     return-object v7
+:cu_00d7  1f086223                 check-cast v8, Lhxf;
+:cu_00d9  721091930800             invoke-interface v8, Lhxf;->c()Lajcq;
+:cu_00dc  0c07                     move-result-object v7
+:cu_00dd  1107                     return-object v7
+:cu_00de  1f08b42c                 check-cast v8, Lkxv;
+:cu_00e0  721080bf0800             invoke-interface v8, Lkxv;->bA()Lajcq;
+:cu_00e3  0c07                     move-result-object v7
+:cu_00e4  1107                     return-object v7
+:cu_00e5  1f086223                 check-cast v8, Lhxf;
+:cu_00e7  721090930800             invoke-interface v8, Lhxf;->b()Lajcq;
+:cu_00ea  0c07                     move-result-object v7
+:cu_00eb  1107                     return-object v7
+:cu_00ec  1f081a22                 check-cast v8, Lhkl;
+:cu_00ee  1c07552c                 const-class v7, Lkuc;
+:cu_00f0  7120413c7800             invoke-static v8, v7, Laooc;->ar(Ljava/lang/Object; Ljava/lang/Class;)Ljava/lang/Object;
+:cu_00f3  0c07                     move-result-object v7
+:cu_00f4  1f07552c                 check-cast v7, Lkuc;
+:cu_00f6  7210cdbd0700             invoke-interface v7, Lkuc;->w()Lajcq;
+:cu_00f9  0c07                     move-result-object v7
+:cu_00fa  1107                     return-object v7
+:cu_00fb  1f088226                 check-cast v8, Lj$/util/Optional;
+:cu_00fd  1217                     const/4 v7, 1
+:cu_00fe  6e10f7a00800             invoke-virtual v8, Lj$/util/Optional;->isPresent()Z
+:cu_0101  0a00                     move-result v0
+:cu_0102  33071000                 if-ne v7, v0, +010h # target=:cu_0112
+:cu_0104  6e10f3a00800             invoke-virtual v8, Lj$/util/Optional;->get()Ljava/lang/Object;
+:cu_0107  0c07                     move-result-object v7
+:cu_0108  1f07a544                 check-cast v7, Lzzx;
+:cu_010a  6e107aff0700             invoke-virtual v7, Lzzx;->r()Lajcq;
+:cu_010d  0c07                     move-result-object v7
+:cu_010e  7110f9a00700             invoke-static v7, Lj$/util/Optional;->ofNullable(Ljava/lang/Object;)Lj$/util/Optional;
+:cu_0111  0c08                     move-result-object v8
+:cu_0112  620753c4                 sget-object v7, Lwgi;->a Lwgi;
+:cu_0114  71106e150700             invoke-static v7, Laiql;->z(Ljava/lang/Object;)Lajcq;
+:cu_0117  0c07                     move-result-object v7
+:cu_0118  6e20faa07800             invoke-virtual v8, v7, Lj$/util/Optional;->orElse(Ljava/lang/Object;)Ljava/lang/Object;
+:cu_011b  0c07                     move-result-object v7
+:cu_011c  1f07c808                 check-cast v7, Lajcq;
+:cu_011e  1107                     return-object v7
+:cu_011f  1f081a22                 check-cast v8, Lhkl;
+:cu_0121  1c07282a                 const-class v7, Ljwc;
+:cu_0123  7120413c7800             invoke-static v8, v7, Laooc;->ar(Ljava/lang/Object; Ljava/lang/Class;)Ljava/lang/Object;
+:cu_0126  0c07                     move-result-object v7
+:cu_0127  1f07282a                 check-cast v7, Ljwc;
+:cu_0129  7210b3b30700             invoke-interface v7, Ljwc;->be()Lajcq;
+:cu_012c  0c07                     move-result-object v7
+:cu_012d  2879                     goto +79h # target=:cu_01a6
+:cu_012e  1f088226                 check-cast v8, Lj$/util/Optional;
+:cu_0130  6e10f7a00800             invoke-virtual v8, Lj$/util/Optional;->isPresent()Z
+:cu_0133  0a07                     move-result v7
+:cu_0134  1a00cde1                 const-string v0, "updateModelAndPropagate"
+:cu_0136  1a01599f                 const-string v1, "com/android/dialer/audio/impl/tidepods/AudioAvailableCallAttributesUpdatePropagator"
+:cu_0138  1a02141c                 const-string v2, "AudioAvailableCallAttributesUpdatePropagator.java"
+:cu_013a  39072000                 if-nez v7, +020h # target=:cu_015a
+:cu_013c  6207b66f                 sget-object v7, Libs;->a Laimz;
+:cu_013e  6e1090140700             invoke-virtual v7, Laimp;->b()Lainm;
+:cu_0141  0c07                     move-result-object v7
+:cu_0142  1f07b907                 check-cast v7, Laimw;
+:cu_0144  13087600                 const/16 v8, 118
+:cu_0146  7252a9141780             invoke-interface v7, v1, v0, v8, v2, Laimw;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_0149  0c07                     move-result-object v7
+:cu_014a  1f07b907                 check-cast v7, Laimw;
+:cu_014c  1a08bfd0                 const-string v8, "no active call scope present"
+:cu_014e  7220ac148700             invoke-interface v7, v8, Laimw;->v(Ljava/lang/String;)V
+:cu_0151  7100f1a00000             invoke-static Lj$/util/Optional;->empty()Lj$/util/Optional;
+:cu_0154  0c07                     move-result-object v7
+:cu_0155  71106e150700             invoke-static v7, Laiql;->z(Ljava/lang/Object;)Lajcq;
+:cu_0158  0c07                     move-result-object v7
+:cu_0159  284d                     goto +4dh # target=:cu_01a6
+:cu_015a  6207b66f                 sget-object v7, Libs;->a Laimz;
+:cu_015c  6e1090140700             invoke-virtual v7, Laimp;->b()Lainm;
+:cu_015f  0c07                     move-result-object v7
+:cu_0160  1f07b907                 check-cast v7, Laimw;
+:cu_0162  13037a00                 const/16 v3, 122
+:cu_0164  7252a9141730             invoke-interface v7, v1, v0, v3, v2, Laimw;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_0167  0c07                     move-result-object v7
+:cu_0168  1f07b907                 check-cast v7, Laimw;
+:cu_016a  1a0079d9                 const-string v0, "retrieving call attributes from active call scope"
+:cu_016c  7220ac140700             invoke-interface v7, v0, Laimw;->v(Ljava/lang/String;)V
+:cu_016f  6e10fba00800             invoke-virtual v8, Lj$/util/Optional;->orElseThrow()Ljava/lang/Object;
+:cu_0172  0c07                     move-result-object v7
+:cu_0173  1f07b412                 check-cast v7, Lapqr;
+:cu_0175  1c08da23                 const-class v8, Libq;
+:cu_0177  6e209f3d8700             invoke-virtual v7, v8, Lapqr;->a(Ljava/lang/Class;)Ljava/lang/Object;
+:cu_017a  0c07                     move-result-object v7
+:cu_017b  1f07da23                 check-cast v7, Libq;
+:cu_017d  7210a2950700             invoke-interface v7, Libq;->lD()Lafpl;
+:cu_0180  0c07                     move-result-object v7
+:cu_0181  6e10ff090700             invoke-virtual v7, Lafpl;->Y()Lhkl;
+:cu_0184  0c07                     move-result-object v7
+:cu_0185  1c08db23                 const-class v8, Libr;
+:cu_0187  7120413c8700             invoke-static v7, v8, Laooc;->ar(Ljava/lang/Object; Ljava/lang/Class;)Ljava/lang/Object;
+:cu_018a  0c07                     move-result-object v7
+:cu_018b  1f07db23                 check-cast v7, Libr;
+:cu_018d  7210a3950700             invoke-interface v7, Libr;->o()Lajcq;
+:cu_0190  0c07                     move-result-object v7
+:cu_0191  2815                     goto +15h # target=:cu_01a6
+:cu_0192  1f086223                 check-cast v8, Lhxf;
+:cu_0194  72108f930800             invoke-interface v8, Lhxf;->a()Lajcq;
+:cu_0197  0c07                     move-result-object v7
+:cu_0198  280e                     goto +eh # target=:cu_01a6
+:cu_0199  1f086223                 check-cast v8, Lhxf;
+:cu_019b  721091930800             invoke-interface v8, Lhxf;->c()Lajcq;
+:cu_019e  0c07                     move-result-object v7
+:cu_019f  2807                     goto +7h # target=:cu_01a6
+:cu_01a0  1f086223                 check-cast v8, Lhxf;
+:cu_01a2  721090930800             invoke-interface v8, Lhxf;->b()Lajcq;
+:cu_01a5  0c07                     move-result-object v7
+:cu_01a6  1107                     return-object v7
+:cu_01a7  0000                     nop 
+:cu_01a8  00011400000000009e01000097010000900100002c0100001d010000f9000000ea000000e3000000dc000000d5000000ce000000b4000000ad000000a60000006d0000005c0000003f000000300000002100000012000000 packed-switch-payload 0 1 2 3 4 5 6 7 8 9 a b c d e f 10 11 12 13 # payload keys=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19] relative_targets=[414, 407, 400, 300, 285, 249, 234, 227, 220, 213, 206, 180, 173, 166, 109, 92, 63, 48, 33, 18]
+# Exception table: starts inclusive, ends exclusive; handler offsets are bytes from encoded_catch_handler_list.
+# no exception handlers

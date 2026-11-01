@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="call_recording_disclaimer_agreen_button_text">Start recording</string>
+<string name="call_recording_disclaimer_content">You or the other person in your call might be somewhere that requires everyone to consent to being recorded. Everyone will be notified ahead of time that the call is being recorded. It's up to you to follow laws about recording conversations. Use call recording responsibly and turn it on only when needed.
+^1
+
+Recordings are stored only on your phone. </string>
+<string name="call_recording_disclaimer_title">Record call?</string>
+<string name="call_recording_ending_voice">Call recording has now ended</string>
+<string name="call_recording_starting_voice">This call is now being recorded</string>
+<string name="use_beep_sound_terms_dialog_content">When you record a call, both parties are notified when a call recording starts and ends. You may choose to replace the audio notification with an audio tone (beep). However, if you choose to use the audio tone, you agree to comply with all local laws and regulations related to recording phone conversations, including privacy rights of the individuals involved, and that Google will not be responsible for any violation of law resulting from your actions.</string>
+<string name="use_beep_sound_terms_dialog_negative_button">Do not agree</string>
+<string name="use_beep_sound_terms_dialog_positive_button">Agree</string>
+<string name="use_beep_sound_terms_dialog_title">Recording Consent</string>
+<string name="use_beep_sound_toggle_key">use_beep_sound_toggle_key</string>
+<string name="use_beep_sound_toggle_title">Play audio tone instead of disclaimer</string>
+</resources>

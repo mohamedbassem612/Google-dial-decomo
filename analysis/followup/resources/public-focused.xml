@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><public type="raw" name="ending_voice_ar_XA" id="0x7f13003e"/>
+<public type="raw" name="ending_voice_beep_sound" id="0x7f13003f"/>
+<public type="raw" name="ending_voice_my_MM" id="0x7f130040"/>
+<public type="raw" name="starting_voice_ar_XA" id="0x7f13005c"/>
+<public type="raw" name="starting_voice_beep_sound" id="0x7f13005d"/>
+<public type="raw" name="starting_voice_my_MM" id="0x7f13005e"/>
+<public type="string" name="call_recording_disclaimer_agreen_button_text" id="0x7f140259"/>
+<public type="string" name="call_recording_disclaimer_content" id="0x7f14025a"/>
+<public type="string" name="call_recording_disclaimer_title" id="0x7f14025b"/>
+<public type="string" name="call_recording_ending_voice" id="0x7f14025c"/>
+<public type="string" name="call_recording_starting_voice" id="0x7f140266"/>
+<public type="string" name="use_beep_sound_terms_dialog_content" id="0x7f140db7"/>
+<public type="string" name="use_beep_sound_terms_dialog_negative_button" id="0x7f140db8"/>
+<public type="string" name="use_beep_sound_terms_dialog_positive_button" id="0x7f140db9"/>
+<public type="string" name="use_beep_sound_terms_dialog_title" id="0x7f140dba"/>
+<public type="string" name="use_beep_sound_toggle_key" id="0x7f140dbb"/>
+<public type="string" name="use_beep_sound_toggle_title" id="0x7f140dbc"/>
+</resources>

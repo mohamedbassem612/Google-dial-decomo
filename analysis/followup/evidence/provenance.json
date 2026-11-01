@@ -1,0 +1,30 @@
+{
+  "apk_path": "/workspace/google-phone-analysis-244/GooglePhone_244.0.1001930441_arm64.apk",
+  "apk_size": 84773759,
+  "apk_sha256": "0ae5ba4f0f68ac200d1cf6e37b9685e57149b27ba9901d1879b133ddc4af53a0",
+  "expected_sha256": "0ae5ba4f0f68ac200d1cf6e37b9685e57149b27ba9901d1879b133ddc4af53a0",
+  "hash_matches": true,
+  "rea_version": "6.8.0",
+  "jadx_headless_mcp_version": "0.7.1",
+  "jadx_core_getVersion": "dev",
+  "jadx_jar_sha256": "6e5eacf500b64292bfb73c49797c1958f6ee44646e43e868039ae7feb573ff75",
+  "engine_source_revision": "5844800a486d2248fa949b74c9896285f5b54de2",
+  "REA_JADX_HEAP_MIB": 4096,
+  "REA_JADX_OPERATION_TIMEOUT_MS": 600000,
+  "worker_count": 1,
+  "bridge_default_decompile_timeout_ms": 90000,
+  "resource_mode": "full",
+  "code_cache_size": 64,
+  "smali_fallback": true,
+  "java_version": "OpenJDK 21.0.12.1",
+  "mapping_path": null,
+  "existing_export_jadx_version": "1.5.6",
+  "existing_export_settings": [
+    "--no-res",
+    "--no-imports",
+    "per-DEX"
+  ],
+  "project_instructions": "No AGENTS.md at /, /workspace, repo root, or nested within repository. Root README read; existing output limitations retained.",
+  "apk_modified": false,
+  "max_source_bytes": 1048576
+}

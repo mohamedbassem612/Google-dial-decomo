@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="call_recording_disclaimer_agreen_button_text">بدء التسجيل</string>
+<string name="call_recording_disclaimer_content">‏يُحتمَل أنّك أنت أو الطرف الآخر من المكالمة في مكان يتطلّب موافقة كلا الطرفَين على تسجيل المكالمة. سيتم إشعار طرفَي المكالمة مسبقًا بأنّه يتم تسجيل المكالمة. عليك اتّباع القوانين المتعلّقة بتسجيل المحادثات. ويجب استخدام ميزة تسجيل المكالمات بشكل مسؤول وعدم تفعيل هذه الميزة إلا عند الضرورة.
+^1‏
+
+يتم تخزين التسجيلات على هاتفك فقط.</string>
+<string name="call_recording_disclaimer_title">تسجيل المكالمة؟</string>
+<string name="call_recording_ending_voice">لقد انتهى تسجيل المكالمة الآن.</string>
+<string name="call_recording_starting_voice">يجري الآن تسجيل هذه المكالمة.</string>
+<string name="use_beep_sound_terms_dialog_content">‏عند تسجيل مكالمة، يتم إرسال إشعار إلى كلا الطرفين عند بدء تسجيل المكالمة وانتهائه. يمكنك استبدال الإشعار الصوتي بنغمة صوتية (إشارة صوتية). ومع ذلك، إذا اخترت استخدام النغمة الصوتية، يعني هذا موافقتك على الالتزام بجميع القوانين واللوائح المحلية المتعلّقة بتسجيل المحادثات الهاتفية، بما في ذلك حقوق الخصوصية للأفراد المعنيّين، وأنّ Google لن تكون مسؤولة عن أي انتهاك للقانون ينتج عن إجراءاتك.</string>
+<string name="use_beep_sound_terms_dialog_negative_button">لا أوافق</string>
+<string name="use_beep_sound_terms_dialog_positive_button">أوافق</string>
+<string name="use_beep_sound_terms_dialog_title">الموافقة على التسجيل</string>
+<string name="use_beep_sound_toggle_title">تشغيل نغمة صوتية بدلاً من بيان إخلاء المسؤولية</string>
+</resources>

@@ -1,0 +1,563 @@
+# Lksy;->b(Ljava/lang/Object;)Ljava/lang/Object;
+# APK sha256=0ae5ba4f0f68ac200d1cf6e37b9685e57149b27ba9901d1879b133ddc4af53a0
+# classes2.dex sha256=d03f8c27d5638dd594007b49a19c8bbf2487287e03ebafd71149e1b7e762f179
+# code_item file offset=0x57f540 byte length=2414
+# registers=11 incoming_words=2 outgoing_words=5 insns_size=1146 code_units
+# Every instruction/payload is listed; label suffixes use code units. Resolved labels are annotations, original bytes are included.
+:cu_0000  5290f689                 iget v0, v9, Lksy;->$cid I
+:cu_0002  1221                     const/4 v1, 2
+:cu_0003  1202                     const/4 v2, 0
+:cu_0004  13031f00                 const/16 v3, 31
+:cu_0006  13040e00                 const/16 v4, 14
+:cu_0008  1a0591aa                 const-string v5, "getAbsolutePath(...)"
+:cu_000a  1206                     const/4 v6, 0
+:cu_000b  1217                     const/4 v7, 1
+:cu_000c  2b0042040000             packed-switch v0, +0000442h # target=:cu_044e # 0->:cu_03b6, 1->:cu_0396, 2->:cu_0378, 3->:cu_0358, 4->:cu_031b, 5->:cu_02de, 6->:cu_029f, 7->:cu_0260, 8->:cu_0239, 9->:cu_020b, 10->:cu_01e3, 11->:cu_01cc, 12->:cu_01ae, 13->:cu_0160, 14->:cu_0145, 15->:cu_0126, 16->:cu_0101, 17->:cu_00dc, 18->:cu_00c0, 19->:cu_001c
+:cu_000f  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_0011  5292f789                 iget v2, v9, Lksy;->a I
+:cu_0013  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_0016  38020504                 if-eqz v2, +405h # target=:cu_041b
+:cu_0018  32721204                 if-eq v2, v7, +412h # target=:cu_042a
+:cu_001a  076a                     move-object v10, v6
+:cu_001b  110a                     return-object v10
+:cu_001c  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_001e  5292f789                 iget v2, v9, Lksy;->a I
+:cu_0020  1a0410ab                 const-string v4, "getBondedBluetoothDevices$<anonymous>"
+:cu_0022  1a05eaa0                 const-string v5, "com/android/dialer/contactchecker/remote/WearDeviceCoordinator"
+:cu_0024  1a062d94                 const-string v6, "WearDeviceCoordinator.kt"
+:cu_0026  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_0029  38020500                 if-eqz v2, +005h # target=:cu_002e
+:cu_002b  32721500                 if-eq v2, v7, +015h # target=:cu_0040
+:cu_002d  2843                     goto +43h # target=:cu_0070
+:cu_002e  600ad517                 sget v10, Landroid/os/Build$VERSION;->SDK_INT I
+:cu_0030  353a2e00                 if-ge v10, v3, +02eh # target=:cu_005e
+:cu_0032  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_0034  5997f789                 iput v7, v9, Lksy;->a I
+:cu_0036  1f0afe2e                 check-cast v10, Llum;
+:cu_0038  54aa4994                 iget-object v10, v10, Llum;->c Lzrw;
+:cu_003a  6e2024ff9a00             invoke-virtual v10, v9, Lzrw;->h(Laoln;)Ljava/lang/Object;
+:cu_003d  0c0a                     move-result-object v10
+:cu_003e  320a0e04                 if-eq v10, v0, +40eh # target=:cu_044c
+:cu_0040  1f0ae026                 check-cast v10, Ljava/lang/Boolean;
+:cu_0042  6e1045a20a00             invoke-virtual v10, Ljava/lang/Boolean;->booleanValue()Z
+:cu_0045  0a0a                     move-result v10
+:cu_0046  390a1800                 if-nez v10, +018h # target=:cu_005e
+:cu_0048  62094794                 sget-object v9, Llum;->a Laimz;
+:cu_004a  6e1090140900             invoke-virtual v9, Laimp;->b()Lainm;
+:cu_004d  0c09                     move-result-object v9
+:cu_004e  130a4400                 const/16 v10, 68
+:cu_0050  7256be1459a4             invoke-interface v9, v5, v4, v10, v6, Lainm;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_0053  0c09                     move-result-object v9
+:cu_0054  1f09b907                 check-cast v9, Laimw;
+:cu_0056  1a0a3c27                 const-string v10, "Does not have BLUETOOTH permission required to get bonded device info for Android below S."
+:cu_0058  7220ac14a900             invoke-interface v9, v10, Laimw;->v(Ljava/lang/String;)V
+:cu_005b  620a5b1f                 sget-object v10, Laoke;->a Laoke;
+:cu_005d  110a                     return-object v10
+:cu_005e  600ad517                 sget v10, Landroid/os/Build$VERSION;->SDK_INT I
+:cu_0060  343a2e00                 if-lt v10, v3, +02eh # target=:cu_008e
+:cu_0062  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_0064  5991f789                 iput v1, v9, Lksy;->a I
+:cu_0066  1f0afe2e                 check-cast v10, Llum;
+:cu_0068  54aa4994                 iget-object v10, v10, Llum;->c Lzrw;
+:cu_006a  6e2025ff9a00             invoke-virtual v10, v9, Lzrw;->i(Laoln;)Ljava/lang/Object;
+:cu_006d  0c0a                     move-result-object v10
+:cu_006e  320ade03                 if-eq v10, v0, +3deh # target=:cu_044c
+:cu_0070  1f0ae026                 check-cast v10, Ljava/lang/Boolean;
+:cu_0072  6e1045a20a00             invoke-virtual v10, Ljava/lang/Boolean;->booleanValue()Z
+:cu_0075  0a0a                     move-result v10
+:cu_0076  390a1800                 if-nez v10, +018h # target=:cu_008e
+:cu_0078  62094794                 sget-object v9, Llum;->a Laimz;
+:cu_007a  6e1090140900             invoke-virtual v9, Laimp;->b()Lainm;
+:cu_007d  0c09                     move-result-object v9
+:cu_007e  130a4d00                 const/16 v10, 77
+:cu_0080  7256be1459a4             invoke-interface v9, v5, v4, v10, v6, Lainm;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_0083  0c09                     move-result-object v9
+:cu_0084  1f09b907                 check-cast v9, Laimw;
+:cu_0086  1a0a3d27                 const-string v10, "Does not have BLUETOOTH_CONNECT permission required to get bonded device info."
+:cu_0088  7220ac14a900             invoke-interface v9, v10, Laimw;->v(Ljava/lang/String;)V
+:cu_008b  620a5b1f                 sget-object v10, Laoke;->a Laoke;
+:cu_008d  110a                     return-object v10
+:cu_008e  5499f889                 iget-object v9, v9, Lksy;->b Ljava/lang/Object;
+:cu_0090  1f09fe2e                 check-cast v9, Llum;
+:cu_0092  54994894                 iget-object v9, v9, Llum;->b Landroid/content/Context;
+:cu_0094  1c0a3f0d                 const-class v10, Landroid/bluetooth/BluetoothManager;
+:cu_0096  6e20e621a900             invoke-virtual v9, v10, Landroid/content/Context;->getSystemService(Ljava/lang/Class;)Ljava/lang/Object;
+:cu_0099  0c09                     move-result-object v9
+:cu_009a  1f093f0d                 check-cast v9, Landroid/bluetooth/BluetoothManager;
+:cu_009c  6e109c210900             invoke-virtual v9, Landroid/bluetooth/BluetoothManager;->getAdapter()Landroid/bluetooth/BluetoothAdapter;
+:cu_009f  0c09                     move-result-object v9
+:cu_00a0  38091d00                 if-eqz v9, +01dh # target=:cu_00bd
+:cu_00a2  6e1099210900             invoke-virtual v9, Landroid/bluetooth/BluetoothAdapter;->getBondedDevices()Ljava/util/Set;
+:cu_00a5  0c0a                     move-result-object v10
+:cu_00a6  390aa703                 if-nez v10, +3a7h # target=:cu_044d
+:cu_00a8  62094794                 sget-object v9, Llum;->a Laimz;
+:cu_00aa  6e1090140900             invoke-virtual v9, Laimp;->b()Lainm;
+:cu_00ad  0c09                     move-result-object v9
+:cu_00ae  1a0a11ab                 const-string v10, "getBondedBluetoothDevices$<anonymous>$<anonymous>"
+:cu_00b0  13005500                 const/16 v0, 85
+:cu_00b2  7256be14590a             invoke-interface v9, v5, v10, v0, v6, Lainm;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_00b5  0c09                     move-result-object v9
+:cu_00b6  1f09b907                 check-cast v9, Laimw;
+:cu_00b8  1a0a0f22                 const-string v10, "Cannot fetch bonded devices."
+:cu_00ba  7220ac14a900             invoke-interface v9, v10, Laimw;->v(Ljava/lang/String;)V
+:cu_00bd  620a5b1f                 sget-object v10, Laoke;->a Laoke;
+:cu_00bf  110a                     return-object v10
+:cu_00c0  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_00c2  5291f789                 iget v1, v9, Lksy;->a I
+:cu_00c4  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_00c7  39011200                 if-nez v1, +012h # target=:cu_00d9
+:cu_00c9  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_00cb  1f0af82e                 check-cast v10, Llug;
+:cu_00cd  54aa2b94                 iget-object v10, v10, Llug;->d Lzfu;
+:cu_00cf  380a0a00                 if-eqz v10, +00ah # target=:cu_00d9
+:cu_00d1  5997f789                 iput v7, v9, Lksy;->a I
+:cu_00d3  6e2020fe9a00             invoke-virtual v10, v9, Lzfu;->a(Laoln;)Ljava/lang/Object;
+:cu_00d6  0c09                     move-result-object v9
+:cu_00d7  32097503                 if-eq v9, v0, +375h # target=:cu_044c
+:cu_00d9  620a561f                 sget-object v10, Laojh;->a Laojh;
+:cu_00db  110a                     return-object v10
+:cu_00dc  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_00de  5291f789                 iget v1, v9, Lksy;->a I
+:cu_00e0  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_00e3  39011400                 if-nez v1, +014h # target=:cu_00f7
+:cu_00e5  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_00e7  1f0aca2e                 check-cast v10, Llsn;
+:cu_00e9  55a1b093                 iget-boolean v1, v10, Llsn;->s Z
+:cu_00eb  39011300                 if-nez v1, +013h # target=:cu_00fe
+:cu_00ed  54aaa193                 iget-object v10, v10, Llsn;->d Llug;
+:cu_00ef  5997f789                 iput v7, v9, Lksy;->a I
+:cu_00f1  6e2055ca9a00             invoke-virtual v10, v9, Llug;->c(Laoln;)Ljava/lang/Object;
+:cu_00f4  0c0a                     move-result-object v10
+:cu_00f5  320a5703                 if-eq v10, v0, +357h # target=:cu_044c
+:cu_00f7  5499f889                 iget-object v9, v9, Lksy;->b Ljava/lang/Object;
+:cu_00f9  1f09ca2e                 check-cast v9, Llsn;
+:cu_00fb  7110afc90900             invoke-static v9, Llsn;->l(Llsn;)V
+:cu_00fe  620a561f                 sget-object v10, Laojh;->a Laojh;
+:cu_0100  110a                     return-object v10
+:cu_0101  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_0103  5291f789                 iget v1, v9, Lksy;->a I
+:cu_0105  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_0108  39011400                 if-nez v1, +014h # target=:cu_011c
+:cu_010a  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_010c  1f0aca2e                 check-cast v10, Llsn;
+:cu_010e  55a1b093                 iget-boolean v1, v10, Llsn;->s Z
+:cu_0110  39011300                 if-nez v1, +013h # target=:cu_0123
+:cu_0112  54aaa193                 iget-object v10, v10, Llsn;->d Llug;
+:cu_0114  5997f789                 iput v7, v9, Lksy;->a I
+:cu_0116  6e2055ca9a00             invoke-virtual v10, v9, Llug;->c(Laoln;)Ljava/lang/Object;
+:cu_0119  0c0a                     move-result-object v10
+:cu_011a  320a3203                 if-eq v10, v0, +332h # target=:cu_044c
+:cu_011c  5499f889                 iget-object v9, v9, Lksy;->b Ljava/lang/Object;
+:cu_011e  1f09ca2e                 check-cast v9, Llsn;
+:cu_0120  7110afc90900             invoke-static v9, Llsn;->l(Llsn;)V
+:cu_0123  620a561f                 sget-object v10, Laojh;->a Laojh;
+:cu_0125  110a                     return-object v10
+:cu_0126  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_0128  5291f789                 iget v1, v9, Lksy;->a I
+:cu_012a  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_012d  39010c00                 if-nez v1, +00ch # target=:cu_0139
+:cu_012f  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_0131  5997f789                 iput v7, v9, Lksy;->a I
+:cu_0133  7220a4909a00             invoke-interface v10, v9, Lhrb;->b(Laoln;)Ljava/lang/Object;
+:cu_0136  0c0a                     move-result-object v10
+:cu_0137  320a1503                 if-eq v10, v0, +315h # target=:cu_044c
+:cu_0139  1f0ae026                 check-cast v10, Ljava/lang/Boolean;
+:cu_013b  6e1045a20a00             invoke-virtual v10, Ljava/lang/Boolean;->booleanValue()Z
+:cu_013e  0a09                     move-result v9
+:cu_013f  b779                     xor-int/2addr v9, v7
+:cu_0140  71104aa20900             invoke-static v9, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+:cu_0143  0c0a                     move-result-object v10
+:cu_0144  110a                     return-object v10
+:cu_0145  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_0147  5291f789                 iget v1, v9, Lksy;->a I
+:cu_0149  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_014c  39010103                 if-nez v1, +301h # target=:cu_044d
+:cu_014e  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_0150  5997f789                 iput v7, v9, Lksy;->a I
+:cu_0152  1f0a233c                 check-cast v10, Lrsr;
+:cu_0154  54aa55be                 iget-object v10, v10, Lrsr;->b Ljava/lang/Object;
+:cu_0156  1f0a6d20                 check-cast v10, Lgpd;
+:cu_0158  6e20087d9a00             invoke-virtual v10, v9, Lgpd;->k(Laoln;)Ljava/lang/Object;
+:cu_015b  0c0a                     move-result-object v10
+:cu_015c  330af102                 if-ne v10, v0, +2f1h # target=:cu_044d
+:cu_015e  2900ee02                 goto/16 +2eeh # target=:cu_044c
+:cu_0160  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_0162  5291f789                 iget v1, v9, Lksy;->a I
+:cu_0164  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_0167  39011200                 if-nez v1, +012h # target=:cu_0179
+:cu_0169  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_016b  5997f789                 iput v7, v9, Lksy;->a I
+:cu_016d  1f0a233c                 check-cast v10, Lrsr;
+:cu_016f  54aa55be                 iget-object v10, v10, Lrsr;->b Ljava/lang/Object;
+:cu_0171  1f0a6d20                 check-cast v10, Lgpd;
+:cu_0173  6e20097d9a00             invoke-virtual v10, v9, Lgpd;->l(Laoln;)Ljava/lang/Object;
+:cu_0176  0c0a                     move-result-object v10
+:cu_0177  320ad502                 if-eq v10, v0, +2d5h # target=:cu_044c
+:cu_0179  1f0a9627                 check-cast v10, Ljava/util/Map;
+:cu_017b  22098e27                 new-instance v9, Ljava/util/LinkedHashMap;
+:cu_017d  7210d0a50a00             invoke-interface v10, Ljava/util/Map;->size()I
+:cu_0180  0a00                     move-result v0
+:cu_0181  7110e71b0000             invoke-static v0, Lajsz;->aL(I)I
+:cu_0184  0a00                     move-result v0
+:cu_0185  70208ba50900             invoke-direct v9, v0, Ljava/util/LinkedHashMap;-><init>(I)V
+:cu_0188  7210c7a50a00             invoke-interface v10, Ljava/util/Map;->entrySet()Ljava/util/Set;
+:cu_018b  0c0a                     move-result-object v10
+:cu_018c  7210cca20a00             invoke-interface v10, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+:cu_018f  0c0a                     move-result-object v10
+:cu_0190  721087a50a00             invoke-interface v10, Ljava/util/Iterator;->hasNext()Z
+:cu_0193  0a00                     move-result v0
+:cu_0194  38001800                 if-eqz v0, +018h # target=:cu_01ac
+:cu_0196  721088a50a00             invoke-interface v10, Ljava/util/Iterator;->next()Ljava/lang/Object;
+:cu_0199  0c00                     move-result-object v0
+:cu_019a  1f009527                 check-cast v0, Ljava/util/Map$Entry;
+:cu_019c  7210c1a50000             invoke-interface v0, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+:cu_019f  0c01                     move-result-object v1
+:cu_01a0  7210c2a50000             invoke-interface v0, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+:cu_01a3  0c00                     move-result-object v0
+:cu_01a4  1f00da2e                 check-cast v0, Lltc;
+:cu_01a6  5400d493                 iget-object v0, v0, Lltc;->b Lltj;
+:cu_01a8  7230cda51900             invoke-interface v9, v1, v0, Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+:cu_01ab  28e5                     goto -1bh # target=:cu_0190
+:cu_01ac  079a                     move-object v10, v9
+:cu_01ad  110a                     return-object v10
+:cu_01ae  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_01b0  5291f789                 iget v1, v9, Lksy;->a I
+:cu_01b2  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_01b5  39019802                 if-nez v1, +298h # target=:cu_044d
+:cu_01b7  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_01b9  5997f789                 iput v7, v9, Lksy;->a I
+:cu_01bb  22014f3e                 new-instance v1, Ltmm;
+:cu_01bd  1f0aa92e                 check-cast v10, Llrh;
+:cu_01bf  704013f6a176             invoke-direct v1, v10, v6, v7, Ltmm;-><init>(Llrh; Laoln; I)V
+:cu_01c2  54aa3593                 iget-object v10, v10, Llrh;->b Laolr;
+:cu_01c4  7130923c1a09             invoke-static v10, v1, v9, Laoov;->aj(Laolr; Laonn; Laoln;)Ljava/lang/Object;
+:cu_01c7  0c0a                     move-result-object v10
+:cu_01c8  330a8502                 if-ne v10, v0, +285h # target=:cu_044d
+:cu_01ca  29008202                 goto/16 +282h # target=:cu_044c
+:cu_01cc  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_01ce  5291f789                 iget v1, v9, Lksy;->a I
+:cu_01d0  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_01d3  39017a02                 if-nez v1, +27ah # target=:cu_044d
+:cu_01d5  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_01d7  5997f789                 iput v7, v9, Lksy;->a I
+:cu_01d9  1f0aa92e                 check-cast v10, Llrh;
+:cu_01db  6e204ac99a00             invoke-virtual v10, v9, Llrh;->c(Laoln;)Ljava/lang/Object;
+:cu_01de  0c0a                     move-result-object v10
+:cu_01df  330a6e02                 if-ne v10, v0, +26eh # target=:cu_044d
+:cu_01e1  29006b02                 goto/16 +26bh # target=:cu_044c
+:cu_01e3  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_01e5  5291f789                 iget v1, v9, Lksy;->a I
+:cu_01e7  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_01ea  39016302                 if-nez v1, +263h # target=:cu_044d
+:cu_01ec  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_01ee  5997f789                 iput v7, v9, Lksy;->a I
+:cu_01f0  2201a529                 new-instance v1, Ljrb;
+:cu_01f2  1f0abf28                 check-cast v10, Ljig;
+:cu_01f4  54aa9d7d                 iget-object v10, v10, Ljig;->b Ljava/lang/Object;
+:cu_01f6  1f0aa42e                 check-cast v10, Llrc;
+:cu_01f8  704055b0a146             invoke-direct v1, v10, v6, v4, Ljrb;-><init>(Llrc; Laoln; I)V
+:cu_01fb  54a22393                 iget-object v2, v10, Llrc;->a Laoss;
+:cu_01fd  54aa2993                 iget-object v10, v10, Llrc;->g Lahda;
+:cu_01ff  7130290ea201             invoke-static v2, v10, v1, Lahvr;->ag(Laoss; Lahda; Laonn;)Laosy;
+:cu_0202  0c0a                     move-result-object v10
+:cu_0203  7220f63c9a00             invoke-interface v10, v9, Laosy;->a(Laoln;)Ljava/lang/Object;
+:cu_0206  0c0a                     move-result-object v10
+:cu_0207  330a4602                 if-ne v10, v0, +246h # target=:cu_044d
+:cu_0209  29004302                 goto/16 +243h # target=:cu_044c
+:cu_020b  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_020d  5291f789                 iget v1, v9, Lksy;->a I
+:cu_020f  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_0212  39012400                 if-nez v1, +024h # target=:cu_0236
+:cu_0214  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_0216  22017815                 new-instance v1, Lbug;
+:cu_0218  1f0a662e                 check-cast v10, Lloi;
+:cu_021a  1233                     const/4 v3, 3
+:cu_021b  7040ff47a136             invoke-direct v1, v10, v6, v3, Lbug;-><init>(Lloi; Laoln; I)V
+:cu_021e  2203a61f                 new-instance v3, Lgdc;
+:cu_0220  54a45c92                 iget-object v4, v10, Lloi;->j Llon;
+:cu_0222  54448392                 iget-object v4, v4, Llon;->c Laoxh;
+:cu_0224  13050800                 const/16 v5, 8
+:cu_0226  704070794351             invoke-direct v3, v4, v1, v5, Lgdc;-><init>(Ljava/lang/Object; Ljava/lang/Object; I)V
+:cu_0229  2201622e                 new-instance v1, Lloe;
+:cu_022b  704045c8a126             invoke-direct v1, v10, v6, v2, Lloe;-><init>(Lloi; Laoln; I)V
+:cu_022e  5997f789                 iput v7, v9, Lksy;->a I
+:cu_0230  7130893c1309             invoke-static v3, v1, v9, Laoov;->aF(Laoxh; Laonn; Laoln;)Ljava/lang/Object;
+:cu_0233  0c09                     move-result-object v9
+:cu_0234  32091802                 if-eq v9, v0, +218h # target=:cu_044c
+:cu_0236  620a561f                 sget-object v10, Laojh;->a Laojh;
+:cu_0238  110a                     return-object v10
+:cu_0239  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_023b  5291f789                 iget v1, v9, Lksy;->a I
+:cu_023d  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_0240  39011200                 if-nez v1, +012h # target=:cu_0252
+:cu_0242  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_0244  1f0ad111                 check-cast v10, Laogc;
+:cu_0246  6e109b3b0a00             invoke-virtual v10, Laogc;->aX()Lajcq;
+:cu_0249  0c0a                     move-result-object v10
+:cu_024a  5997f789                 iput v7, v9, Lksy;->a I
+:cu_024c  7120ec3c9a00             invoke-static v10, v9, Laosv;->D(Lajcq; Laoln;)Ljava/lang/Object;
+:cu_024f  0c0a                     move-result-object v10
+:cu_0250  320afc01                 if-eq v10, v0, +1fch # target=:cu_044c
+:cu_0252  1f0a602c                 check-cast v10, Lkun;
+:cu_0254  6209788a                 sget-object v9, Lkun;->b Lkun;
+:cu_0256  339a0300                 if-ne v10, v9, +003h # target=:cu_0259
+:cu_0258  0172                     move v2, v7
+:cu_0259  1a09501f                 const-string v9, "CALL_RECORDING_DISCLOSURE_BEEP_SOUND_ENABLED"
+:cu_025b  712020042900             invoke-static v9, v2, Labxl;->L(Ljava/lang/String; I)Lafpl;
+:cu_025e  0c0a                     move-result-object v10
+:cu_025f  110a                     return-object v10
+:cu_0260  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_0262  5291f789                 iget v1, v9, Lksy;->a I
+:cu_0264  38010600                 if-eqz v1, +006h # target=:cu_026a
+:cu_0266  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_0269  2814                     goto +14h # target=:cu_027d
+:cu_026a  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_026d  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_026f  1f0a682c                 check-cast v10, Lkuv;
+:cu_0271  54aa9d8a                 iget-object v10, v10, Lkuv;->a Lkuu;
+:cu_0273  6201938a                 sget-object v1, Lkut;->c Lkut;
+:cu_0275  5997f789                 iput v7, v9, Lksy;->a I
+:cu_0277  6e3007be1a09             invoke-virtual v10, v1, v9, Lkuu;->a(Lkut; Laoln;)Ljava/lang/Object;
+:cu_027a  0c0a                     move-result-object v10
+:cu_027b  320ad101                 if-eq v10, v0, +1d1h # target=:cu_044c
+:cu_027d  1f0ac326                 check-cast v10, Ljava/io/File;
+:cu_027f  5499f889                 iget-object v9, v9, Lksy;->b Ljava/lang/Object;
+:cu_0281  62003dbd                 sget-object v0, Lrmx;->mY Lrmx;
+:cu_0283  1f09682c                 check-cast v9, Lkuv;
+:cu_0285  54999e8a                 iget-object v9, v9, Lkuv;->b Lrlv;
+:cu_0287  7220a1f10900             invoke-interface v9, v0, Lrlv;->o(Lrmx;)V
+:cu_028a  6e10dfa10a00             invoke-virtual v10, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+:cu_028d  0c0a                     move-result-object v10
+:cu_028e  7120693c5a00             invoke-static v10, v5, Laooh;->e(Ljava/lang/Object; Ljava/lang/String;)V
+:cu_0291  110a                     return-object v10
+:cu_0292  0d0a                     move-exception v10
+:cu_0293  5499f889                 iget-object v9, v9, Lksy;->b Ljava/lang/Object;
+:cu_0295  620057bd                 sget-object v0, Lrmx;->na Lrmx;
+:cu_0297  1f09682c                 check-cast v9, Lkuv;
+:cu_0299  54999e8a                 iget-object v9, v9, Lkuv;->b Lrlv;
+:cu_029b  7220a1f10900             invoke-interface v9, v0, Lrlv;->o(Lrmx;)V
+:cu_029e  270a                     throw v10
+:cu_029f  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_02a1  5291f789                 iget v1, v9, Lksy;->a I
+:cu_02a3  38010600                 if-eqz v1, +006h # target=:cu_02a9
+:cu_02a5  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_02a8  2814                     goto +14h # target=:cu_02bc
+:cu_02a9  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_02ac  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_02ae  1f0a682c                 check-cast v10, Lkuv;
+:cu_02b0  54aa9d8a                 iget-object v10, v10, Lkuv;->a Lkuu;
+:cu_02b2  6201948a                 sget-object v1, Lkut;->d Lkut;
+:cu_02b4  5997f789                 iput v7, v9, Lksy;->a I
+:cu_02b6  6e3007be1a09             invoke-virtual v10, v1, v9, Lkuu;->a(Lkut; Laoln;)Ljava/lang/Object;
+:cu_02b9  0c0a                     move-result-object v10
+:cu_02ba  320a9201                 if-eq v10, v0, +192h # target=:cu_044c
+:cu_02bc  1f0ac326                 check-cast v10, Ljava/io/File;
+:cu_02be  5499f889                 iget-object v9, v9, Lksy;->b Ljava/lang/Object;
+:cu_02c0  62003ebd                 sget-object v0, Lrmx;->mZ Lrmx;
+:cu_02c2  1f09682c                 check-cast v9, Lkuv;
+:cu_02c4  54999e8a                 iget-object v9, v9, Lkuv;->b Lrlv;
+:cu_02c6  7220a1f10900             invoke-interface v9, v0, Lrlv;->o(Lrmx;)V
+:cu_02c9  6e10dfa10a00             invoke-virtual v10, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+:cu_02cc  0c0a                     move-result-object v10
+:cu_02cd  7120693c5a00             invoke-static v10, v5, Laooh;->e(Ljava/lang/Object; Ljava/lang/String;)V
+:cu_02d0  110a                     return-object v10
+:cu_02d1  0d0a                     move-exception v10
+:cu_02d2  5499f889                 iget-object v9, v9, Lksy;->b Ljava/lang/Object;
+:cu_02d4  620057bd                 sget-object v0, Lrmx;->na Lrmx;
+:cu_02d6  1f09682c                 check-cast v9, Lkuv;
+:cu_02d8  54999e8a                 iget-object v9, v9, Lkuv;->b Lrlv;
+:cu_02da  7220a1f10900             invoke-interface v9, v0, Lrlv;->o(Lrmx;)V
+:cu_02dd  270a                     throw v10
+:cu_02de  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_02e0  5291f789                 iget v1, v9, Lksy;->a I
+:cu_02e2  38010600                 if-eqz v1, +006h # target=:cu_02e8
+:cu_02e4  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_02e7  2812                     goto +12h # target=:cu_02f9
+:cu_02e8  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_02eb  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_02ed  1a0189de                 const-string v1, "starting_voice-"
+:cu_02ef  5997f789                 iput v7, v9, Lksy;->a I
+:cu_02f1  1f0a622c                 check-cast v10, Lkup;
+:cu_02f3  6e30f9bd1a09             invoke-virtual v10, v1, v9, Lkup;->c(Ljava/lang/String; Laoln;)Ljava/lang/Object;
+:cu_02f6  0c0a                     move-result-object v10
+:cu_02f7  320a5501                 if-eq v10, v0, +155h # target=:cu_044c
+:cu_02f9  1f0ac326                 check-cast v10, Ljava/io/File;
+:cu_02fb  5499f889                 iget-object v9, v9, Lksy;->b Ljava/lang/Object;
+:cu_02fd  62003abd                 sget-object v0, Lrmx;->mV Lrmx;
+:cu_02ff  1f09622c                 check-cast v9, Lkup;
+:cu_0301  5499808a                 iget-object v9, v9, Lkup;->d Lrlv;
+:cu_0303  7220a1f10900             invoke-interface v9, v0, Lrlv;->o(Lrmx;)V
+:cu_0306  6e10dfa10a00             invoke-virtual v10, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+:cu_0309  0c0a                     move-result-object v10
+:cu_030a  7120693c5a00             invoke-static v10, v5, Laooh;->e(Ljava/lang/Object; Ljava/lang/String;)V
+:cu_030d  110a                     return-object v10
+:cu_030e  0d0a                     move-exception v10
+:cu_030f  5499f889                 iget-object v9, v9, Lksy;->b Ljava/lang/Object;
+:cu_0311  62003cbd                 sget-object v0, Lrmx;->mX Lrmx;
+:cu_0313  1f09622c                 check-cast v9, Lkup;
+:cu_0315  5499808a                 iget-object v9, v9, Lkup;->d Lrlv;
+:cu_0317  7220a1f10900             invoke-interface v9, v0, Lrlv;->o(Lrmx;)V
+:cu_031a  270a                     throw v10
+:cu_031b  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_031d  5291f789                 iget v1, v9, Lksy;->a I
+:cu_031f  38010600                 if-eqz v1, +006h # target=:cu_0325
+:cu_0321  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_0324  2812                     goto +12h # target=:cu_0336
+:cu_0325  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_0328  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_032a  1a017ea7                 const-string v1, "ending_voice-"
+:cu_032c  5997f789                 iput v7, v9, Lksy;->a I
+:cu_032e  1f0a622c                 check-cast v10, Lkup;
+:cu_0330  6e30f9bd1a09             invoke-virtual v10, v1, v9, Lkup;->c(Ljava/lang/String; Laoln;)Ljava/lang/Object;
+:cu_0333  0c0a                     move-result-object v10
+:cu_0334  320a1801                 if-eq v10, v0, +118h # target=:cu_044c
+:cu_0336  1f0ac326                 check-cast v10, Ljava/io/File;
+:cu_0338  5499f889                 iget-object v9, v9, Lksy;->b Ljava/lang/Object;
+:cu_033a  62003bbd                 sget-object v0, Lrmx;->mW Lrmx;
+:cu_033c  1f09622c                 check-cast v9, Lkup;
+:cu_033e  5499808a                 iget-object v9, v9, Lkup;->d Lrlv;
+:cu_0340  7220a1f10900             invoke-interface v9, v0, Lrlv;->o(Lrmx;)V
+:cu_0343  6e10dfa10a00             invoke-virtual v10, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+:cu_0346  0c0a                     move-result-object v10
+:cu_0347  7120693c5a00             invoke-static v10, v5, Laooh;->e(Ljava/lang/Object; Ljava/lang/String;)V
+:cu_034a  110a                     return-object v10
+:cu_034b  0d0a                     move-exception v10
+:cu_034c  5499f889                 iget-object v9, v9, Lksy;->b Ljava/lang/Object;
+:cu_034e  62003cbd                 sget-object v0, Lrmx;->mX Lrmx;
+:cu_0350  1f09622c                 check-cast v9, Lkup;
+:cu_0352  5499808a                 iget-object v9, v9, Lkup;->d Lrlv;
+:cu_0354  7220a1f10900             invoke-interface v9, v0, Lrlv;->o(Lrmx;)V
+:cu_0357  270a                     throw v10
+:cu_0358  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_035a  5291f789                 iget v1, v9, Lksy;->a I
+:cu_035c  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_035f  3901ee00                 if-nez v1, +0eeh # target=:cu_044d
+:cu_0361  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_0363  5997f789                 iput v7, v9, Lksy;->a I
+:cu_0365  2201b122                 new-instance v1, Lhqi;
+:cu_0367  1f0a742b                 check-cast v10, Lklt;
+:cu_0369  13020f00                 const/16 v2, 15
+:cu_036b  70566f90a126             invoke-direct v1, v10, v6, v2, v6, Lhqi;-><init>(Lklt; Laoln; I [B)V
+:cu_036e  54aa6a87                 iget-object v10, v10, Lklt;->c Ljava/lang/Object;
+:cu_0370  7130923c1a09             invoke-static v10, v1, v9, Laoov;->aj(Laolr; Laonn; Laoln;)Ljava/lang/Object;
+:cu_0373  0c0a                     move-result-object v10
+:cu_0374  330ad900                 if-ne v10, v0, +0d9h # target=:cu_044d
+:cu_0376  2900d600                 goto/16 +0d6h # target=:cu_044c
+:cu_0378  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_037a  5291f789                 iget v1, v9, Lksy;->a I
+:cu_037c  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_037f  3901ce00                 if-nez v1, +0ceh # target=:cu_044d
+:cu_0381  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_0383  5997f789                 iput v7, v9, Lksy;->a I
+:cu_0385  2201b122                 new-instance v1, Lhqi;
+:cu_0387  1f0a742b                 check-cast v10, Lklt;
+:cu_0389  70406e90a146             invoke-direct v1, v10, v6, v4, Lhqi;-><init>(Lklt; Laoln; I)V
+:cu_038c  54aa6a87                 iget-object v10, v10, Lklt;->c Ljava/lang/Object;
+:cu_038e  7130923c1a09             invoke-static v10, v1, v9, Laoov;->aj(Laolr; Laonn; Laoln;)Ljava/lang/Object;
+:cu_0391  0c0a                     move-result-object v10
+:cu_0392  330abb00                 if-ne v10, v0, +0bbh # target=:cu_044d
+:cu_0394  2900b800                 goto/16 +0b8h # target=:cu_044c
+:cu_0396  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_0398  5291f789                 iget v1, v9, Lksy;->a I
+:cu_039a  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_039d  3901b000                 if-nez v1, +0b0h # target=:cu_044d
+:cu_039f  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_03a1  1f0aa705                 check-cast v10, Lahdv;
+:cu_03a3  6e10d90c0a00             invoke-virtual v10, Lahdv;->c()Laoxh;
+:cu_03a6  0c0a                     move-result-object v10
+:cu_03a7  22014b25                 new-instance v1, Lipv;
+:cu_03a9  7040cd9b6164             invoke-direct v1, v6, v4, v6, Lipv;-><init>(Laoln; I [[[C)V
+:cu_03ac  5997f789                 iput v7, v9, Lksy;->a I
+:cu_03ae  71309b3c1a09             invoke-static v10, v1, v9, Laoov;->av(Laoxh; Laonn; Laoln;)Ljava/lang/Object;
+:cu_03b1  0c0a                     move-result-object v10
+:cu_03b2  330a9b00                 if-ne v10, v0, +09bh # target=:cu_044d
+:cu_03b4  29009800                 goto/16 +098h # target=:cu_044c
+:cu_03b6  6200611f                 sget-object v0, Laolu;->a Laolu;
+:cu_03b8  5291f789                 iget v1, v9, Lksy;->a I
+:cu_03ba  1a0231d3                 const-string v2, "onFlagsCommittedSuccessfully$<anonymous>"
+:cu_03bc  1a0454a0                 const-string v4, "com/android/dialer/calloptions/ui/CallOptionsPhenotypeFlagsCommitSucceededListener"
+:cu_03be  1a052021                 const-string v5, "CallOptionsPhenotypeFlagsCommitSucceededListener.kt"
+:cu_03c0  38010600                 if-eqz v1, +006h # target=:cu_03c6
+:cu_03c2  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_03c5  281f                     goto +1fh # target=:cu_03e4
+:cu_03c6  71103a3c0a00             invoke-static v10, Laooc;->af(Ljava/lang/Object;)V
+:cu_03c9  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_03cb  1f0a362c                 check-cast v10, Lksz;
+:cu_03cd  54aafa89                 iget-object v10, v10, Lksz;->b Lksx;
+:cu_03cf  5997f789                 iput v7, v9, Lksy;->a I
+:cu_03d1  54a1f189                 iget-object v1, v10, Lksx;->c Laolr;
+:cu_03d3  2207a529                 new-instance v7, Ljrb;
+:cu_03d5  13080900                 const/16 v8, 9
+:cu_03d7  704052b0a786             invoke-direct v7, v10, v6, v8, Ljrb;-><init>(Lksx; Laoln; I)V
+:cu_03da  7130923c7109             invoke-static v1, v7, v9, Laoov;->aj(Laolr; Laonn; Laoln;)Ljava/lang/Object;
+:cu_03dd  0c09                     move-result-object v9
+:cu_03de  32090400                 if-eq v9, v0, +004h # target=:cu_03e2
+:cu_03e0  6209561f                 sget-object v9, Laojh;->a Laojh;
+:cu_03e2  32096a00                 if-eq v9, v0, +06ah # target=:cu_044c
+:cu_03e4  6209f989                 sget-object v9, Lksz;->a Laimz;
+:cu_03e6  6e1090140900             invoke-virtual v9, Laimp;->b()Lainm;
+:cu_03e9  0c09                     move-result-object v9
+:cu_03ea  130a1900                 const/16 v10, 25
+:cu_03ec  7255be1449a2             invoke-interface v9, v4, v2, v10, v5, Lainm;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_03ef  0c09                     move-result-object v9
+:cu_03f0  1f09b907                 check-cast v9, Laimw;
+:cu_03f2  1a0a258f                 const-string v10, "Updated CallOptions component enabled states successfully"
+:cu_03f4  7220ac14a900             invoke-interface v9, v10, Laimw;->v(Ljava/lang/String;)V
+:cu_03f7  2821                     goto +21h # target=:cu_0418
+:cu_03f8  0d09                     move-exception v9
+:cu_03f9  620af989                 sget-object v10, Lksz;->a Laimz;
+:cu_03fb  6e1091140a00             invoke-virtual v10, Laimp;->c()Lainm;
+:cu_03fe  0c0a                     move-result-object v10
+:cu_03ff  1f0ab907                 check-cast v10, Laimw;
+:cu_0401  6200850b                 sget-object v0, Laioa;->b Laioa;
+:cu_0403  7220aa140a00             invoke-interface v10, v0, Laimw;->m(Laioa;)Lainm;
+:cu_0406  0c0a                     move-result-object v10
+:cu_0407  1f0ab907                 check-cast v10, Laimw;
+:cu_0409  7220a8149a00             invoke-interface v10, v9, Laimw;->k(Ljava/lang/Throwable;)Lainm;
+:cu_040c  0c09                     move-result-object v9
+:cu_040d  7255be144932             invoke-interface v9, v4, v2, v3, v5, Lainm;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_0410  0c09                     move-result-object v9
+:cu_0411  1f09b907                 check-cast v9, Laimw;
+:cu_0413  1a0a582b                 const-string v10, "Failed to update CallOptions component enabled states"
+:cu_0415  7220ac14a900             invoke-interface v9, v10, Laimw;->v(Ljava/lang/String;)V
+:cu_0418  620a561f                 sget-object v10, Laojh;->a Laojh;
+:cu_041a  2833                     goto +33h # target=:cu_044d
+:cu_041b  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_041d  5997f789                 iput v7, v9, Lksy;->a I
+:cu_041f  07a2                     move-object v2, v10
+:cu_0420  1f02042f                 check-cast v2, Llus;
+:cu_0422  54225a94                 iget-object v2, v2, Llus;->a Llug;
+:cu_0424  6e3057caa209             invoke-virtual v2, v10, v9, Llug;->e(Lluc; Laoln;)Ljava/lang/Object;
+:cu_0427  0c0a                     move-result-object v10
+:cu_0428  320a2400                 if-eq v10, v0, +024h # target=:cu_044c
+:cu_042a  1f0ae026                 check-cast v10, Ljava/lang/Boolean;
+:cu_042c  6e1045a20a00             invoke-virtual v10, Ljava/lang/Boolean;->booleanValue()Z
+:cu_042f  0a0a                     move-result v10
+:cu_0430  380aeafb                 if-eqz v10, -416h # target=:cu_001a
+:cu_0432  549af889                 iget-object v10, v9, Lksy;->b Ljava/lang/Object;
+:cu_0434  1f0a042f                 check-cast v10, Llus;
+:cu_0436  54a25b94                 iget-object v2, v10, Llus;->b Laoin;
+:cu_0438  7210c03b0200             invoke-interface v2, Laoin;->a()Ljava/lang/Object;
+:cu_043b  0c02                     move-result-object v2
+:cu_043c  1f02e026                 check-cast v2, Ljava/lang/Boolean;
+:cu_043e  6e1045a20200             invoke-virtual v2, Ljava/lang/Boolean;->booleanValue()Z
+:cu_0441  0a02                     move-result v2
+:cu_0442  3902d8fb                 if-nez v2, -428h # target=:cu_001a
+:cu_0444  5991f789                 iput v1, v9, Lksy;->a I
+:cu_0446  6e207dca9a00             invoke-virtual v10, v9, Llus;->e(Laoln;)Ljava/lang/Object;
+:cu_0449  0c09                     move-result-object v9
+:cu_044a  3309d0fb                 if-ne v9, v0, -430h # target=:cu_001a
+:cu_044c  070a                     move-object v10, v0
+:cu_044d  110a                     return-object v10
+:cu_044e  0001140000000000aa0300008a0300006c0300004c0300000f030000d202000093020000540200002d020000ff010000d7010000c0010000a201000054010000390100001a010000f5000000d0000000b400000010000000 packed-switch-payload 0 1 2 3 4 5 6 7 8 9 a b c d e f 10 11 12 13 # payload keys=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19] relative_targets=[938, 906, 876, 844, 783, 722, 659, 596, 557, 511, 471, 448, 418, 340, 313, 282, 245, 208, 180, 16]
+# Exception table: starts inclusive, ends exclusive; handler offsets are bytes from encoded_catch_handler_list.
+# .catch Ljava/lang/Exception; {:cu_0266 .. :cu_0269} :cu_0292
+# .catch Ljava/lang/Exception; {:cu_026d .. :cu_027f} :cu_0292
+# .catch Ljava/lang/Exception; {:cu_02a5 .. :cu_02a8} :cu_02d1
+# .catch Ljava/lang/Exception; {:cu_02ac .. :cu_02be} :cu_02d1
+# .catch Ljava/lang/Exception; {:cu_02e4 .. :cu_02e7} :cu_030e
+# .catch Ljava/lang/Exception; {:cu_02eb .. :cu_02fb} :cu_030e
+# .catch Ljava/lang/Exception; {:cu_0321 .. :cu_0324} :cu_034b
+# .catch Ljava/lang/Exception; {:cu_0328 .. :cu_0338} :cu_034b
+# .catch Ljava/lang/Exception; {:cu_03c2 .. :cu_03c5} :cu_03f8
+# .catch Ljava/lang/Exception; {:cu_03c9 .. :cu_03f7} :cu_03f8

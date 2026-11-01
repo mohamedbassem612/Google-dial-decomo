@@ -1,0 +1,114 @@
+# Lkuw;->a()Z
+# APK sha256=0ae5ba4f0f68ac200d1cf6e37b9685e57149b27ba9901d1879b133ddc4af53a0
+# classes2.dex sha256=d03f8c27d5638dd594007b49a19c8bbf2487287e03ebafd71149e1b7e762f179
+# code_item file offset=0x58698c byte length=422
+# registers=12 incoming_words=1 outgoing_words=8 insns_size=203 code_units
+# Every instruction/payload is listed; label suffixes use code units. Resolved labels are annotations, original bytes are included.
+:cu_0000  54bba18a                 iget-object v11, v11, Lkuw;->b Lkwe;
+:cu_0002  54b0018b                 iget-object v0, v11, Lkwe;->c Laoin;
+:cu_0004  7210c03b0000             invoke-interface v0, Laoin;->a()Ljava/lang/Object;
+:cu_0007  0c00                     move-result-object v0
+:cu_0008  1f00e026                 check-cast v0, Ljava/lang/Boolean;
+:cu_000a  6e1045a20000             invoke-virtual v0, Ljava/lang/Boolean;->booleanValue()Z
+:cu_000d  0a00                     move-result v0
+:cu_000e  1201                     const/4 v1, 0
+:cu_000f  1212                     const/4 v2, 1
+:cu_0010  38003200                 if-eqz v0, +032h # target=:cu_0042
+:cu_0012  54bb028b                 iget-object v11, v11, Lkwe;->d Laoin;
+:cu_0014  7210c03b0b00             invoke-interface v11, Laoin;->a()Ljava/lang/Object;
+:cu_0017  0c0b                     move-result-object v11
+:cu_0018  1f0be026                 check-cast v11, Ljava/lang/Boolean;
+:cu_001a  6e1045a20b00             invoke-virtual v11, Ljava/lang/Boolean;->booleanValue()Z
+:cu_001d  0a00                     move-result v0
+:cu_001e  6203ff8a                 sget-object v3, Lkwe;->a Laimz;
+:cu_0020  6e1090140300             invoke-virtual v3, Laimp;->b()Lainm;
+:cu_0023  0c03                     move-result-object v3
+:cu_0024  1f03b907                 check-cast v3, Laimw;
+:cu_0026  6204107a                 sget-object v4, Ljava/util/concurrent/TimeUnit;->MINUTES Ljava/util/concurrent/TimeUnit;
+:cu_0028  7230a5142304             invoke-interface v3, v2, v4, Laimw;->g(I Ljava/util/concurrent/TimeUnit;)Lainm;
+:cu_002b  0c03                     move-result-object v3
+:cu_002c  1f03b907                 check-cast v3, Laimw;
+:cu_002e  13043e00                 const/16 v4, 62
+:cu_0030  1a05302d                 const-string v5, "Geofence.java"
+:cu_0032  1a0665a0                 const-string v6, "com/android/dialer/callrecording/impl/geofence/Geofence"
+:cu_0034  1a0785e3                 const-string v7, "withinBeepSoundAvailableCountriesGeofence"
+:cu_0036  7255a9146347             invoke-interface v3, v6, v7, v4, v5, Laimw;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_0039  0c03                     move-result-object v3
+:cu_003a  1f03b907                 check-cast v3, Laimw;
+:cu_003c  1a04eea9                 const-string v4, "forced override: %s"
+:cu_003e  7230af14430b             invoke-interface v3, v4, v11, Laimw;->y(Ljava/lang/String; Ljava/lang/Object;)V
+:cu_0041  2864                     goto +64h # target=:cu_00a5
+:cu_0042  54bb008b                 iget-object v11, v11, Lkwe;->b Lkwt;
+:cu_0044  6e1017bf0b00             invoke-virtual v11, Lkwt;->c()Z
+:cu_0047  0a00                     move-result v0
+:cu_0048  1a08bd6c                 const-string v8, "LocaleProvider.java"
+:cu_004a  39001800                 if-nez v0, +018h # target=:cu_0062
+:cu_004c  620b268b                 sget-object v11, Lkwt;->a Laimz;
+:cu_004e  6e1090140b00             invoke-virtual v11, Laimp;->b()Lainm;
+:cu_0051  0c03                     move-result-object v3
+:cu_0052  1219                     const/4 v9, 1
+:cu_0053  620a107a                 sget-object v10, Ljava/util/concurrent/TimeUnit;->MINUTES Ljava/util/concurrent/TimeUnit;
+:cu_0055  1a04799b                 const-string v4, "beep sound is not available because not call recording country"
+:cu_0057  1a0569a0                 const-string v5, "com/android/dialer/callrecording/impl/localeprovider/LocaleProvider"
+:cu_0059  1a06b3be                 const-string v6, "isBeepSoundAvailableCountry"
+:cu_005b  13075600                 const/16 v7, 86
+:cu_005d  7708bc810300             invoke-static/range v3 ... v10, Lhgb;->c(Lainm; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; C Ljava/lang/String; B Ljava/util/concurrent/TimeUnit;)V
+:cu_0060  0110                     move v0, v1
+:cu_0061  2844                     goto +44h # target=:cu_00a5
+:cu_0062  54b0278b                 iget-object v0, v11, Lkwt;->d Lahzi;
+:cu_0064  7210e80e0000             invoke-interface v0, Lahzi;->eZ()Ljava/lang/Object;
+:cu_0067  0c00                     move-result-object v0
+:cu_0068  1f001127                 check-cast v0, Ljava/lang/String;
+:cu_006a  39001700                 if-nez v0, +017h # target=:cu_0081
+:cu_006c  620b268b                 sget-object v11, Lkwt;->a Laimz;
+:cu_006e  6e1090140b00             invoke-virtual v11, Laimp;->b()Lainm;
+:cu_0071  0c03                     move-result-object v3
+:cu_0072  1219                     const/4 v9, 1
+:cu_0073  620a107a                 sget-object v10, Ljava/util/concurrent/TimeUnit;->MINUTES Ljava/util/concurrent/TimeUnit;
+:cu_0075  1a04789b                 const-string v4, "beep sound is not available because current country code is null"
+:cu_0077  1a0569a0                 const-string v5, "com/android/dialer/callrecording/impl/localeprovider/LocaleProvider"
+:cu_0079  1a06b3be                 const-string v6, "isBeepSoundAvailableCountry"
+:cu_007b  13075d00                 const/16 v7, 93
+:cu_007d  7708bc810300             invoke-static/range v3 ... v10, Lhgb;->c(Lainm; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; C Ljava/lang/String; B Ljava/util/concurrent/TimeUnit;)V
+:cu_0080  28e0                     goto -20h # target=:cu_0060
+:cu_0081  54bb288b                 iget-object v11, v11, Lkwt;->g Lahzi;
+:cu_0083  7210e80e0b00             invoke-interface v11, Lahzi;->eZ()Ljava/lang/Object;
+:cu_0086  0c0b                     move-result-object v11
+:cu_0087  1f0b1507                 check-cast v11, Laify;
+:cu_0089  6e208e110b00             invoke-virtual v11, v0, Laify;->contains(Ljava/lang/Object;)Z
+:cu_008c  0a0b                     move-result v11
+:cu_008d  390b1700                 if-nez v11, +017h # target=:cu_00a4
+:cu_008f  620b268b                 sget-object v11, Lkwt;->a Laimz;
+:cu_0091  6e1090140b00             invoke-virtual v11, Laimp;->b()Lainm;
+:cu_0094  0c03                     move-result-object v3
+:cu_0095  1219                     const/4 v9, 1
+:cu_0096  620a107a                 sget-object v10, Ljava/util/concurrent/TimeUnit;->MINUTES Ljava/util/concurrent/TimeUnit;
+:cu_0098  1a047a9b                 const-string v4, "beep sound is not available because not in beep available country list"
+:cu_009a  1a0569a0                 const-string v5, "com/android/dialer/callrecording/impl/localeprovider/LocaleProvider"
+:cu_009c  1a06b3be                 const-string v6, "isBeepSoundAvailableCountry"
+:cu_009e  13076300                 const/16 v7, 99
+:cu_00a0  7708bc810300             invoke-static/range v3 ... v10, Lhgb;->c(Lainm; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; C Ljava/lang/String; B Ljava/util/concurrent/TimeUnit;)V
+:cu_00a3  28bd                     goto -43h # target=:cu_0060
+:cu_00a4  0120                     move v0, v2
+:cu_00a5  39002400                 if-nez v0, +024h # target=:cu_00c9
+:cu_00a7  620ba08a                 sget-object v11, Lkuw;->a Laimz;
+:cu_00a9  6e1090140b00             invoke-virtual v11, Laimp;->b()Lainm;
+:cu_00ac  0c0b                     move-result-object v11
+:cu_00ad  1f0bb907                 check-cast v11, Laimw;
+:cu_00af  6200107a                 sget-object v0, Ljava/util/concurrent/TimeUnit;->MINUTES Ljava/util/concurrent/TimeUnit;
+:cu_00b1  7230a5142b00             invoke-interface v11, v2, v0, Laimw;->g(I Ljava/util/concurrent/TimeUnit;)Lainm;
+:cu_00b4  0c0b                     move-result-object v11
+:cu_00b5  13001000                 const/16 v0, 16
+:cu_00b7  1a028c1d                 const-string v2, "BeepSoundCallRecordingDisclosureEnabledFn.kt"
+:cu_00b9  1a035fa0                 const-string v3, "com/android/dialer/callrecording/disclosure/impl/beepsound/BeepSoundCallRecordingDisclosureEnabledFn"
+:cu_00bb  1a04e1be                 const-string v4, "isEnabled"
+:cu_00bd  7252be143b04             invoke-interface v11, v3, v4, v0, v2, Lainm;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_00c0  0c0b                     move-result-object v11
+:cu_00c1  1f0bb907                 check-cast v11, Laimw;
+:cu_00c3  1a004ca5                 const-string v0, "disabled by geofence"
+:cu_00c5  7220ac140b00             invoke-interface v11, v0, Laimw;->v(Ljava/lang/String;)V
+:cu_00c8  2802                     goto +2h # target=:cu_00ca
+:cu_00c9  0121                     move v1, v2
+:cu_00ca  0f01                     return v1
+# Exception table: starts inclusive, ends exclusive; handler offsets are bytes from encoded_catch_handler_list.
+# no exception handlers

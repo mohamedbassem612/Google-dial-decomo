@@ -1,0 +1,83 @@
+[
+  {
+    "method": "hnt.b(Object)",
+    "representation": "smali",
+    "source_status": "complete",
+    "body_status": "available",
+    "fell_back": true,
+    "markers": [
+      "Code decompiled incorrectly, please refer to instructions dump"
+    ],
+    "evidence_id": "ev_f8a9406ca511f177ca3ba642ea41aacd25cfb969d7efe191faddbda5062f3a7d",
+    "source_bytes_utf8": 28007,
+    "requested_targets_match_REA_labels": true,
+    "dex_method_index": 36730,
+    "code_item_sha256": "056a7cb0d640b484dc1c37f3f6424b7ea848b3805b3d2e1722ace48010162c39",
+    "raw_exception_regions": 0
+  },
+  {
+    "method": "hqi.b(Object)",
+    "representation": "smali",
+    "source_status": "complete",
+    "body_status": "available",
+    "fell_back": true,
+    "markers": [
+      "Code decompiled incorrectly, please refer to instructions dump"
+    ],
+    "evidence_id": "ev_e1832306681fd7695e5236123eaf917ed4fa5c4d3446f08dff4e7854211fc8f3",
+    "source_bytes_utf8": 107279,
+    "requested_targets_match_REA_labels": true,
+    "dex_method_index": 36982,
+    "code_item_sha256": "3e67d0b78d4190d403cfda581c8aa0d18565c72a94455e452eec4ffd8028928d",
+    "raw_exception_regions": 24
+  },
+  {
+    "method": "mwq.b(Object)",
+    "representation": "smali",
+    "source_status": "complete",
+    "body_status": "available",
+    "fell_back": true,
+    "markers": [
+      "Code decompiled incorrectly, please refer to instructions dump"
+    ],
+    "evidence_id": "ev_af5363a4e640726eb9b7c1de3ada55ad4692f5bf8881d6778adce48c33fa84fe",
+    "source_bytes_utf8": 19969,
+    "requested_targets_match_REA_labels": true,
+    "dex_method_index": 54787,
+    "code_item_sha256": "08a02f715e4c8590e3e2e6547af0d1897522aceff46ad5f59160f85df68bf09c",
+    "raw_exception_regions": 2
+  },
+  {
+    "method": "ksy.b(Object)",
+    "representation": "smali",
+    "source_status": "complete",
+    "body_status": "available",
+    "fell_back": true,
+    "markers": [
+      "Code decompiled incorrectly, please refer to instructions dump"
+    ],
+    "evidence_id": "ev_a27468f6d81143309507b465f257b7228570a8e4c540ad0a40dc05b23fd3d08f",
+    "source_bytes_utf8": 40027,
+    "requested_targets_match_REA_labels": true,
+    "dex_method_index": 48283,
+    "code_item_sha256": "5315c513d2f066ecc58d1cfde2475b476f3b7926691400840d9d20906a933621",
+    "raw_exception_regions": 10
+  },
+  {
+    "method": "kqd.b(Object)",
+    "representation": "smali",
+    "source_status": "complete",
+    "body_status": "available",
+    "fell_back": true,
+    "markers": [
+      "Method not decompiled",
+      "Method dump skipped, instruction units count"
+    ],
+    "evidence_id": "ev_f8f8e3b6288deacba7c2d5aa9338decd93635582ce246e070b3e7617d6e123b2",
+    "source_bytes_utf8": 79860,
+    "requested_targets_match_REA_labels": true,
+    "dex_method_index": 47915,
+    "code_item_sha256": "20eb7059051c1b96969eff3007b1539cbe3d09d3c368f88cec5f8db415c7c555",
+    "raw_exception_regions": 10
+  }
+]

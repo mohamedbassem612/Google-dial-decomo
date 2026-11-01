@@ -1,0 +1,103 @@
+    public final ajcq c(final long j) {
+        ((aimw) ((aimw) a.b()).l("com/android/dialer/callrecording/impl/service/CallRecorder", "startRecording", 178, "CallRecorder.java")).v("enter");
+        int i = 0;
+        this.j.set(false);
+        jsd jsdVar = new jsd(ahqx.a(new kwz(i)), 9);
+        aogc aogcVar = this.z;
+        agsm.i(235, ((kaw) aogcVar.c).p(((aogc) aogcVar.b).bl(jsdVar)), "failed to set setting: CallRecordingUsedAtLeastOnce", new Object[0]);
+        akzc akzcVar = akzc.d;
+        final akzb akzbVar = new akzb(128);
+        final AtomicInteger atomicInteger = new AtomicInteger();
+        final AtomicInteger atomicInteger2 = new AtomicInteger();
+        final AtomicInteger atomicInteger3 = new AtomicInteger();
+        idh idhVar = this.p;
+        Duration duration = v;
+        ahoq ahoqVarW = ahvr.W(105, "TidepodsCallAudioImpl_createDownlinkAndUplinkTee");
+        try {
+            ahrv ahrvVarI = ahrv.g(idhVar.c()).i(new idd(idhVar, duration, i), idhVar.c);
+            ahoqVarW.a(ahrvVarI);
+            ahoqVarW.close();
+            int i2 = 4;
+            kxm kxmVar = new kxm(this, i2);
+            ScheduledExecutorService scheduledExecutorService = this.h;
+            int i3 = 3;
+            ahrv ahrvVarG = ahrv.g(ahvr.H(ahvr.C(ahrvVarI, Throwable.class, kxmVar, scheduledExecutorService), new kxn(this, i3), scheduledExecutorService));
+            juo juoVar = new juo(this, atomicInteger, akzbVar, 7, (char[]) null);
+            ajct ajctVar = this.d;
+            ahrv ahrvVarF = ahrvVarG.i(juoVar, ajctVar).i(new ajat() { // from class: kxo
+                @Override // defpackage.ajat
+                public final ajcq a(Object obj) {
+                    akzb akzbVar2 = akzbVar;
+                    AtomicInteger atomicInteger4 = atomicInteger2;
+                    AtomicInteger atomicInteger5 = atomicInteger;
+                    long j2 = j;
+                    AtomicInteger atomicInteger6 = atomicInteger3;
+                    ahoq ahoqVarW2 = ahvr.W(234, "CallRecorder_startRecording_saveAudioFile");
+                    try {
+                        int iA = akzbVar2.a();
+                        kxr kxrVar = this.a;
+                        if (iA == 0) {
+                            kxrVar.q.a(qbc.dd);
+                        }
+                        ((aimw) ((aimw) kxr.a.b()).l("com/android/dialer/callrecording/impl/service/CallRecorder", "startRecording", 253, "CallRecorder.java")).v("set state: idle (saving file)");
+                        kxrVar.k.set(kxq.a);
+                        kxrVar.o.a(ajcm.a);
+                        atomicInteger4.set(((akzbVar2.a() / atomicInteger5.get()) / 2) * 1000);
+                        File file = new File(kxrVar.c.getFilesDir(), "callrecording");
+                        file.mkdir();
+                        String str = file.getAbsolutePath() + File.separator + a.bC(j2, "record-", ".wav");
+                        akzx akzxVarM = idt.a.m();
+                        akzxVarM.u();
+                        idt idtVar = (idt) akzxVarM.b;
+                        Objects.requireNonNull(str);
+                        idtVar.b |= 1;
+                        idtVar.e = str;
+                        akzx akzxVarM2 = ids.a.m();
+                        int i4 = atomicInteger5.get();
+                        akzxVarM2.u();
+                        ids idsVar = (ids) akzxVarM2.b;
+                        idsVar.b |= 1;
+                        idsVar.c = i4;
+                        akzxVarM2.u();
+                        ids idsVar2 = (ids) akzxVarM2.b;
+                        idsVar2.b |= 2;
+                        idsVar2.d = 1;
+                        akzxVarM2.u();
+                        ids idsVar3 = (ids) akzxVarM2.b;
+                        idsVar3.b |= 4;
+                        idsVar3.e = 2;
+                        akzxVarM2.u();
+                        ids idsVar4 = (ids) akzxVarM2.b;
+                        idsVar4.b |= 8;
+                        idsVar4.f = true;
+                        akzxVarM.u();
+                        idt idtVar2 = (idt) akzxVarM.b;
+                        ids idsVar5 = (ids) akzxVarM2.p();
+                        Objects.requireNonNull(idsVar5);
+                        idtVar2.d = idsVar5;
+                        idtVar2.c = 3;
+                        ahrv ahrvVarE = ahrv.g(kxrVar.s.n((idt) akzxVarM.p(), akzbVar2.b())).h(new kxn(atomicInteger6, 2), kxrVar.d).e(Throwable.class, new kwz(12), kxrVar.h);
+                        ahoqVarW2.close();
+                        return ahrvVarE;
+                    } catch (Throwable th) {
+                        try {
+                            ahoqVarW2.close();
+                        } catch (Throwable th2) {
+                            th.addSuppressed(th2);
+                        }
+                        throw th;
+                    }
+                }
+            }, ajctVar).i(new kxm(this, 8), scheduledExecutorService).i(new jwi(this, j, i2), scheduledExecutorService).f(Exception.class, new kxm(this, i), scheduledExecutorService).h(new kxn(this, 1), scheduledExecutorService).i(new juo(this, atomicInteger2, atomicInteger3, 6, (short[]) null), scheduledExecutorService).i(new kxm(this, 2), scheduledExecutorService).h(new kxn(this, i), scheduledExecutorService).i(new kxm(this, i3), scheduledExecutorService).f(Exception.class, new kxm(this, 6), scheduledExecutorService);
+            kww kwwVar = this.b;
+            return ahrv.g(kwwVar.n.g(new gzk(kwwVar, ahrvVarF, 13), kwwVar.c)).i(new kxm(ahrvVarF, 7), scheduledExecutorService);
+        } catch (Throwable th) {
+            try {
+                ahoqVarW.close();
+                throw th;
+            } catch (Throwable th2) {
+                th.addSuppressed(th2);
+                throw th;
+            }
+        }
+    }

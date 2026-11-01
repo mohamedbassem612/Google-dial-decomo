@@ -1,0 +1,22 @@
+START hyo.c
+DONE hyo.c java available complete 1411
+START hyo.a
+DONE hyo.a java available complete 2238
+START gzk.call
+DONE gzk.call java available complete 16180
+START jyr.call
+DONE jyr.call java available complete 13716
+START hys.a
+DONE hys.a java available complete 512
+START hyr.onDone
+DONE hyr.onDone java available complete 789
+START hyr.onError
+FAILED hyr.onError {"code":"invalid_request","category":"invalid_input","message":"Analysis input is invalid. Check the arguments and try again.","retryable":false,"remediation":{"action":"Read the declared input schema or CLI usage for inspect_android_method; if using MCP and the catalog may be stale, call tools/list. Correct the listed fields, then retry. Do not repeat the unchanged call."},"recovery":{"kind":"inspect_input_contract","operation":"inspect_android_method"},"details":{"operation":"inspect_android_m
+START klt.b
+DONE klt.b java available complete 1855
+START klt.c
+DONE klt.c java available complete 117
+START kxt.a
+DONE kxt.a java available complete 7783
+START kpr.a
+DONE kpr.a java available complete 2426

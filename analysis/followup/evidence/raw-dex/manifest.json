@@ -1,0 +1,1034 @@
+{
+  "apk_sha256": "0ae5ba4f0f68ac200d1cf6e37b9685e57149b27ba9901d1879b133ddc4af53a0",
+  "androguard_version": "4.1.4",
+  "address_unit": "16-bit DEX code unit",
+  "methods": [
+    {
+      "class": "Lhnt;",
+      "method_name": "b",
+      "prototype": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "dex_entry": "classes2.dex",
+      "dex_sha256": "d03f8c27d5638dd594007b49a19c8bbf2487287e03ebafd71149e1b7e762f179",
+      "dex_method_index": 36730,
+      "code_item_offset_bytes": 4627100,
+      "code_item_size_bytes": 1708,
+      "code_item_sha256": "056a7cb0d640b484dc1c37f3f6424b7ea848b3805b3d2e1722ace48010162c39",
+      "instruction_bytes": 1692,
+      "first_instructions": [
+        "0000: iget v0, v9, Lhnt;->$cid I",
+        "0002: const-string v1, \"await(...)\"",
+        "0004: const-string v2, \"playbackStartedFuture(...)\"",
+        "0006: const-string v3, \"durationMillis(...)\"",
+        "0008: const/16 v4, 8",
+        "000a: const-string v5, \"playbackEndedFuture(...)\"",
+        "000c: const/4 v6, 2",
+        "000d: const/4 v7, 0",
+        "000e: const/4 v8, 1",
+        "000f: packed-switch v0, +0000313h",
+        "0012: sget-object v0, Laolu;->a Laolu;",
+        "0014: iget v1, v9, Lhnt;->a I",
+        "0016: invoke-static v10, Laooc;->af(Ljava/lang/Object;)V",
+        "0019: if-eqz v1, +2f3h",
+        "001b: return-object v10",
+        "001c: sget-object v0, Laolu;->a Laolu;",
+        "001e: iget v1, v9, Lhnt;->a I",
+        "0020: invoke-static v10, Laooc;->af(Ljava/lang/Object;)V"
+      ],
+      "switches": [
+        {
+          "switch_cu": 15,
+          "payload_cu": 802,
+          "keys_to_target_cu": {
+            "0": 758,
+            "1": 738,
+            "2": 718,
+            "3": 698,
+            "4": 664,
+            "5": 590,
+            "6": 566,
+            "7": 543,
+            "8": 458,
+            "9": 428,
+            "10": 400,
+            "11": 372,
+            "12": 344,
+            "13": 297,
+            "14": 250,
+            "15": 205,
+            "16": 110,
+            "17": 82,
+            "18": 59,
+            "19": 28
+          }
+        }
+      ],
+      "requested_branches": {
+        "18": {
+          "target_cu": 59,
+          "first_instructions": [
+            "003b: sget-object v0, Laolu;->a Laolu;",
+            "003d: iget v1, v9, Lhnt;->a I",
+            "003f: invoke-static v10, Laooc;->af(Ljava/lang/Object;)V",
+            "0042: if-nez v1, +2dfh",
+            "0044: iget-object v10, v9, Lhnt;->b Ljava/lang/Object;",
+            "0046: iput v8, v9, Lhnt;->a I",
+            "0048: check-cast v10, Lhyo;",
+            "004a: invoke-virtual v10, v9, Lhyo;->c(Laoln;)Ljava/lang/Object;",
+            "004d: move-result-object v10",
+            "004e: if-ne v10, v0, +2d3h"
+          ]
+        },
+        "19": {
+          "target_cu": 28,
+          "first_instructions": [
+            "001c: sget-object v0, Laolu;->a Laolu;",
+            "001e: iget v1, v9, Lhnt;->a I",
+            "0020: invoke-static v10, Laooc;->af(Ljava/lang/Object;)V",
+            "0023: if-nez v1, +2feh",
+            "0025: iget-object v10, v9, Lhnt;->b Ljava/lang/Object;",
+            "0027: check-cast v10, Lizg;",
+            "0029: invoke-virtual v10, Lizg;->n()Ljava/util/Locale;",
+            "002c: move-result-object v1",
+            "002d: iput v8, v9, Lhnt;->a I",
+            "002f: iget-object v10, v10, Lizg;->a Ljava/lang/Object;"
+          ]
+        }
+      },
+      "exception_entries": []
+    },
+    {
+      "class": "Lhqi;",
+      "method_name": "b",
+      "prototype": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "dex_entry": "classes2.dex",
+      "dex_sha256": "d03f8c27d5638dd594007b49a19c8bbf2487287e03ebafd71149e1b7e762f179",
+      "dex_method_index": 36982,
+      "code_item_offset_bytes": 4656068,
+      "code_item_size_bytes": 6156,
+      "code_item_sha256": "3e67d0b78d4190d403cfda581c8aa0d18565c72a94455e452eec4ffd8028928d",
+      "instruction_bytes": 5888,
+      "first_instructions": [
+        "0000: move-object/from16 v1, v25",
+        "0002: iget v0, v1, Lhqi;->$cid I",
+        "0004: const-string v2, \"com/android/dialer/calllog/dataservice/CallLogFragmentDataService\"",
+        "0006: const-string v3, \"CallLogFragmentDataService.kt\"",
+        "0008: const-string v4, \"getAbsolutePath(...)\"",
+        "000a: const-string v5, \"TikTok trace may not live through suspension without TikTok provided CoroutineContext\"",
+        "000c: const/4 v6, 6",
+        "000d: const/4 v7, 4",
+        "000e: const-string v9, \"get(...)\"",
+        "0010: const/4 v10, 0",
+        "0011: const/4 v11, 3",
+        "0012: const/4 v12, 2",
+        "0013: const/4 v13, 0",
+        "0014: const/4 v14, 1",
+        "0015: packed-switch v0, +0000b2dh",
+        "0018: sget-object v13, Laolu;->a Laolu;",
+        "001a: iget v0, v1, Lhqi;->b I",
+        "001c: if-eqz v0, +b06h"
+      ],
+      "switches": [
+        {
+          "switch_cu": 21,
+          "payload_cu": 2882,
+          "keys_to_target_cu": {
+            "0": 2793,
+            "1": 2709,
+            "2": 2614,
+            "3": 2511,
+            "4": 2341,
+            "5": 2070,
+            "6": 1996,
+            "7": 1721,
+            "8": 1616,
+            "9": 1512,
+            "10": 1289,
+            "11": 951,
+            "12": 893,
+            "13": 835,
+            "14": 697,
+            "15": 559,
+            "16": 399,
+            "17": 304,
+            "18": 209,
+            "19": 40
+          }
+        },
+        {
+          "switch_cu": 2074,
+          "payload_cu": 2926,
+          "keys_to_target_cu": {
+            "0": 2129,
+            "1": 2123,
+            "2": 2115,
+            "3": 2107,
+            "4": 2098,
+            "5": 2089,
+            "6": 2082
+          }
+        }
+      ],
+      "requested_branches": {
+        "16": {
+          "target_cu": 399,
+          "first_instructions": [
+            "018f: sget-object v13, Laolu;->a Laolu;",
+            "0191: iget v0, v1, Lhqi;->b I",
+            "0193: if-eqz v0, +00bh",
+            "0195: iget-object v0, v1, Lhqi;->a Ljava/lang/Object;",
+            "0197: invoke-static/range v26, Laooc;->af(Ljava/lang/Object;)V",
+            "019a: move-object v2, v0",
+            "019b: move-object/from16 v0, v26",
+            "019d: goto +22h",
+            "019e: invoke-static/range v26, Laooc;->af(Ljava/lang/Object;)V",
+            "01a1: iget-object v0, v1, Lhqi;->c Ljava/lang/Object;"
+          ]
+        },
+        "17": {
+          "target_cu": 304,
+          "first_instructions": [
+            "0130: sget-object v0, Laolu;->a Laolu;",
+            "0132: iget v2, v1, Lhqi;->b I",
+            "0134: if-eqz v2, +013h",
+            "0136: if-eq v2, v14, +008h",
+            "0138: invoke-static/range v26, Laooc;->af(Ljava/lang/Object;)V",
+            "013b: move-object/from16 v2, v26",
+            "013d: goto +30h",
+            "013e: iget-object v2, v1, Lhqi;->a Ljava/lang/Object;",
+            "0140: invoke-static/range v26, Laooc;->af(Ljava/lang/Object;)V",
+            "0143: move-object v3, v2"
+          ]
+        },
+        "18": {
+          "target_cu": 209,
+          "first_instructions": [
+            "00d1: sget-object v0, Laolu;->a Laolu;",
+            "00d3: iget v2, v1, Lhqi;->b I",
+            "00d5: if-eqz v2, +013h",
+            "00d7: if-eq v2, v14, +008h",
+            "00d9: invoke-static/range v26, Laooc;->af(Ljava/lang/Object;)V",
+            "00dc: move-object/from16 v2, v26",
+            "00de: goto +30h",
+            "00df: iget-object v2, v1, Lhqi;->a Ljava/lang/Object;",
+            "00e1: invoke-static/range v26, Laooc;->af(Ljava/lang/Object;)V",
+            "00e4: move-object v3, v2"
+          ]
+        }
+      },
+      "exception_entries": [
+        {
+          "start_cu": 217,
+          "end_cu_exclusive": 220,
+          "handler_offset_bytes": 1,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 291
+            }
+          ]
+        },
+        {
+          "start_cu": 225,
+          "end_cu_exclusive": 228,
+          "handler_offset_bytes": 1,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 291
+            }
+          ]
+        },
+        {
+          "start_cu": 235,
+          "end_cu_exclusive": 272,
+          "handler_offset_bytes": 1,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 291
+            }
+          ]
+        },
+        {
+          "start_cu": 312,
+          "end_cu_exclusive": 315,
+          "handler_offset_bytes": 6,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 386
+            }
+          ]
+        },
+        {
+          "start_cu": 320,
+          "end_cu_exclusive": 323,
+          "handler_offset_bytes": 6,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 386
+            }
+          ]
+        },
+        {
+          "start_cu": 330,
+          "end_cu_exclusive": 367,
+          "handler_offset_bytes": 6,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 386
+            }
+          ]
+        },
+        {
+          "start_cu": 569,
+          "end_cu_exclusive": 572,
+          "handler_offset_bytes": 11,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 680
+            }
+          ]
+        },
+        {
+          "start_cu": 654,
+          "end_cu_exclusive": 673,
+          "handler_offset_bytes": 16,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 682
+            }
+          ]
+        },
+        {
+          "start_cu": 676,
+          "end_cu_exclusive": 679,
+          "handler_offset_bytes": 11,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 680
+            }
+          ]
+        },
+        {
+          "start_cu": 707,
+          "end_cu_exclusive": 710,
+          "handler_offset_bytes": 21,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 818
+            }
+          ]
+        },
+        {
+          "start_cu": 792,
+          "end_cu_exclusive": 811,
+          "handler_offset_bytes": 26,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 820
+            }
+          ]
+        },
+        {
+          "start_cu": 814,
+          "end_cu_exclusive": 817,
+          "handler_offset_bytes": 21,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 818
+            }
+          ]
+        },
+        {
+          "start_cu": 1312,
+          "end_cu_exclusive": 1315,
+          "handler_offset_bytes": 31,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 1451
+            }
+          ]
+        },
+        {
+          "start_cu": 1321,
+          "end_cu_exclusive": 1379,
+          "handler_offset_bytes": 31,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 1451
+            }
+          ]
+        },
+        {
+          "start_cu": 1381,
+          "end_cu_exclusive": 1415,
+          "handler_offset_bytes": 36,
+          "handlers": [
+            {
+              "type": "catchall",
+              "target_cu": 1443
+            }
+          ]
+        },
+        {
+          "start_cu": 1416,
+          "end_cu_exclusive": 1442,
+          "handler_offset_bytes": 31,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 1451
+            }
+          ]
+        },
+        {
+          "start_cu": 1445,
+          "end_cu_exclusive": 1446,
+          "handler_offset_bytes": 39,
+          "handlers": [
+            {
+              "type": "catchall",
+              "target_cu": 1446
+            }
+          ]
+        },
+        {
+          "start_cu": 1447,
+          "end_cu_exclusive": 1451,
+          "handler_offset_bytes": 31,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 1451
+            }
+          ]
+        },
+        {
+          "start_cu": 1520,
+          "end_cu_exclusive": 1523,
+          "handler_offset_bytes": 42,
+          "handlers": [
+            {
+              "type": "catchall",
+              "target_cu": 1528
+            }
+          ]
+        },
+        {
+          "start_cu": 1555,
+          "end_cu_exclusive": 1598,
+          "handler_offset_bytes": 45,
+          "handlers": [
+            {
+              "type": "catchall",
+              "target_cu": 1602
+            }
+          ]
+        },
+        {
+          "start_cu": 1604,
+          "end_cu_exclusive": 1605,
+          "handler_offset_bytes": 48,
+          "handlers": [
+            {
+              "type": "catchall",
+              "target_cu": 1605
+            }
+          ]
+        },
+        {
+          "start_cu": 1624,
+          "end_cu_exclusive": 1627,
+          "handler_offset_bytes": 51,
+          "handlers": [
+            {
+              "type": "catchall",
+              "target_cu": 1632
+            }
+          ]
+        },
+        {
+          "start_cu": 1659,
+          "end_cu_exclusive": 1702,
+          "handler_offset_bytes": 54,
+          "handlers": [
+            {
+              "type": "catchall",
+              "target_cu": 1707
+            }
+          ]
+        },
+        {
+          "start_cu": 1709,
+          "end_cu_exclusive": 1710,
+          "handler_offset_bytes": 57,
+          "handlers": [
+            {
+              "type": "catchall",
+              "target_cu": 1710
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Lkqd;",
+      "method_name": "b",
+      "prototype": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "dex_entry": "classes2.dex",
+      "dex_sha256": "d03f8c27d5638dd594007b49a19c8bbf2487287e03ebafd71149e1b7e762f179",
+      "dex_method_index": 47915,
+      "code_item_offset_bytes": 5617000,
+      "code_item_size_bytes": 4550,
+      "code_item_sha256": "20eb7059051c1b96969eff3007b1539cbe3d09d3c368f88cec5f8db415c7c555",
+      "instruction_bytes": 4416,
+      "first_instructions": [
+        "0000: move-object/from16 v7, v21",
+        "0002: iget v0, v7, Lkqd;->$cid I",
+        "0004: const-string v1, \"Received at a cancellation channel\"",
+        "0006: const-string v2, \"Received at a closed channel\"",
+        "0008: const/4 v3, 3",
+        "0009: const-string v4, \"ContactCheckerRemote.kt\"",
+        "000b: const-string v5, \"DialerCallScreeningServiceMixinImpl.kt\"",
+        "000d: const-string v6, \"com/android/dialer/contactchecker/remote/ContactCheckerRemote\"",
+        "000f: const-string v8, \"value\"",
+        "0011: const-string v9, \"com/android/dialer/callscreeningservice/impl/DialerCallScreeningServiceMixinImpl\"",
+        "0013: const/4 v10, 2",
+        "0014: const/4 v11, 0",
+        "0015: const/4 v12, 0",
+        "0016: const/4 v13, 1",
+        "0017: packed-switch v0, +000085dh",
+        "001a: sget-object v0, Laolu;->a Laolu;",
+        "001c: iget v1, v7, Lkqd;->a I",
+        "001e: invoke-static/range v22, Laooc;->af(Ljava/lang/Object;)V"
+      ],
+      "switches": [
+        {
+          "switch_cu": 23,
+          "payload_cu": 2164,
+          "keys_to_target_cu": {
+            "0": 1902,
+            "1": 1874,
+            "2": 1775,
+            "3": 1706,
+            "4": 1540,
+            "5": 1374,
+            "6": 1348,
+            "7": 1172,
+            "8": 1052,
+            "9": 926,
+            "10": 900,
+            "11": 575,
+            "12": 540,
+            "13": 488,
+            "14": 283,
+            "15": 237,
+            "16": 209,
+            "17": 152,
+            "18": 124,
+            "19": 37
+          }
+        }
+      ],
+      "requested_branches": {
+        "2": {
+          "target_cu": 1775,
+          "first_instructions": [
+            "06ef: sget-object v0, Laolu;->a Laolu;",
+            "06f1: iget v1, v7, Lkqd;->a I",
+            "06f3: invoke-static/range v22, Laooc;->af(Ljava/lang/Object;)V",
+            "06f6: if-eqz v1, +005h",
+            "06f8: move-object/from16 v0, v22",
+            "06fa: return-object v0",
+            "06fb: iget-object v1, v7, Lkqd;->c Ljava/lang/Object;",
+            "06fd: iget-object v2, v7, Lkqd;->b Ljava/lang/Object;",
+            "06ff: check-cast v2, Lkup;",
+            "0701: iget-object v3, v2, Lkup;->c Lkwt;"
+          ]
+        }
+      },
+      "exception_entries": [
+        {
+          "start_cu": 295,
+          "end_cu_exclusive": 298,
+          "handler_offset_bytes": 1,
+          "handlers": [
+            {
+              "type": "Lagui;",
+              "target_cu": 439
+            },
+            {
+              "type": "Ljava/lang/RuntimeException;",
+              "target_cu": 412
+            }
+          ]
+        },
+        {
+          "start_cu": 304,
+          "end_cu_exclusive": 348,
+          "handler_offset_bytes": 1,
+          "handlers": [
+            {
+              "type": "Lagui;",
+              "target_cu": 439
+            },
+            {
+              "type": "Ljava/lang/RuntimeException;",
+              "target_cu": 412
+            }
+          ]
+        },
+        {
+          "start_cu": 1060,
+          "end_cu_exclusive": 1063,
+          "handler_offset_bytes": 10,
+          "handlers": [
+            {
+              "type": "Laowo;",
+              "target_cu": 1147
+            },
+            {
+              "type": "Ljava/util/concurrent/CancellationException;",
+              "target_cu": 1125
+            }
+          ]
+        },
+        {
+          "start_cu": 1088,
+          "end_cu_exclusive": 1114,
+          "handler_offset_bytes": 10,
+          "handlers": [
+            {
+              "type": "Laowo;",
+              "target_cu": 1147
+            },
+            {
+              "type": "Ljava/util/concurrent/CancellationException;",
+              "target_cu": 1125
+            }
+          ]
+        },
+        {
+          "start_cu": 1186,
+          "end_cu_exclusive": 1189,
+          "handler_offset_bytes": 19,
+          "handlers": [
+            {
+              "type": "Laowo;",
+              "target_cu": 1328
+            },
+            {
+              "type": "Ljava/util/concurrent/CancellationException;",
+              "target_cu": 1308
+            }
+          ]
+        },
+        {
+          "start_cu": 1195,
+          "end_cu_exclusive": 1207,
+          "handler_offset_bytes": 19,
+          "handlers": [
+            {
+              "type": "Laowo;",
+              "target_cu": 1328
+            },
+            {
+              "type": "Ljava/util/concurrent/CancellationException;",
+              "target_cu": 1308
+            }
+          ]
+        },
+        {
+          "start_cu": 1380,
+          "end_cu_exclusive": 1383,
+          "handler_offset_bytes": 28,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 1498
+            }
+          ]
+        },
+        {
+          "start_cu": 1389,
+          "end_cu_exclusive": 1496,
+          "handler_offset_bytes": 28,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 1498
+            }
+          ]
+        },
+        {
+          "start_cu": 1548,
+          "end_cu_exclusive": 1551,
+          "handler_offset_bytes": 33,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 1664
+            }
+          ]
+        },
+        {
+          "start_cu": 1576,
+          "end_cu_exclusive": 1662,
+          "handler_offset_bytes": 33,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 1664
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Lksy;",
+      "method_name": "b",
+      "prototype": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "dex_entry": "classes2.dex",
+      "dex_sha256": "d03f8c27d5638dd594007b49a19c8bbf2487287e03ebafd71149e1b7e762f179",
+      "dex_method_index": 48283,
+      "code_item_offset_bytes": 5764416,
+      "code_item_size_bytes": 2414,
+      "code_item_sha256": "5315c513d2f066ecc58d1cfde2475b476f3b7926691400840d9d20906a933621",
+      "instruction_bytes": 2292,
+      "first_instructions": [
+        "0000: iget v0, v9, Lksy;->$cid I",
+        "0002: const/4 v1, 2",
+        "0003: const/4 v2, 0",
+        "0004: const/16 v3, 31",
+        "0006: const/16 v4, 14",
+        "0008: const-string v5, \"getAbsolutePath(...)\"",
+        "000a: const/4 v6, 0",
+        "000b: const/4 v7, 1",
+        "000c: packed-switch v0, +0000442h",
+        "000f: sget-object v0, Laolu;->a Laolu;",
+        "0011: iget v2, v9, Lksy;->a I",
+        "0013: invoke-static v10, Laooc;->af(Ljava/lang/Object;)V",
+        "0016: if-eqz v2, +405h",
+        "0018: if-eq v2, v7, +412h",
+        "001a: move-object v10, v6",
+        "001b: return-object v10",
+        "001c: sget-object v0, Laolu;->a Laolu;",
+        "001e: iget v2, v9, Lksy;->a I"
+      ],
+      "switches": [
+        {
+          "switch_cu": 12,
+          "payload_cu": 1102,
+          "keys_to_target_cu": {
+            "0": 950,
+            "1": 918,
+            "2": 888,
+            "3": 856,
+            "4": 795,
+            "5": 734,
+            "6": 671,
+            "7": 608,
+            "8": 569,
+            "9": 523,
+            "10": 483,
+            "11": 460,
+            "12": 430,
+            "13": 352,
+            "14": 325,
+            "15": 294,
+            "16": 257,
+            "17": 220,
+            "18": 192,
+            "19": 28
+          }
+        }
+      ],
+      "requested_branches": {
+        "2": {
+          "target_cu": 888,
+          "first_instructions": [
+            "0378: sget-object v0, Laolu;->a Laolu;",
+            "037a: iget v1, v9, Lksy;->a I",
+            "037c: invoke-static v10, Laooc;->af(Ljava/lang/Object;)V",
+            "037f: if-nez v1, +0ceh",
+            "0381: iget-object v10, v9, Lksy;->b Ljava/lang/Object;",
+            "0383: iput v7, v9, Lksy;->a I",
+            "0385: new-instance v1, Lhqi;",
+            "0387: check-cast v10, Lklt;",
+            "0389: invoke-direct v1, v10, v6, v4, Lhqi;-><init>(Lklt; Laoln; I)V"
+          ]
+        },
+        "3": {
+          "target_cu": 856,
+          "first_instructions": [
+            "0358: sget-object v0, Laolu;->a Laolu;",
+            "035a: iget v1, v9, Lksy;->a I",
+            "035c: invoke-static v10, Laooc;->af(Ljava/lang/Object;)V",
+            "035f: if-nez v1, +0eeh",
+            "0361: iget-object v10, v9, Lksy;->b Ljava/lang/Object;",
+            "0363: iput v7, v9, Lksy;->a I",
+            "0365: new-instance v1, Lhqi;",
+            "0367: check-cast v10, Lklt;",
+            "0369: const/16 v2, 15",
+            "036b: invoke-direct v1, v10, v6, v2, v6, Lhqi;-><init>(Lklt; Laoln; I [B)V"
+          ]
+        },
+        "4": {
+          "target_cu": 795,
+          "first_instructions": [
+            "031b: sget-object v0, Laolu;->a Laolu;",
+            "031d: iget v1, v9, Lksy;->a I",
+            "031f: if-eqz v1, +006h",
+            "0321: invoke-static v10, Laooc;->af(Ljava/lang/Object;)V",
+            "0324: goto +12h",
+            "0325: invoke-static v10, Laooc;->af(Ljava/lang/Object;)V",
+            "0328: iget-object v10, v9, Lksy;->b Ljava/lang/Object;",
+            "032a: const-string v1, \"ending_voice-\"",
+            "032c: iput v7, v9, Lksy;->a I",
+            "032e: check-cast v10, Lkup;"
+          ]
+        },
+        "5": {
+          "target_cu": 734,
+          "first_instructions": [
+            "02de: sget-object v0, Laolu;->a Laolu;",
+            "02e0: iget v1, v9, Lksy;->a I",
+            "02e2: if-eqz v1, +006h",
+            "02e4: invoke-static v10, Laooc;->af(Ljava/lang/Object;)V",
+            "02e7: goto +12h",
+            "02e8: invoke-static v10, Laooc;->af(Ljava/lang/Object;)V",
+            "02eb: iget-object v10, v9, Lksy;->b Ljava/lang/Object;",
+            "02ed: const-string v1, \"starting_voice-\"",
+            "02ef: iput v7, v9, Lksy;->a I",
+            "02f1: check-cast v10, Lkup;"
+          ]
+        },
+        "6": {
+          "target_cu": 671,
+          "first_instructions": [
+            "029f: sget-object v0, Laolu;->a Laolu;",
+            "02a1: iget v1, v9, Lksy;->a I",
+            "02a3: if-eqz v1, +006h",
+            "02a5: invoke-static v10, Laooc;->af(Ljava/lang/Object;)V",
+            "02a8: goto +14h",
+            "02a9: invoke-static v10, Laooc;->af(Ljava/lang/Object;)V",
+            "02ac: iget-object v10, v9, Lksy;->b Ljava/lang/Object;",
+            "02ae: check-cast v10, Lkuv;",
+            "02b0: iget-object v10, v10, Lkuv;->a Lkuu;",
+            "02b2: sget-object v1, Lkut;->d Lkut;"
+          ]
+        },
+        "7": {
+          "target_cu": 608,
+          "first_instructions": [
+            "0260: sget-object v0, Laolu;->a Laolu;",
+            "0262: iget v1, v9, Lksy;->a I",
+            "0264: if-eqz v1, +006h",
+            "0266: invoke-static v10, Laooc;->af(Ljava/lang/Object;)V",
+            "0269: goto +14h",
+            "026a: invoke-static v10, Laooc;->af(Ljava/lang/Object;)V",
+            "026d: iget-object v10, v9, Lksy;->b Ljava/lang/Object;",
+            "026f: check-cast v10, Lkuv;",
+            "0271: iget-object v10, v10, Lkuv;->a Lkuu;",
+            "0273: sget-object v1, Lkut;->c Lkut;"
+          ]
+        }
+      },
+      "exception_entries": [
+        {
+          "start_cu": 614,
+          "end_cu_exclusive": 617,
+          "handler_offset_bytes": 1,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 658
+            }
+          ]
+        },
+        {
+          "start_cu": 621,
+          "end_cu_exclusive": 639,
+          "handler_offset_bytes": 1,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 658
+            }
+          ]
+        },
+        {
+          "start_cu": 677,
+          "end_cu_exclusive": 680,
+          "handler_offset_bytes": 6,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 721
+            }
+          ]
+        },
+        {
+          "start_cu": 684,
+          "end_cu_exclusive": 702,
+          "handler_offset_bytes": 6,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 721
+            }
+          ]
+        },
+        {
+          "start_cu": 740,
+          "end_cu_exclusive": 743,
+          "handler_offset_bytes": 11,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 782
+            }
+          ]
+        },
+        {
+          "start_cu": 747,
+          "end_cu_exclusive": 763,
+          "handler_offset_bytes": 11,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 782
+            }
+          ]
+        },
+        {
+          "start_cu": 801,
+          "end_cu_exclusive": 804,
+          "handler_offset_bytes": 16,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 843
+            }
+          ]
+        },
+        {
+          "start_cu": 808,
+          "end_cu_exclusive": 824,
+          "handler_offset_bytes": 16,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 843
+            }
+          ]
+        },
+        {
+          "start_cu": 962,
+          "end_cu_exclusive": 965,
+          "handler_offset_bytes": 21,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 1016
+            }
+          ]
+        },
+        {
+          "start_cu": 969,
+          "end_cu_exclusive": 1015,
+          "handler_offset_bytes": 21,
+          "handlers": [
+            {
+              "type": "Ljava/lang/Exception;",
+              "target_cu": 1016
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "Lmwq;",
+      "method_name": "b",
+      "prototype": "(Ljava/lang/Object;)Ljava/lang/Object;",
+      "dex_entry": "classes2.dex",
+      "dex_sha256": "d03f8c27d5638dd594007b49a19c8bbf2487287e03ebafd71149e1b7e762f179",
+      "dex_method_index": 54787,
+      "code_item_offset_bytes": 6439024,
+      "code_item_size_bytes": 1162,
+      "code_item_sha256": "08a02f715e4c8590e3e2e6547af0d1897522aceff46ad5f59160f85df68bf09c",
+      "instruction_bytes": 1122,
+      "first_instructions": [
+        "0000: iget v0, v13, Lmwq;->$cid I",
+        "0002: const/4 v1, 4",
+        "0003: const/4 v2, 3",
+        "0004: const/4 v3, 2",
+        "0005: const/4 v4, 1",
+        "0006: if-eqz v0, +178h",
+        "0008: if-eq v0, v4, +0e4h",
+        "000a: sget-object v0, Laolu;->a Laolu;",
+        "000c: iget v5, v13, Lmwq;->b I",
+        "000e: const/4 v6, 0",
+        "000f: if-eqz v5, +017h",
+        "0011: if-eq v5, v4, +011h",
+        "0013: if-eq v5, v3, +00bh",
+        "0015: iget-object v3, v13, Lmwq;->a Ljava/lang/Object;",
+        "0017: invoke-static v14, Laooc;->af(Ljava/lang/Object;)V",
+        "001a: if-eq v5, v2, +07ch",
+        "001c: goto/16 +08ah",
+        "001e: invoke-static v14, Laooc;->af(Ljava/lang/Object;)V"
+      ],
+      "switches": [],
+      "requested_branches": {
+        "1": {
+          "dispatch_instructions": [
+            "0000: iget v0, v13, Lmwq;->$cid I",
+            "0002: const/4 v1, 4",
+            "0003: const/4 v2, 3",
+            "0004: const/4 v3, 2",
+            "0005: const/4 v4, 1",
+            "0006: if-eqz v0, +178h",
+            "0008: if-eq v0, v4, +0e4h",
+            "000a: sget-object v0, Laolu;->a Laolu;",
+            "000c: iget v5, v13, Lmwq;->b I"
+          ]
+        }
+      },
+      "exception_entries": [
+        {
+          "start_cu": 244,
+          "end_cu_exclusive": 247,
+          "handler_offset_bytes": 1,
+          "handlers": [
+            {
+              "type": "Laovk;",
+              "target_cu": 360
+            }
+          ]
+        },
+        {
+          "start_cu": 271,
+          "end_cu_exclusive": 296,
+          "handler_offset_bytes": 1,
+          "handlers": [
+            {
+              "type": "Laovk;",
+              "target_cu": 360
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

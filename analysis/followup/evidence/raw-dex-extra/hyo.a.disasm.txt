@@ -1,0 +1,86 @@
+# Lhyo;->a(Ljava/util/Locale; Laoln;)Ljava/lang/Object;
+# APK sha256=0ae5ba4f0f68ac200d1cf6e37b9685e57149b27ba9901d1879b133ddc4af53a0
+# classes2.dex sha256=d03f8c27d5638dd594007b49a19c8bbf2487287e03ebafd71149e1b7e762f179
+# code_item file offset=0x48e6f4 byte length=346
+# registers=10 incoming_words=3 outgoing_words=5 insns_size=153 code_units
+# Every instruction/payload is listed; label suffixes use code units. Resolved labels are annotations, original bytes are included.
+:cu_0000  20908223                 instance-of v0, v9, Lhyk;
+:cu_0002  38001100                 if-eqz v0, +011h # target=:cu_0013
+:cu_0004  0790                     move-object v0, v9
+:cu_0005  1f008223                 check-cast v0, Lhyk;
+:cu_0007  5201716e                 iget v1, v0, Lhyk;->c I
+:cu_0009  15020080                 const/high16 v2, -2147483648
+:cu_000b  95030102                 and-int v3, v1, v2
+:cu_000d  38030600                 if-eqz v3, +006h # target=:cu_0013
+:cu_000f  b121                     sub-int/2addr v1, v2
+:cu_0010  5901716e                 iput v1, v0, Lhyk;->c I
+:cu_0012  2806                     goto +6h # target=:cu_0018
+:cu_0013  22008223                 new-instance v0, Lhyk;
+:cu_0015  703025947009             invoke-direct v0, v7, v9, Lhyk;-><init>(Lhyo; Laoln;)V
+:cu_0018  54096f6e                 iget-object v9, v0, Lhyk;->a Ljava/lang/Object;
+:cu_001a  6201611f                 sget-object v1, Laolu;->a Laolu;
+:cu_001c  5202716e                 iget v2, v0, Lhyk;->c I
+:cu_001e  1213                     const/4 v3, 1
+:cu_001f  38021200                 if-eqz v2, +012h # target=:cu_0031
+:cu_0021  33320800                 if-ne v2, v3, +008h # target=:cu_0029
+:cu_0023  5408726e                 iget-object v8, v0, Lhyk;->d Ljava/util/Locale;
+:cu_0025  71103a3c0900             invoke-static v9, Laooc;->af(Ljava/lang/Object;)V
+:cu_0028  2820                     goto +20h # target=:cu_0048
+:cu_0029  2207f526                 new-instance v7, Ljava/lang/IllegalStateException;
+:cu_002b  1a08a39c                 const-string v8, "call to 'resume' before 'invoke' with coroutine"
+:cu_002d  7020b3a28700             invoke-direct v7, v8, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+:cu_0030  2707                     throw v7
+:cu_0031  71103a3c0900             invoke-static v9, Laooc;->af(Ljava/lang/Object;)V
+:cu_0034  6104816e                 sget-wide v4, Lhyo;->c J
+:cu_0036  22096b22                 new-instance v9, Lhnt;
+:cu_0038  1202                     const/4 v2, 0
+:cu_0039  13061200                 const/16 v6, 18
+:cu_003b  7040768f7962             invoke-direct v9, v7, v2, v6, Lhnt;-><init>(Lhyo; Laoln; I)V
+:cu_003e  5b08726e                 iput-object v8, v0, Lhyk;->d Ljava/util/Locale;
+:cu_0040  5903716e                 iput v3, v0, Lhyk;->c I
+:cu_0042  7140603c5409             invoke-static v4, v5, v9, v0, Laooh;->L(J Laonn; Laoln;)Ljava/lang/Object;
+:cu_0045  0c09                     move-result-object v9
+:cu_0046  32193a00                 if-eq v9, v1, +03ah # target=:cu_0080
+:cu_0048  0791                     move-object v1, v9
+:cu_0049  1f01880e                 check-cast v1, Landroid/speech/tts/TextToSpeech;
+:cu_004b  6e205a268100             invoke-virtual v1, v8, Landroid/speech/tts/TextToSpeech;->isLanguageAvailable(Ljava/util/Locale;)I
+:cu_004e  0a09                     move-result v9
+:cu_004f  62007f6e                 sget-object v0, Lhyo;->a Laimz;
+:cu_0051  6e1090140000             invoke-virtual v0, Laimp;->b()Lainm;
+:cu_0054  0c02                     move-result-object v2
+:cu_0055  1a031abf                 const-string v3, "isLocaleSupported"
+:cu_0057  13046800                 const/16 v4, 104
+:cu_0059  1a05389f                 const-string v5, "com/android/dialer/audio/audioinjector/fileprovider/BaseTtsInstance"
+:cu_005b  1a067a1d                 const-string v6, "BaseTtsInstance.kt"
+:cu_005d  7256be145243             invoke-interface v2, v5, v3, v4, v6, Lainm;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_0060  0c02                     move-result-object v2
+:cu_0061  1f02b907                 check-cast v2, Laimw;
+:cu_0063  1a03abc0                 const-string v3, "languageAvailability=%d"
+:cu_0065  7230ad143209             invoke-interface v2, v3, v9, Laimw;->w(Ljava/lang/String; I)V
+:cu_0068  3a091900                 if-ltz v9, +019h # target=:cu_0081
+:cu_006a  6e1090140000             invoke-virtual v0, Laimp;->b()Lainm;
+:cu_006d  0c07                     move-result-object v7
+:cu_006e  1a09bfa3                 const-string v9, "createTtsInternal"
+:cu_0070  13004200                 const/16 v0, 66
+:cu_0072  7256be145709             invoke-interface v7, v5, v9, v0, v6, Lainm;->l(Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String;)Lainm;
+:cu_0075  0c07                     move-result-object v7
+:cu_0076  1f07b907                 check-cast v7, Laimw;
+:cu_0078  1a0927be                 const-string v9, "initializing TTS with %s locale"
+:cu_007a  7230af149708             invoke-interface v7, v9, v8, Laimw;->y(Ljava/lang/String; Ljava/lang/Object;)V
+:cu_007d  6e205c268100             invoke-virtual v1, v8, Landroid/speech/tts/TextToSpeech;->setLanguage(Ljava/util/Locale;)I
+:cu_0080  1101                     return-object v1
+:cu_0081  5477806e                 iget-object v7, v7, Lhyo;->b Lrlv;
+:cu_0083  62085bbd                 sget-object v8, Lrmx;->nh Lrmx;
+:cu_0085  7220a1f18700             invoke-interface v7, v8, Lrlv;->o(Lrmx;)V
+:cu_0088  2207f526                 new-instance v7, Ljava/lang/IllegalStateException;
+:cu_008a  1a081047                 const-string v8, "Language not available for TTS."
+:cu_008c  7020b3a28700             invoke-direct v7, v8, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+:cu_008f  2707                     throw v7
+:cu_0090  0d08                     move-exception v8
+:cu_0091  5477806e                 iget-object v7, v7, Lhyo;->b Lrlv;
+:cu_0093  62095abd                 sget-object v9, Lrmx;->ng Lrmx;
+:cu_0095  7220a1f19700             invoke-interface v7, v9, Lrlv;->o(Lrmx;)V
+:cu_0098  2708                     throw v8
+# Exception table: starts inclusive, ends exclusive; handler offsets are bytes from encoded_catch_handler_list.
+# .catch Laovk; {:cu_0025 .. :cu_0028} :cu_0090
+# .catch Laovk; {:cu_0034 .. :cu_004b} :cu_0090
