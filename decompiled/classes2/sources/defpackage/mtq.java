@@ -1,0 +1,53 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes2.dex */
+public enum mtq implements alah {
+    EVT_NOT_SET(0),
+    EVT_CMD_BOT_SPEECH_START(1),
+    EVT_CMD_BOT_SPEECH_STOP(2),
+    EVT_CMD_QUICK_REPLY_CHIP_READY(3),
+    EVT_CMD_EXPERIMENT_SUMMERY(4),
+    EVT_CMD_MODEL_COMPACT_OUTPUT(5),
+    EVT_CMD_LLM_ACTIVE(24),
+    EVT_CMD_LLM_FEATURE_DOWNLOADING(25),
+    EVT_CMD_LLM_FEATURE_MISSING(26),
+    EVT_CMD_LLM_INFERENCE_REQUEST(27),
+    EVT_CMD_LLM_CANCEL_REQUEST(28),
+    EVT_CMD_LLM_INFERENCE_RESULT(29),
+    EVT_CMD_EXTRACTION_RESULT(30),
+    EVT_CMD_LLM_FEATURE_AVAILABLE(31),
+    EVT_CMD_CONVERSATION_STATE(6),
+    EVT_CMD_TRANSCRIPT_SUMMARY(7),
+    EVT_CMD_SPAM_DECISION(8),
+    EVT_CMD_ROBOCALL_DETECTED(9),
+    EVT_CMD_AUDIO_MATCH(10),
+    EVT_CMD_DARK_LAUNCH_SMART_REPLY(11),
+    EVT_CMD_SUGGESTED_SMART_REPLY(12),
+    EVT_CMD_EVENT_LOG_WITH_VERSION(14),
+    EVT_ACK_BOT_SPEECH_STARTED(15),
+    EVT_ACK_BOT_SPEECH_ENDED(16),
+    EVT_ACK_SUGGESTED_REPLY_SELECTED(17),
+    EVT_ACK_MANUAL_END_CALL(18),
+    EVT_ACK_MANUAL_ANSWER_CALL(19),
+    EVT_ACK_RINGING_STARTED(20),
+    EVT_ACK_RINGING_ENDED_USER_NOT_REACHED(21),
+    EVT_ACK_RINGING_ENDED_USER_DECLINED(22),
+    EVT_ACK_RINGING_ENDED_USER_ANSWERED(23),
+    UNRECOGNIZED(-1);
+
+    private final int H;
+
+    mtq(int i) {
+        this.H = i;
+    }
+
+    public final int a() {
+        return this == UNRECOGNIZED ? alau.a() : this.H;
+    }
+
+    @Override // java.lang.Enum
+    public final java.lang.String toString() {
+        return java.lang.Integer.toString(this.H);
+    }
+}

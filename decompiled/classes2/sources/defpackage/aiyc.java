@@ -1,0 +1,41 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes2.dex */
+public final class aiyc extends alad implements albi {
+    public static final defpackage.aiyc a;
+    public int b;
+    public int c;
+    public int d;
+    public int e;
+
+    static {
+        defpackage.aiyc aiycVar = new defpackage.aiyc();
+        a = aiycVar;
+        alad.Q(defpackage.aiyc.class, aiycVar);
+    }
+
+    private aiyc() {
+    }
+
+    protected final java.lang.Object a(int i, java.lang.Object obj) {
+        int i2 = i - 1;
+        if (i2 == 2) {
+            alai alaiVar = defpackage.llm.r;
+            return new albr(a, "\u0001\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0000\u0000\u0001᠌\u0000\u0002᠌\u0001\u0003᠌\u0002", new java.lang.Object[]{"b", "c", alaiVar, "d", defpackage.llm.q, "e", alaiVar});
+        }
+        if (i2 == 3) {
+            return new defpackage.aiyc();
+        }
+        if (i2 == 4) {
+            return new akzx(a);
+        }
+        if (i2 == 5) {
+            return a;
+        }
+        if (i2 != 6) {
+            return null;
+        }
+        return alad.M(defpackage.aiyc.class);
+    }
+}

@@ -1,0 +1,156 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes.dex */
+public final class apii {
+    public static final defpackage.apii c;
+    public static final defpackage.apii d;
+    public static final defpackage.apii e;
+    public static final defpackage.apii f;
+    public static final defpackage.apii g;
+    public static final defpackage.apii h;
+    public static final defpackage.apii i;
+    public static final defpackage.apii j;
+    public static final defpackage.apii k;
+    public static final defpackage.apii l;
+    public static final defpackage.apii m;
+    public static final defpackage.apii n;
+    public static final defpackage.apii o;
+    public static final defpackage.apii p;
+    public static final defpackage.apii q;
+    public static final defpackage.apii r;
+    public final java.lang.String s;
+    public static final defpackage.aooh t = new defpackage.aooh();
+    public static final java.util.Comparator a = new defpackage.agl(8);
+    public static final java.util.Map b = new java.util.LinkedHashMap();
+
+    static {
+        defpackage.aooh.X("SSL_RSA_WITH_NULL_MD5");
+        defpackage.aooh.X("SSL_RSA_WITH_NULL_SHA");
+        defpackage.aooh.X("SSL_RSA_EXPORT_WITH_RC4_40_MD5");
+        defpackage.aooh.X("SSL_RSA_WITH_RC4_128_MD5");
+        defpackage.aooh.X("SSL_RSA_WITH_RC4_128_SHA");
+        defpackage.aooh.X("SSL_RSA_EXPORT_WITH_DES40_CBC_SHA");
+        defpackage.aooh.X("SSL_RSA_WITH_DES_CBC_SHA");
+        c = defpackage.aooh.X("SSL_RSA_WITH_3DES_EDE_CBC_SHA");
+        defpackage.aooh.X("SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA");
+        defpackage.aooh.X("SSL_DHE_DSS_WITH_DES_CBC_SHA");
+        defpackage.aooh.X("SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA");
+        defpackage.aooh.X("SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA");
+        defpackage.aooh.X("SSL_DHE_RSA_WITH_DES_CBC_SHA");
+        defpackage.aooh.X("SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA");
+        defpackage.aooh.X("SSL_DH_anon_EXPORT_WITH_RC4_40_MD5");
+        defpackage.aooh.X("SSL_DH_anon_WITH_RC4_128_MD5");
+        defpackage.aooh.X("SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA");
+        defpackage.aooh.X("SSL_DH_anon_WITH_DES_CBC_SHA");
+        defpackage.aooh.X("SSL_DH_anon_WITH_3DES_EDE_CBC_SHA");
+        defpackage.aooh.X("TLS_KRB5_WITH_DES_CBC_SHA");
+        defpackage.aooh.X("TLS_KRB5_WITH_3DES_EDE_CBC_SHA");
+        defpackage.aooh.X("TLS_KRB5_WITH_RC4_128_SHA");
+        defpackage.aooh.X("TLS_KRB5_WITH_DES_CBC_MD5");
+        defpackage.aooh.X("TLS_KRB5_WITH_3DES_EDE_CBC_MD5");
+        defpackage.aooh.X("TLS_KRB5_WITH_RC4_128_MD5");
+        defpackage.aooh.X("TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA");
+        defpackage.aooh.X("TLS_KRB5_EXPORT_WITH_RC4_40_SHA");
+        defpackage.aooh.X("TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5");
+        defpackage.aooh.X("TLS_KRB5_EXPORT_WITH_RC4_40_MD5");
+        d = defpackage.aooh.X("TLS_RSA_WITH_AES_128_CBC_SHA");
+        defpackage.aooh.X("TLS_DHE_DSS_WITH_AES_128_CBC_SHA");
+        defpackage.aooh.X("TLS_DHE_RSA_WITH_AES_128_CBC_SHA");
+        defpackage.aooh.X("TLS_DH_anon_WITH_AES_128_CBC_SHA");
+        e = defpackage.aooh.X("TLS_RSA_WITH_AES_256_CBC_SHA");
+        defpackage.aooh.X("TLS_DHE_DSS_WITH_AES_256_CBC_SHA");
+        defpackage.aooh.X("TLS_DHE_RSA_WITH_AES_256_CBC_SHA");
+        defpackage.aooh.X("TLS_DH_anon_WITH_AES_256_CBC_SHA");
+        defpackage.aooh.X("TLS_RSA_WITH_NULL_SHA256");
+        defpackage.aooh.X("TLS_RSA_WITH_AES_128_CBC_SHA256");
+        defpackage.aooh.X("TLS_RSA_WITH_AES_256_CBC_SHA256");
+        defpackage.aooh.X("TLS_DHE_DSS_WITH_AES_128_CBC_SHA256");
+        defpackage.aooh.X("TLS_RSA_WITH_CAMELLIA_128_CBC_SHA");
+        defpackage.aooh.X("TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA");
+        defpackage.aooh.X("TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA");
+        defpackage.aooh.X("TLS_DHE_RSA_WITH_AES_128_CBC_SHA256");
+        defpackage.aooh.X("TLS_DHE_DSS_WITH_AES_256_CBC_SHA256");
+        defpackage.aooh.X("TLS_DHE_RSA_WITH_AES_256_CBC_SHA256");
+        defpackage.aooh.X("TLS_DH_anon_WITH_AES_128_CBC_SHA256");
+        defpackage.aooh.X("TLS_DH_anon_WITH_AES_256_CBC_SHA256");
+        defpackage.aooh.X("TLS_RSA_WITH_CAMELLIA_256_CBC_SHA");
+        defpackage.aooh.X("TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA");
+        defpackage.aooh.X("TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA");
+        defpackage.aooh.X("TLS_PSK_WITH_RC4_128_SHA");
+        defpackage.aooh.X("TLS_PSK_WITH_3DES_EDE_CBC_SHA");
+        defpackage.aooh.X("TLS_PSK_WITH_AES_128_CBC_SHA");
+        defpackage.aooh.X("TLS_PSK_WITH_AES_256_CBC_SHA");
+        defpackage.aooh.X("TLS_RSA_WITH_SEED_CBC_SHA");
+        f = defpackage.aooh.X("TLS_RSA_WITH_AES_128_GCM_SHA256");
+        g = defpackage.aooh.X("TLS_RSA_WITH_AES_256_GCM_SHA384");
+        defpackage.aooh.X("TLS_DHE_RSA_WITH_AES_128_GCM_SHA256");
+        defpackage.aooh.X("TLS_DHE_RSA_WITH_AES_256_GCM_SHA384");
+        defpackage.aooh.X("TLS_DHE_DSS_WITH_AES_128_GCM_SHA256");
+        defpackage.aooh.X("TLS_DHE_DSS_WITH_AES_256_GCM_SHA384");
+        defpackage.aooh.X("TLS_DH_anon_WITH_AES_128_GCM_SHA256");
+        defpackage.aooh.X("TLS_DH_anon_WITH_AES_256_GCM_SHA384");
+        defpackage.aooh.X("TLS_EMPTY_RENEGOTIATION_INFO_SCSV");
+        defpackage.aooh.X("TLS_FALLBACK_SCSV");
+        defpackage.aooh.X("TLS_ECDH_ECDSA_WITH_NULL_SHA");
+        defpackage.aooh.X("TLS_ECDH_ECDSA_WITH_RC4_128_SHA");
+        defpackage.aooh.X("TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA");
+        defpackage.aooh.X("TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA");
+        defpackage.aooh.X("TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA");
+        defpackage.aooh.X("TLS_ECDHE_ECDSA_WITH_NULL_SHA");
+        defpackage.aooh.X("TLS_ECDHE_ECDSA_WITH_RC4_128_SHA");
+        defpackage.aooh.X("TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA");
+        defpackage.aooh.X("TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA");
+        defpackage.aooh.X("TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA");
+        defpackage.aooh.X("TLS_ECDH_RSA_WITH_NULL_SHA");
+        defpackage.aooh.X("TLS_ECDH_RSA_WITH_RC4_128_SHA");
+        defpackage.aooh.X("TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA");
+        defpackage.aooh.X("TLS_ECDH_RSA_WITH_AES_128_CBC_SHA");
+        defpackage.aooh.X("TLS_ECDH_RSA_WITH_AES_256_CBC_SHA");
+        defpackage.aooh.X("TLS_ECDHE_RSA_WITH_NULL_SHA");
+        defpackage.aooh.X("TLS_ECDHE_RSA_WITH_RC4_128_SHA");
+        defpackage.aooh.X("TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA");
+        h = defpackage.aooh.X("TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA");
+        i = defpackage.aooh.X("TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA");
+        defpackage.aooh.X("TLS_ECDH_anon_WITH_NULL_SHA");
+        defpackage.aooh.X("TLS_ECDH_anon_WITH_RC4_128_SHA");
+        defpackage.aooh.X("TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA");
+        defpackage.aooh.X("TLS_ECDH_anon_WITH_AES_128_CBC_SHA");
+        defpackage.aooh.X("TLS_ECDH_anon_WITH_AES_256_CBC_SHA");
+        defpackage.aooh.X("TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256");
+        defpackage.aooh.X("TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384");
+        defpackage.aooh.X("TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256");
+        defpackage.aooh.X("TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384");
+        defpackage.aooh.X("TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256");
+        defpackage.aooh.X("TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384");
+        defpackage.aooh.X("TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256");
+        defpackage.aooh.X("TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384");
+        j = defpackage.aooh.X("TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256");
+        k = defpackage.aooh.X("TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384");
+        defpackage.aooh.X("TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256");
+        defpackage.aooh.X("TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384");
+        l = defpackage.aooh.X("TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256");
+        m = defpackage.aooh.X("TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384");
+        defpackage.aooh.X("TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256");
+        defpackage.aooh.X("TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384");
+        defpackage.aooh.X("TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA");
+        defpackage.aooh.X("TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA");
+        n = defpackage.aooh.X("TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256");
+        o = defpackage.aooh.X("TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256");
+        defpackage.aooh.X("TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256");
+        defpackage.aooh.X("TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256");
+        p = defpackage.aooh.X("TLS_AES_128_GCM_SHA256");
+        q = defpackage.aooh.X("TLS_AES_256_GCM_SHA384");
+        r = defpackage.aooh.X("TLS_CHACHA20_POLY1305_SHA256");
+        defpackage.aooh.X("TLS_AES_128_CCM_SHA256");
+        defpackage.aooh.X("TLS_AES_128_CCM_8_SHA256");
+    }
+
+    public apii(java.lang.String str) {
+        this.s = str;
+    }
+
+    public final java.lang.String toString() {
+        return this.s;
+    }
+}

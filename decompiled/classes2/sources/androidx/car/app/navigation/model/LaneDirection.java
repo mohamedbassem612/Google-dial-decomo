@@ -1,0 +1,62 @@
+package androidx.car.app.navigation.model;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes2.dex */
+@defpackage.ug
+public final class LaneDirection {
+    public static final int SHAPE_NORMAL_LEFT = 5;
+    public static final int SHAPE_NORMAL_RIGHT = 6;
+    public static final int SHAPE_SHARP_LEFT = 7;
+    public static final int SHAPE_SHARP_RIGHT = 8;
+    public static final int SHAPE_SLIGHT_LEFT = 3;
+    public static final int SHAPE_SLIGHT_RIGHT = 4;
+    public static final int SHAPE_STRAIGHT = 2;
+    public static final int SHAPE_UNKNOWN = 1;
+    public static final int SHAPE_U_TURN_LEFT = 9;
+    public static final int SHAPE_U_TURN_RIGHT = 10;
+    private final boolean mIsRecommended;
+    private final int mShape;
+
+    private LaneDirection() {
+        this.mShape = 1;
+        this.mIsRecommended = false;
+    }
+
+    public static androidx.car.app.navigation.model.LaneDirection create(int i, boolean z) {
+        return new androidx.car.app.navigation.model.LaneDirection(i, z);
+    }
+
+    public boolean equals(java.lang.Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj instanceof androidx.car.app.navigation.model.LaneDirection) {
+            androidx.car.app.navigation.model.LaneDirection laneDirection = (androidx.car.app.navigation.model.LaneDirection) obj;
+            if (this.mShape == laneDirection.mShape && this.mIsRecommended == laneDirection.mIsRecommended) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public int getShape() {
+        return this.mShape;
+    }
+
+    public int hashCode() {
+        return j$.util.Objects.hash(new java.lang.Object[]{java.lang.Integer.valueOf(this.mShape), java.lang.Boolean.valueOf(this.mIsRecommended)});
+    }
+
+    public boolean isRecommended() {
+        return this.mIsRecommended;
+    }
+
+    public java.lang.String toString() {
+        return "[shape: " + this.mShape + ", isRecommended: " + this.mIsRecommended + ']';
+    }
+
+    private LaneDirection(int i, boolean z) {
+        this.mShape = i;
+        this.mIsRecommended = z;
+    }
+}

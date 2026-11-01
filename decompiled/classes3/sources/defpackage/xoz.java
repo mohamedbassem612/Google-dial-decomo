@@ -1,0 +1,9 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes3.dex */
+public interface xoz {
+    defpackage.xoz e();
+
+    android.os.PersistableBundle ew(java.lang.Object obj);
+}

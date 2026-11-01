@@ -1,0 +1,78 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes3.dex */
+abstract class rwc extends ger implements amyq {
+    private android.content.ContextWrapper c;
+    private volatile amxr e;
+    private boolean d = false;
+    private final java.lang.Object ak = new java.lang.Object();
+    private boolean al = false;
+
+    private final void aW() {
+        if (this.c == null) {
+            this.c = new amyf(super.z(), this);
+            this.d = aooc.aq(super.z());
+        }
+    }
+
+    public final java.lang.Object B() {
+        return b().B();
+    }
+
+    public final eoe R() {
+        return ajsz.dE(this, super.R());
+    }
+
+    public void ah(android.app.Activity activity) {
+        super.ah(activity);
+        android.content.ContextWrapper contextWrapper = this.c;
+        boolean z = true;
+        if (contextWrapper != null && amxr.e(contextWrapper) != activity) {
+            z = false;
+        }
+        ajsz.dA(z, "onAttach called multiple times with different Context! Hilt Fragments should not be retained.", new java.lang.Object[0]);
+        aW();
+        b().f();
+        be();
+    }
+
+    protected amxr bc() {
+        throw null;
+    }
+
+    /* JADX INFO: renamed from: bd, reason: merged with bridge method [inline-methods] */
+    public final amxr b() {
+        if (this.e == null) {
+            synchronized (this.ak) {
+                if (this.e == null) {
+                    this.e = bc();
+                }
+            }
+        }
+        return this.e;
+    }
+
+    protected final void be() {
+        if (this.al) {
+            return;
+        }
+        this.al = true;
+        B();
+    }
+
+    public void g(android.content.Context context) {
+        super.g(context);
+        aW();
+        b().f();
+        be();
+    }
+
+    public android.content.Context z() {
+        if (super.z() == null && !this.d) {
+            return null;
+        }
+        aW();
+        return this.c;
+    }
+}

@@ -1,0 +1,47 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes2.dex */
+public final class aixy extends alad implements albi {
+    public static final defpackage.aixy a;
+    public int b;
+    public alcf c;
+    public int e;
+    public int h;
+    public int i;
+    public int j;
+    public java.lang.String d = "";
+    public java.lang.String f = "";
+    public java.lang.String g = "";
+    public java.lang.String k = "";
+    public java.lang.String l = "";
+
+    static {
+        defpackage.aixy aixyVar = new defpackage.aixy();
+        a = aixyVar;
+        alad.Q(defpackage.aixy.class, aixyVar);
+    }
+
+    private aixy() {
+    }
+
+    protected final java.lang.Object a(int i, java.lang.Object obj) {
+        int i2 = i - 1;
+        if (i2 == 2) {
+            return new albr(a, "\u0001\n\u0000\u0001\u0001\n\n\u0000\u0000\u0000\u0001ဉ\u0000\u0002ဈ\u0001\u0003᠌\u0002\u0004ဈ\u0003\u0005ဈ\u0004\u0006᠌\u0005\u0007᠌\u0006\b᠌\u0007\tဈ\b\nဈ\t", new java.lang.Object[]{"b", "c", "d", "e", defpackage.aixj.e, "f", "g", "h", defpackage.aixj.n, "i", rmr.c, "j", defpackage.aixj.d, "k", "l"});
+        }
+        if (i2 == 3) {
+            return new defpackage.aixy();
+        }
+        if (i2 == 4) {
+            return new akzx(a);
+        }
+        if (i2 == 5) {
+            return a;
+        }
+        if (i2 != 6) {
+            return null;
+        }
+        return alad.M(defpackage.aixy.class);
+    }
+}

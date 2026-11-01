@@ -1,0 +1,30 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes3.dex */
+public enum urp {
+    DURATION_SHORT_1(2130970062, 50),
+    DURATION_SHORT_2(2130970063, 100),
+    DURATION_SHORT_3(2130970064, 150),
+    DURATION_SHORT_4(2130970065, 200),
+    DURATION_MEDIUM_1(2130970058, 250),
+    DURATION_MEDIUM_2(2130970059, 300),
+    DURATION_MEDIUM_3(2130970060, 350),
+    DURATION_MEDIUM_4(2130970061, 400),
+    DURATION_LONG_1(2130970054, 450),
+    DURATION_LONG_2(2130970055, 500),
+    DURATION_LONG_3(2130970056, 550),
+    DURATION_LONG_4(2130970057, 600),
+    DURATION_EXTRA_LONG_1(2130970050, 700),
+    DURATION_EXTRA_LONG_2(2130970051, 800),
+    DURATION_EXTRA_LONG_3(2130970052, 900),
+    DURATION_EXTRA_LONG_4(2130970053, 1000);
+
+    public final int q;
+    public final int r;
+
+    urp(int i, int i2) {
+        this.q = i;
+        this.r = i2;
+    }
+}

@@ -1,0 +1,42 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes3.dex */
+public final class alfm extends alad implements albi {
+    public static final defpackage.alfm a;
+    public int b;
+    public int c;
+    public int d;
+    public int e;
+    public int f;
+    public java.lang.String g = "";
+
+    static {
+        defpackage.alfm alfmVar = new defpackage.alfm();
+        a = alfmVar;
+        alad.Q(defpackage.alfm.class, alfmVar);
+    }
+
+    private alfm() {
+    }
+
+    protected final java.lang.Object a(int i, java.lang.Object obj) {
+        int i2 = i - 1;
+        if (i2 == 2) {
+            return new albr(a, "\u0001\u0005\u0000\u0001\u0001\u0007\u0005\u0000\u0000\u0000\u0001᠌\u0000\u0002᠌\u0001\u0004᠌\u0003\u0006᠌\u0005\u0007ဈ\u0006", new java.lang.Object[]{"b", "c", aleu.n, "d", aleu.l, "e", aleu.m, "f", aleu.k, "g"});
+        }
+        if (i2 == 3) {
+            return new defpackage.alfm();
+        }
+        if (i2 == 4) {
+            return new akzx(a);
+        }
+        if (i2 == 5) {
+            return a;
+        }
+        if (i2 != 6) {
+            return null;
+        }
+        return alad.M(defpackage.alfm.class);
+    }
+}

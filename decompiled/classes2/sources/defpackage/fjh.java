@@ -1,0 +1,71 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes2.dex */
+final class fjh {
+    public long a;
+    public long b;
+    public final boolean[] c = new boolean[15];
+    private long d;
+    private long e;
+    private long f;
+    private long g;
+    private int h;
+
+    public static int a(long j) {
+        return (int) (j % 15);
+    }
+
+    public final long b() {
+        long j = this.g;
+        if (j != 0) {
+            return this.b / j;
+        }
+        return 0L;
+    }
+
+    public final void c(long j) {
+        long j2 = this.a;
+        if (j2 == 0) {
+            this.d = j;
+        } else if (j2 == 1) {
+            long j3 = j - this.d;
+            this.e = j3;
+            this.b = j3;
+            this.g = 1L;
+        } else {
+            long j4 = j - this.f;
+            long j5 = j4 - this.e;
+            int iA = a(j2);
+            if (java.lang.Math.abs(j5) <= 1000000) {
+                this.g++;
+                this.b += j4;
+                boolean[] zArr = this.c;
+                if (zArr[iA]) {
+                    zArr[iA] = false;
+                    this.h--;
+                }
+            } else {
+                boolean[] zArr2 = this.c;
+                if (!zArr2[iA]) {
+                    zArr2[iA] = true;
+                    this.h++;
+                }
+            }
+        }
+        this.a++;
+        this.f = j;
+    }
+
+    public final void d() {
+        this.a = 0L;
+        this.g = 0L;
+        this.b = 0L;
+        this.h = 0;
+        java.util.Arrays.fill(this.c, false);
+    }
+
+    public final boolean e() {
+        return this.a > 15 && this.h == 0;
+    }
+}

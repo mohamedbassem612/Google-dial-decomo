@@ -1,0 +1,34 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes3.dex */
+public final class ulo extends defpackage.ulp {
+    private final defpackage.uku b;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public ulo(defpackage.uku ukuVar) {
+        super(defpackage.ujq.SHOW_SPAM_DIALOG);
+        aooh.f(ukuVar, "model");
+        this.b = ukuVar;
+    }
+
+    @Override // defpackage.ulp
+    public final defpackage.uku a() {
+        return this.b;
+    }
+
+    public final boolean equals(java.lang.Object obj) {
+        if (this != obj) {
+            return (obj instanceof defpackage.ulo) && aooh.n(this.b, ((defpackage.ulo) obj).b);
+        }
+        return true;
+    }
+
+    public final int hashCode() {
+        return this.b.hashCode();
+    }
+
+    public final java.lang.String toString() {
+        return "ShowSpamDialog(model=" + this.b + ')';
+    }
+}

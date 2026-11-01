@@ -1,0 +1,29 @@
+package j$.util.stream;
+
+/* JADX INFO: compiled from: r8-map-id-3adb9db301d96c2361dbb0b6577526ae53bce59ce57ea3dca6dd17a1bcfda15c */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes5.dex */
+public final class x extends j$.util.stream.q1 {
+    public final /* synthetic */ byte n;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public /* synthetic */ x(j$.util.stream.a aVar, int i, byte b) {
+        super(aVar, i, (byte) 1);
+        this.n = b;
+    }
+
+    @Override // j$.util.stream.a
+    public final j$.util.stream.f6 K(int i, j$.util.stream.f6 f6Var) {
+        j$.util.stream.f6 wVar;
+        switch (this.n) {
+            case 0:
+                wVar = new j$.util.stream.w(f6Var, (byte) 0);
+                break;
+            case 1:
+                return f6Var;
+            default:
+                wVar = new j$.util.stream.u1(f6Var, (byte) 2);
+                break;
+        }
+        return wVar;
+    }
+}

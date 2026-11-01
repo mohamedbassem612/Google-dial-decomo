@@ -1,0 +1,41 @@
+package org.chromium.net;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes4.dex */
+@java.lang.Deprecated
+public abstract class ExperimentalBidirectionalStream extends org.chromium.net.BidirectionalStream {
+
+    /* JADX INFO: compiled from: PG */
+    @java.lang.Deprecated
+    public abstract class Builder extends org.chromium.net.BidirectionalStream.Builder {
+        @Override // org.chromium.net.BidirectionalStream.Builder
+        public abstract org.chromium.net.ExperimentalBidirectionalStream.Builder addHeader(java.lang.String str, java.lang.String str2);
+
+        @Override // org.chromium.net.BidirectionalStream.Builder
+        public abstract org.chromium.net.ExperimentalBidirectionalStream build();
+
+        @Override // org.chromium.net.BidirectionalStream.Builder
+        public abstract org.chromium.net.ExperimentalBidirectionalStream.Builder delayRequestHeadersUntilFirstFlush(boolean z);
+
+        @Override // org.chromium.net.BidirectionalStream.Builder
+        public abstract org.chromium.net.ExperimentalBidirectionalStream.Builder setHttpMethod(java.lang.String str);
+
+        @Override // org.chromium.net.BidirectionalStream.Builder
+        public abstract org.chromium.net.ExperimentalBidirectionalStream.Builder setPriority(int i);
+
+        @Override // org.chromium.net.BidirectionalStream.Builder
+        public org.chromium.net.ExperimentalBidirectionalStream.Builder addRequestAnnotation(java.lang.Object obj) {
+            return this;
+        }
+
+        @Override // org.chromium.net.BidirectionalStream.Builder
+        public org.chromium.net.ExperimentalBidirectionalStream.Builder setTrafficStatsTag(int i) {
+            return this;
+        }
+
+        @Override // org.chromium.net.BidirectionalStream.Builder
+        public org.chromium.net.ExperimentalBidirectionalStream.Builder setTrafficStatsUid(int i) {
+            return this;
+        }
+    }
+}

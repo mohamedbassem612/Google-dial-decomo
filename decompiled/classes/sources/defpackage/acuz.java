@@ -1,0 +1,41 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes.dex */
+public final class acuz extends defpackage.alad implements defpackage.albi {
+    public static final defpackage.acuz a;
+    public int b;
+    public int c;
+    public int d;
+    public long e;
+
+    static {
+        defpackage.acuz acuzVar = new defpackage.acuz();
+        a = acuzVar;
+        defpackage.alad.Q(defpackage.acuz.class, acuzVar);
+    }
+
+    private acuz() {
+    }
+
+    @Override // defpackage.alad
+    protected final java.lang.Object a(int i, java.lang.Object obj) {
+        int i2 = i - 1;
+        if (i2 == 2) {
+            return new defpackage.albr(a, "\u0001\u0003\u0000\u0001\u0001\u0004\u0003\u0000\u0000\u0000\u0001᠌\u0000\u0002᠌\u0001\u0004ဂ\u0002", new java.lang.Object[]{"b", "c", defpackage.udi.l, "d", defpackage.udi.k, "e"});
+        }
+        if (i2 == 3) {
+            return new defpackage.acuz();
+        }
+        if (i2 == 4) {
+            return new defpackage.akzx(a);
+        }
+        if (i2 == 5) {
+            return a;
+        }
+        if (i2 != 6) {
+            return null;
+        }
+        return defpackage.alad.M(defpackage.acuz.class);
+    }
+}

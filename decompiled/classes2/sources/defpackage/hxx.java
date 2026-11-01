@@ -1,0 +1,27 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes2.dex */
+public final class hxx implements defpackage.hxw {
+    public final java.io.File a;
+
+    public hxx(java.io.File file) {
+        aooh.f(file, "audioFile");
+        this.a = file;
+    }
+
+    public final boolean equals(java.lang.Object obj) {
+        if (this != obj) {
+            return (obj instanceof defpackage.hxx) && aooh.n(this.a, ((defpackage.hxx) obj).a);
+        }
+        return true;
+    }
+
+    public final int hashCode() {
+        return this.a.hashCode();
+    }
+
+    public final java.lang.String toString() {
+        return "RawInjectableAudio(audioFile=" + this.a + ')';
+    }
+}

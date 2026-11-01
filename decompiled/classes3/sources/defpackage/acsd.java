@@ -1,0 +1,7 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes3.dex */
+public final class acsd {
+    public static final java.util.Map a = ajsz.aO(new aoiu[]{new aoiu(new defpackage.acro(1), new defpackage.acrk(defpackage.acrt.c, 180.0f, 270.0f, 0.0f, 0.5f, 0.5f, 0.625f, 0.75f, 0.625f, 0.125f, 0.75f, 0.0f, 0.95f, 1.85f, null, null, null, null, den.bw(den.bu(new defpackage.acsb(2)), 1, 0, 4), 14647320)), new aoiu(new defpackage.acro(2), new defpackage.acrk(defpackage.acrt.a, 180.0f, 270.0f, 0.0f, 0.5f, 0.5f, 0.625f, 0.75f, 0.625f, 0.125f, 0.75f, 0.0f, 0.95f, 1.0f, null, null, null, null, null, 16744472)), new aoiu(new defpackage.acro(3), new defpackage.acrk(defpackage.acrt.b, 180.0f, 270.0f, 0.0f, 0.5f, 0.5f, 0.625f, 0.75f, 0.625f, 0.125f, 0.75f, 0.0f, 0.95f, 1.0f, den.bw(den.bv(2500, 0, ajk.d, 2), 1, 0, 4), den.bw(den.bu(new defpackage.acsb(3)), 1, 0, 4), den.bw(den.bu(new defpackage.acsb(4)), 1, 0, 4), den.bw(den.bu(new defpackage.acsb(5)), 1, 0, 4), null, 16252952)), new aoiu(new defpackage.acro(4), new defpackage.acrk(defpackage.acrt.a, 180.0f, 270.0f, 0.0f, 0.5f, 0.5f, 0.625f, 0.75f, 0.625f, 0.125f, 0.75f, 0.0f, 0.95f, 1.0f, null, null, null, null, null, 16744472)), new aoiu(new defpackage.acro(5), new defpackage.acrk(defpackage.acrt.a, 180.0f, 270.0f, 35.0f, 0.5f, 0.5f, 0.625f, 0.75f, 0.625f, 0.125f, 0.75f, 0.0f, 0.95f, 1.0f, null, null, null, null, null, 16744456))});
+}

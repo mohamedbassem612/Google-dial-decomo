@@ -1,0 +1,43 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes.dex */
+public final class apeu extends defpackage.alad implements defpackage.albi {
+    public static final defpackage.apeu a;
+    public int b;
+    public int c;
+    public defpackage.akzm d;
+    public long e;
+    public int f;
+    public defpackage.alat g = defpackage.albq.a;
+
+    static {
+        defpackage.apeu apeuVar = new defpackage.apeu();
+        a = apeuVar;
+        defpackage.alad.Q(defpackage.apeu.class, apeuVar);
+    }
+
+    private apeu() {
+    }
+
+    @Override // defpackage.alad
+    protected final java.lang.Object a(int i, java.lang.Object obj) {
+        int i2 = i - 1;
+        if (i2 == 2) {
+            return new defpackage.albr(a, "\u0001\u0005\u0000\u0001\u0001\u0006\u0005\u0000\u0001\u0000\u0001င\u0000\u0002ဉ\u0001\u0003စ\u0002\u0004᠌\u0003\u0006\u001b", new java.lang.Object[]{"b", "c", "d", "e", "f", defpackage.amub.f, "g", apet.class});
+        }
+        if (i2 == 3) {
+            return new defpackage.apeu();
+        }
+        if (i2 == 4) {
+            return new defpackage.akzx(a);
+        }
+        if (i2 == 5) {
+            return a;
+        }
+        if (i2 != 6) {
+            return null;
+        }
+        return defpackage.alad.M(defpackage.apeu.class);
+    }
+}

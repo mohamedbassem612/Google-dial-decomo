@@ -1,0 +1,206 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes2.dex */
+final class ehd extends egc implements java.util.RandomAccess, ehk, eic {
+    private static final float[] b;
+    public int a;
+    private float[] c;
+
+    static {
+        float[] fArr = new float[0];
+        b = fArr;
+        new defpackage.ehd(fArr, 0, false);
+    }
+
+    ehd() {
+        this(b, 0, true);
+    }
+
+    private final java.lang.String g(int i) {
+        return "Index:" + i + ", Size:" + this.a;
+    }
+
+    private final void h(int i) {
+        if (i < 0 || i >= this.a) {
+            throw new java.lang.IndexOutOfBoundsException(g(i));
+        }
+    }
+
+    public final /* bridge */ /* synthetic */ void add(int i, java.lang.Object obj) {
+        int i2;
+        float fFloatValue = ((java.lang.Float) obj).floatValue();
+        a();
+        if (i < 0 || i > (i2 = this.a)) {
+            throw new java.lang.IndexOutOfBoundsException(g(i));
+        }
+        int i3 = i + 1;
+        float[] fArr = this.c;
+        int length = fArr.length;
+        if (i2 < length) {
+            java.lang.System.arraycopy(fArr, i, fArr, i3, i2 - i);
+        } else {
+            float[] fArr2 = new float[java.lang.Math.max(((length * 3) / 2) + 1, 10)];
+            java.lang.System.arraycopy(this.c, 0, fArr2, 0, i);
+            java.lang.System.arraycopy(this.c, i, fArr2, i3, this.a - i);
+            this.c = fArr2;
+        }
+        this.c[i] = fFloatValue;
+        this.a++;
+        this.modCount++;
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    public final boolean addAll(java.util.Collection collection) {
+        a();
+        ehl.a(collection);
+        if (!(collection instanceof defpackage.ehd)) {
+            return super.addAll(collection);
+        }
+        defpackage.ehd ehdVar = (defpackage.ehd) collection;
+        int i = ehdVar.a;
+        if (i == 0) {
+            return false;
+        }
+        int i2 = this.a;
+        if (androidx.car.app.model.Alert.DURATION_SHOW_INDEFINITELY - i2 < i) {
+            throw new java.lang.OutOfMemoryError();
+        }
+        int i3 = i2 + i;
+        float[] fArrCopyOf = this.c;
+        if (i3 > fArrCopyOf.length) {
+            fArrCopyOf = java.util.Arrays.copyOf(fArrCopyOf, i3);
+            this.c = fArrCopyOf;
+        }
+        java.lang.System.arraycopy(ehdVar.c, 0, fArrCopyOf, this.a, ehdVar.a);
+        this.a = i3;
+        this.modCount++;
+        return true;
+    }
+
+    public final boolean contains(java.lang.Object obj) {
+        return indexOf(obj) != -1;
+    }
+
+    public final /* bridge */ /* synthetic */ ehk d(int i) {
+        if (i >= this.a) {
+            return new defpackage.ehd(i == 0 ? b : java.util.Arrays.copyOf(this.c, i), this.a, true);
+        }
+        throw new java.lang.IllegalArgumentException();
+    }
+
+    public final float e(int i) {
+        h(i);
+        return this.c[i];
+    }
+
+    public final boolean equals(java.lang.Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof defpackage.ehd)) {
+            return super.equals(obj);
+        }
+        defpackage.ehd ehdVar = (defpackage.ehd) obj;
+        if (this.a == ehdVar.a) {
+            float[] fArr = ehdVar.c;
+            for (int i = 0; i < this.a; i++) {
+                if (java.lang.Float.floatToIntBits(this.c[i]) == java.lang.Float.floatToIntBits(fArr[i])) {
+                }
+            }
+            return true;
+        }
+        return false;
+    }
+
+    public final void f(float f) {
+        a();
+        int i = this.a;
+        float[] fArr = this.c;
+        int length = fArr.length;
+        if (i == length) {
+            fArr = new float[java.lang.Math.max(((length * 3) / 2) + 1, 10)];
+            java.lang.System.arraycopy(this.c, 0, fArr, 0, this.a);
+            this.c = fArr;
+        }
+        int i2 = this.a;
+        this.a = i2 + 1;
+        fArr[i2] = f;
+    }
+
+    public final /* bridge */ /* synthetic */ java.lang.Object get(int i) {
+        return java.lang.Float.valueOf(e(i));
+    }
+
+    public final int hashCode() {
+        int iFloatToIntBits = 1;
+        for (int i = 0; i < this.a; i++) {
+            iFloatToIntBits = (iFloatToIntBits * 31) + java.lang.Float.floatToIntBits(this.c[i]);
+        }
+        return iFloatToIntBits;
+    }
+
+    public final int indexOf(java.lang.Object obj) {
+        if (!(obj instanceof java.lang.Float)) {
+            return -1;
+        }
+        float fFloatValue = ((java.lang.Float) obj).floatValue();
+        int i = this.a;
+        for (int i2 = 0; i2 < i; i2++) {
+            if (this.c[i2] == fFloatValue) {
+                return i2;
+            }
+        }
+        return -1;
+    }
+
+    public final /* bridge */ /* synthetic */ java.lang.Object remove(int i) {
+        a();
+        h(i);
+        float[] fArr = this.c;
+        float f = fArr[i];
+        int i2 = this.a;
+        if (i < i2 - 1) {
+            java.lang.System.arraycopy(fArr, i + 1, fArr, i, (i2 - i) - 1);
+        }
+        this.a--;
+        this.modCount++;
+        return java.lang.Float.valueOf(f);
+    }
+
+    protected final void removeRange(int i, int i2) {
+        a();
+        if (i2 < i) {
+            throw new java.lang.IndexOutOfBoundsException("toIndex < fromIndex");
+        }
+        float[] fArr = this.c;
+        java.lang.System.arraycopy(fArr, i2, fArr, i, this.a - i2);
+        this.a -= i2 - i;
+        this.modCount++;
+    }
+
+    public final /* bridge */ /* synthetic */ java.lang.Object set(int i, java.lang.Object obj) {
+        float fFloatValue = ((java.lang.Float) obj).floatValue();
+        a();
+        h(i);
+        float[] fArr = this.c;
+        float f = fArr[i];
+        fArr[i] = fFloatValue;
+        return java.lang.Float.valueOf(f);
+    }
+
+    public final int size() {
+        return this.a;
+    }
+
+    private ehd(float[] fArr, int i, boolean z) {
+        super(z);
+        this.c = fArr;
+        this.a = i;
+    }
+
+    public final /* bridge */ /* synthetic */ boolean add(java.lang.Object obj) {
+        f(((java.lang.Float) obj).floatValue());
+        return true;
+    }
+}

@@ -1,0 +1,13 @@
+package android.support.v7.widget;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes.dex */
+public class FitWindowsLinearLayout extends android.widget.LinearLayout {
+    public FitWindowsLinearLayout(android.content.Context context) {
+        super(context);
+    }
+
+    public FitWindowsLinearLayout(android.content.Context context, android.util.AttributeSet attributeSet) {
+        super(context, attributeSet);
+    }
+}

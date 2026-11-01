@@ -1,0 +1,7 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes3.dex */
+public final class afmk {
+    public static final int[] a = {-8875876, -7508381, -1294214, -5552196, -8497214, -10720320, -16611119, -16738393, -16742021, -9920712, -1086464, -765666, -12232092, -10665929, -4056997, -8708190, -11457112, -16689253, -16757440, -13407970, -4246004};
+}

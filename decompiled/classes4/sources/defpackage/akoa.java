@@ -1,0 +1,39 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes4.dex */
+public final class akoa extends alad implements albi {
+    public static final defpackage.akoa a;
+    public java.lang.String b = "";
+    public defpackage.akob c;
+    private int d;
+
+    static {
+        defpackage.akoa akoaVar = new defpackage.akoa();
+        a = akoaVar;
+        alad.Q(defpackage.akoa.class, akoaVar);
+    }
+
+    private akoa() {
+    }
+
+    protected final java.lang.Object a(int i, java.lang.Object obj) {
+        int i2 = i - 1;
+        if (i2 == 2) {
+            return new albr(a, "\u0000\u0002\u0000\u0001\u0001\u0005\u0002\u0000\u0000\u0000\u0001Ȉ\u0005ဉ\u0001", new java.lang.Object[]{"d", "b", "c"});
+        }
+        if (i2 == 3) {
+            return new defpackage.akoa();
+        }
+        if (i2 == 4) {
+            return new akzx(a);
+        }
+        if (i2 == 5) {
+            return a;
+        }
+        if (i2 != 6) {
+            return null;
+        }
+        return alad.M(defpackage.akoa.class);
+    }
+}

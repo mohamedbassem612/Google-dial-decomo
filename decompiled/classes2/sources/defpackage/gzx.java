@@ -1,0 +1,90 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes2.dex */
+public interface gzx {
+    public static final java.lang.Float A;
+    public static final java.lang.Float B;
+    public static final java.lang.Float C;
+    public static final java.lang.Float D;
+    public static final java.lang.Float E;
+    public static final java.lang.Float F;
+    public static final java.lang.Float G;
+    public static final java.lang.Float H;
+    public static final java.lang.Float I;
+    public static final java.lang.Float J;
+    public static final android.graphics.ColorFilter K;
+    public static final java.lang.Integer[] L;
+    public static final android.graphics.Typeface M;
+    public static final android.graphics.Bitmap N;
+    public static final java.lang.CharSequence O;
+    public static final android.graphics.Path P;
+    public static final java.lang.Integer a = 1;
+    public static final java.lang.Integer b = 2;
+    public static final java.lang.Integer c = 3;
+    public static final java.lang.Integer d = 4;
+    public static final java.lang.Integer e = 5;
+    public static final android.graphics.PointF f = new android.graphics.PointF();
+    public static final android.graphics.PointF g = new android.graphics.PointF();
+    public static final java.lang.Float h;
+    public static final java.lang.Float i;
+    public static final java.lang.Float j;
+    public static final android.graphics.PointF k;
+    public static final android.graphics.PointF l;
+    public static final java.lang.Float m;
+    public static final android.graphics.PointF n;
+    public static final defpackage.hgq o;
+    public static final java.lang.Float p;
+    public static final java.lang.Float q;
+    public static final java.lang.Float r;
+    public static final java.lang.Float s;
+    public static final java.lang.Float t;
+    public static final java.lang.Float u;
+    public static final java.lang.Float v;
+    public static final java.lang.Float w;
+    public static final java.lang.Float x;
+    public static final java.lang.Float y;
+    public static final java.lang.Float z;
+
+    static {
+        java.lang.Float fValueOf = java.lang.Float.valueOf(15.0f);
+        h = fValueOf;
+        java.lang.Float fValueOf2 = java.lang.Float.valueOf(16.0f);
+        i = fValueOf2;
+        java.lang.Float fValueOf3 = java.lang.Float.valueOf(17.0f);
+        j = fValueOf3;
+        k = new android.graphics.PointF();
+        l = new android.graphics.PointF();
+        java.lang.Float fValueOf4 = java.lang.Float.valueOf(0.0f);
+        m = fValueOf4;
+        n = new android.graphics.PointF();
+        o = new defpackage.hgq(1.0f, 1.0f);
+        p = java.lang.Float.valueOf(1.0f);
+        q = fValueOf4;
+        r = fValueOf4;
+        s = java.lang.Float.valueOf(2.0f);
+        t = java.lang.Float.valueOf(3.0f);
+        u = java.lang.Float.valueOf(4.0f);
+        v = java.lang.Float.valueOf(5.0f);
+        w = java.lang.Float.valueOf(6.0f);
+        x = java.lang.Float.valueOf(7.0f);
+        y = java.lang.Float.valueOf(8.0f);
+        z = java.lang.Float.valueOf(9.0f);
+        A = java.lang.Float.valueOf(10.0f);
+        B = java.lang.Float.valueOf(11.0f);
+        C = java.lang.Float.valueOf(12.0f);
+        D = java.lang.Float.valueOf(12.1f);
+        E = java.lang.Float.valueOf(13.0f);
+        F = java.lang.Float.valueOf(14.0f);
+        G = fValueOf;
+        H = fValueOf2;
+        I = fValueOf3;
+        J = java.lang.Float.valueOf(18.0f);
+        K = new android.graphics.ColorFilter();
+        L = new java.lang.Integer[0];
+        M = android.graphics.Typeface.DEFAULT;
+        N = android.graphics.Bitmap.createBitmap(1, 1, android.graphics.Bitmap.Config.ALPHA_8);
+        O = "dynamic_text";
+        P = new android.graphics.Path();
+    }
+}

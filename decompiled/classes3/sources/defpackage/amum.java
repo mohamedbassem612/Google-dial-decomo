@@ -1,0 +1,44 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes3.dex */
+public final class amum extends alaa implements alab {
+    public static final defpackage.amum a;
+    public int b;
+    public double c;
+    public double d;
+    private byte e = 2;
+
+    static {
+        defpackage.amum amumVar = new defpackage.amum();
+        a = amumVar;
+        alad.Q(defpackage.amum.class, amumVar);
+    }
+
+    private amum() {
+    }
+
+    protected final java.lang.Object a(int i, java.lang.Object obj) {
+        int i2 = i - 1;
+        if (i2 == 0) {
+            return java.lang.Byte.valueOf(this.e);
+        }
+        if (i2 == 2) {
+            return new albr(a, "\u0004\u0002\u0000\u0001\u0001\u0002\u0002\u0000\u0000\u0000\u0001က\u0000\u0002က\u0001", new java.lang.Object[]{"b", "c", "d"});
+        }
+        if (i2 == 3) {
+            return new defpackage.amum();
+        }
+        if (i2 == 4) {
+            return new akzz(a);
+        }
+        if (i2 == 5) {
+            return a;
+        }
+        if (i2 == 6) {
+            return alad.M(defpackage.amum.class);
+        }
+        this.e = obj == null ? (byte) 0 : (byte) 1;
+        return null;
+    }
+}

@@ -1,0 +1,35 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes4.dex */
+public enum akvm implements alah {
+    TARGETING_FAILED_REASON_UNKNOWN(0),
+    TARGETING_FAILED_REASON_NULL_INPUT_TERM_OR_CONTEXT(1),
+    TARGETING_FAILED_REASON_UNKNOWN_TARGETING_CLAUSE_TYPE(12),
+    TARGETING_FAILED_REASON_EVENT_COUNT_NOT_IN_RANGE(2),
+    TARGETING_FAILED_REASON_MISSING_APP_STATE(3),
+    TARGETING_FAILED_REASON_MISSING_APP_STATE_SATISFIED_RANGE(4),
+    TARGETING_FAILED_REASON_MISSING_APP_STATE_ELEMENTS_CONTAINED(5),
+    TARGETING_FAILED_REASON_APP_STATE_COUNT_NOT_IN_RANGE(6),
+    TARGETING_FAILED_REASON_APP_STATE_NOT_MATCHING(7),
+    TARGETING_FAILED_REASON_UNKNOWN_APP_STATE_KIND(8),
+    TARGETING_FAILED_REASON_INCOMPATIBLE_ANDROID_OR_APP_SDK(9),
+    TARGETING_FAILED_REASON_PERMISSION_ALREADY_GRANTED(10),
+    TARGETING_FAILED_REASON_REQUIRED_PERMISSION_NOT_GRANTED(13),
+    TARGETING_FAILED_REASON_REQUEST_COUNT_BOUND_NOT_MET(11);
+
+    private final int p;
+
+    akvm(int i) {
+        this.p = i;
+    }
+
+    public final int a() {
+        return this.p;
+    }
+
+    @Override // java.lang.Enum
+    public final java.lang.String toString() {
+        return java.lang.Integer.toString(this.p);
+    }
+}

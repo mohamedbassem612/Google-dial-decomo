@@ -1,0 +1,32 @@
+package defpackage;
+
+/* JADX INFO: compiled from: PG */
+/* JADX INFO: loaded from: /workspace/Google-dial-decomo/dex-input/classes3.dex */
+public final class zff implements defpackage.zfe {
+    public final java.lang.String a;
+
+    public zff(java.lang.String str) {
+        aooh.f(str, "e164FormattedNumber");
+        this.a = str;
+    }
+
+    @Override // defpackage.zfe
+    public final java.lang.String a() {
+        return this.a;
+    }
+
+    public final boolean equals(java.lang.Object obj) {
+        if (this != obj) {
+            return (obj instanceof defpackage.zff) && aooh.n(this.a, ((defpackage.zff) obj).a);
+        }
+        return true;
+    }
+
+    public final int hashCode() {
+        return this.a.hashCode();
+    }
+
+    public final java.lang.String toString() {
+        return "RemoteNetworkIdentity(e164FormattedNumber=" + this.a + ')';
+    }
+}
